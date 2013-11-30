@@ -207,7 +207,7 @@ item.SC2:creative_supplies.name=Kreativvorräte
 # Components
 item.SC2:unknowncomponent.name=Unbekannter SC2 Komponent
 item.SC2:wooden_wheels.name=Holzräder
-item.SC2:iron_wheels.nameEisenräder
+item.SC2:iron_wheels.name=Eisenräder
 item.SC2:red_pigment.name=Rotes Pigment
 item.SC2:green_pigment.name=Grünes Pigment
 item.SC2:blue_pigment.name=Blaues Pigment
