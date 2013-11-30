@@ -344,3 +344,65 @@ item.SC2:BlockDetector1.name=Detektorenhet
 item.SC2:BlockDetector2.name=Detektorstation
 item.SC2:BlockDetector3.name=Detektorkorsning
 item.SC2:BlockDetector4.name=Detektor rödstensenhet					
+
+
+
+# ======================================
+                                MODULE MISC
+# ======================================
+
+# Categories
+info.SC2:moduleCategoryHull=Skrov
+info.SC2:moduleCategoryEngine=Motor
+info.SC2:moduleCategoryTool=Verktyg
+info.SC2:moduleCategoryStorage=Lagring
+info.SC2:moduleCategoryAddon=Tillägg
+info.SC2:moduleCategoryAttachment=Tillbehör
+
+# Groups
+info.SC2:moduleGroupEngine=[%1:Engine|Engines]
+info.SC2:moduleGroupDrill=[%1:Drill|Drills]
+info.SC2:moduleGroupFarmer=[%1:Farmer|Farmers]
+info.SC2:moduleGroupCutter=[%1:Wood Cutter|Wood Cutters]
+info.SC2:moduleGroupTank=[%1:Tank|Tanks]
+info.SC2:moduleGroupEntity=[%1:Entity Detector|Entity Detectors]
+info.SC2:moduleGroupShooter=[%1:Shooter|Shooters]
+info.SC2:moduleGroupTool=[%1:Tool|Tools]
+info.SC2:moduleGroupToolShooter=[%1:Tool|Tools] eller [%1:Shooter|Shooters]
+
+# Messages
+info.SC2:pigExtraMessage=Till minne av Vswes Thunderpig arena vinst. Tack till alla som donerade under 2013 Minecraft maratonet
+info.SC2:oceanExtraMessage=Utrymme för en genomsnittlig ocean
+info.SC2:alphaExtraMessage=1 år i alpha
+info.SC2:storageEmpty=Tom
+info.SC2:storageFull=Full
+info.SC2:giftStorageFull=Kan innehålla en överraskning
+info.SC2:eggStorageFull=Full av ägg
+
+# Labels
+info.SC2:modularCost=Modulkostnad
+info.SC2:cartSideTop=Top
+info.SC2:cartSideCenter=Mitt
+info.SC2:cartSideBottom=Botten
+info.SC2:cartSideBack=Bak
+info.SC2:cartSideLeft=Vänster
+info.SC2:cartSideRight=Höger
+info.SC2:cartSideFront=Front
+info.SC2:occupiedSides=Kommer att ockupera [%1] [%2:side|sides]
+info.SC2:sidesAnd=och
+info.SC2:noSides=Kommer inte ockupera några sidor
+info.SC2:moduleConflictHowever=Kommer däremot att krocka med
+info.SC2:moduleConflictAlso=Kommer även krocka med
+info.SC2:moduleRequirement=Kräver
+info.SC2:moduleCount1=en
+info.SC2:moduleCount2=två
+info.SC2:moduleCount3=tre
+info.SC2:allowDuplicates=Dubbletter är tillåtna
+info.SC2:moduleType=Typ
+info.SC2:capacityOverloadError=Din kostnad är högre än skrovets kapacitet.
+info.SC2:impossibleCombinationError=Kombinationen av de giva mudulernas modultyperna är ej tillåtna, detta skall ej kunna hända.
+info.SC2:complexityOverloadError=[%1] är för komplext för detta skrov.
+info.SC2:missingParentError=[%1] kräver [%2] för att fungera!
+info.SC2:presentNemesisError=[%1] kommer ej funka med [%2]
+info.SC2:presentDuplicateError[%1] får ej läggas till flera gånger.
+info.SC2:sideClashError=[%1] och [%2] kommer krocka vid [%3]
