@@ -1,0 +1,103 @@
+# Cart assembler gui localization
+gui.SC2:cartAssembler=Lorenmonteur
+gui.SC2:basicAssembleInstruction=Um beginnen, eine Lore zu machen, füge eine Hülle deiner Wahl in den Hüllenslot.
+gui.SC2:invalidHullError=Die Lorenhülle im Hüllenslot ist keine gültige Hülle. Das sollte nicht möglich sein, also hast du wahrscheinlich etwas seltsames gemacht.
+gui.SC2:hullCapacity=Hüllenkapazität
+gui.SC2:complexityCap=Maximale Komplexität
+gui.SC2:totalCost=Gesamtkosten
+gui.SC2:totalTime=Gesamtzeit
+gui.SC2:readyMessage=Bereit, Lore herzustellen!
+gui.SC2:assembleProgress=Fortschritt
+gui.SC2:timeLeft=Restzeit
+gui.SC2:idleAssemblerMessage=Der Monteur ist derzeit im Leerlauf.
+gui.SC2:modifyCart=Lore modifizieren
+gui.SC2:assembleCart=Lore herstellen
+gui.SC2:fuelLevel=Kraftstoffstand
+
+
+# Cargo manager and Liquid manager shared gui localization
+gui.SC2:manager=Manager
+gui.SC2:currentSetting=Zur Zeit
+gui.SC2:changeTransferDirection=Verändere Übertragungsrichtung
+gui.SC2:directionToCart=Zur Lore
+gui.SC2:directionFromCart=Von der Lore
+gui.SC2:changeTurnBack=Ändere Umkehreinstellung
+gui.SC2:turnBackDisabled=Keine Seite ausgewählt
+gui.SC2:turnBack=Kehrt um nach Übertragung
+gui.SC2:continueForward=Setzt nach Übertragung fort
+gui.SC2:changeTransferSize=Ändert Übrtragungsgröße
+gui.SC2:changeSide=Ändert Seite
+gui.SC2:currentSide=Aktuelle Seite
+gui.SC2:sideRed=Rot
+gui.SC2:sideBlue=Blau
+gui.SC2:sideYellow=Gelb
+gui.SC2:sideGreen=Grün
+gui.SC2:sideDisabled=Deaktiviert
+
+# Cargo manager gui localization
+gui.SC2:cargoManager=Posten
+gui.SC2:changeSlotLayout=Ändert Slotgestaltung
+gui.SC2:layoutShared=Alle Slots werden von allen Seiten geteilt
+gui.SC2:layoutSide=Jede Seite hat ihre eigenen Slots
+gui.SC2:layoutColor=Jede Farbe hat ihren eigenen Slot
+gui.SC2:transferAll=Übertrage so viel wie möglich
+gui.SC2:transferItems=Übertrage maximal [%1] [%2:item|Items]
+gui.SC2:transferStacks=Übertrage maximal [%1] [%2:stack|Stacks]
+gui.SC2:transferAllShort=MAX
+gui.SC2:transferItemsShort=I
+gui.SC2:transferStacksShort=S
+gui.SC2:changeTransferCartArea=Überträgt einen Teil der Lore
+gui.SC2:unknownAreaMessage=Unbekannte Option
+
+# Liquid manager gui localization
+gui.SC2:liquidManager=Flüssigkeit
+gui.SC2:changeTankLayout=Ändert Tankgestaltung
+gui.SC2:layoutSharedTanks=Alle Tanks werden von allen Seiten geteilt
+gui.SC2:layoutSidedTanks=Jede Seite hat ihren eigenen Slot
+gui.SC2:layoutColorTanks=Jede Farbe hat ihre(n) eigenen Tank(s)
+gui.SC2:transferAllLiquid=Übertrage so viel wie möglich
+gui.SC2:transferBuckets=Übertrage maximal [%1]
+gui.SC2:transferAllLiquidShort=MAX
+gui.SC2:transferBucketShort=E
+
+# Module Toggler gui localization
+gui.SC2:moduleToggler:Moduländerer
+gui.SC2:optionDrill=Bohrer
+gui.SC2:optionShield=Schild
+gui.SC2:optionInvisibility=Unsichtbarkeit
+gui.SC2:optionChunk=Chunk laden
+gui.SC2:optionCageAuto=Käfig auto-aufsammeln
+gui.SC2:optionCage=Käfig aufsammeln
+gui.SC2:settingDisabled=Deaktiviert
+gui.SC2:settingOrange=Richtung Orange
+gui.SC2:settingBlue=Richtung Blau
+gui.SC2:stateActivate=Aktivieren
+gui.SC2:stateDeactivate=Deaktivieren
+gui.SC2:stateToggle=Ändern
+
+# External Distributer gui localization
+gui.SC2:externalDistributor=Externer Verteiler
+gui.SC2:distributorNotConnected=Nicht mit einen Manager verbunden!
+gui.SC2:sideName=[%1] Seite
+gui.SC2:dropInstruction=Hier hin, um diese Einstellung hinzuzufügen
+gui.SC2:removeInstruction=Rechtsklick um zu löschen
+gui.SC2:distributorAll=Alle
+gui.SC2:distributorRed=Rote
+gui.SC2:distributorBlue=Blaue
+gui.SC2:distributorYellow=Gelbe
+gui.SC2:distributorGreen=Grüne
+gui.SC2:distributorTopLeft=Oben Links
+gui.SC2:distributorTopRight=Oben Rechts
+gui.SC2:distributorBottomLeft=Unten Links
+gui.SC2:distributorBottomRight=Unten Rechts
+gui.SC2:distributorToCart=Zur Lore
+gui.SC2:distributorFromCart=Von der Lore
+gui.SC2:managerTop=Oberer Manager
+gui.SC2:managerBot=Unterer Manager
+gui.SC2:distributorSideOrange=Orange
+gui.SC2:distributorSidePurple=Violett
+gui.SC2:distributorSideYellow=Gelb
+gui.SC2:distributorSideGreen=Grün
+gui.SC2:distributorSideBlue=Blau
+gui.SC2:distributorSideRed=Rot
+gui.SC2:sideToolTip=Side: [%1]
