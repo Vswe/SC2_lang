@@ -35,7 +35,7 @@ gui.SC2:sideGreen=Grün
 gui.SC2:sideDisabled=Deaktiviert
 
 # Cargo manager gui localization
-gui.SC2:cargoManager=Posten
+gui.SC2:cargoManager=Cargomanager
 gui.SC2:changeSlotLayout=Ändert Slotgestaltung
 gui.SC2:layoutShared=Alle Slots werden von allen Seiten geteilt
 gui.SC2:layoutSide=Jede Seite hat ihre eigenen Slots
@@ -101,3 +101,244 @@ gui.SC2:distributorSideGreen=Grün
 gui.SC2:distributorSideBlue=Blau
 gui.SC2:distributorSideRed=Rot
 gui.SC2:sideToolTip=Side: [%1]
+
+# Carts
+item.SC2:ModularCart.name=Modulare Lore
+
+# Modules
+item.SC2:unknownmodule.name=Unbekanntes SC2 Modul
+item.SC2:coal_engine.name=Kohle-Motor
+item.SC2:solar_engine.name=Solarmotor
+item.SC2:side_chests.name=Seitenturhen
+item.SC2:top_chest.name=Obere Truhe
+item.SC2:front_chest.name=Vordere Truhe
+item.SC2:internal_storage.name=Interne Aufbewahrung
+item.SC2:extracting_chests.name=Ausfahrende Kisten
+item.SC2:torch_placer.name=Fackelsetzer
+item.SC2:basic_drill.name=Grundbohrer
+item.SC2:galgadorian_drill.name=Galgadorbohrer
+item.SC2:railer.name=Aufgleisgerät
+item.SC2:large_railer.name=Großes Aufgleisgerät
+item.SC2:side_tanks.name=Side Tanksroßes Aufgleisgerät
+item.SC2:bridge_builder.name=Brückenbauer
+item.SC2:track_remover.name=Schienenentferner
+item.SC2:basic_farmer.name=Grundfarmer
+item.SC2:basic_wood_cutter.name=Grundholzfäller
+item.SC2:hydrator.name=Hydrator
+item.SC2:height_controller.name=Höhenregler
+item.SC2:fertilizer.name=Dünger
+item.SC2:entity_detector_animal.name=Objekterkenner: Tier
+item.SC2:liquid_sensors.name=Flssigkeitssensoren
+item.SC2:entity_detector_villager.name=Objekterkenner: Dorfbewohner
+item.SC2:entity_detector_player.name=Objekterkenner: Spieler
+item.SC2:seat.name=Sitz
+item.SC2:entity_detector_monster.name=Objekterkenner: Monster
+item.SC2:advanced_control_system.name=Fortgeschrittenes Kontrollsystem
+item.SC2:brake_handle.name=Bremsgriff
+item.SC2:advanced_shooter.name=Fortgeschrittene Kanone
+item.SC2:shooter.name=Kanone
+item.SC2:dynamite_carrier.name=Dynamitträger
+item.SC2:cleaning_machine.name=Reinigungsmaschine
+item.SC2:extreme_melter.name=Extremschmelzgerät
+item.SC2:divine_shield.name=Göttliches Schild
+item.SC2:melter.name=Schmelzgerät
+item.SC2:standard_hull.name=Standardhülle
+item.SC2:reinforced_hull.name=Verstärkte Hülle
+item.SC2:invisibility_core.name=Unsichtbarkeitskern
+item.SC2:wooden_hull.name=Holzhülle
+item.SC2:iron_drill.name=Eisenhülle
+item.SC2:hardened_drill.name=Gehärteter Bohrer
+item.SC2:note_sequencer.name=Notenablaufsteuerung
+item.SC2:colorizer.name=Färber
+item.SC2:pumpkin_chariot.name=Kürbisstreitwagen
+item.SC2:tiny_coal_engine.name=Kleiner Kohle-Motor
+item.SC2:basic_solar_engine.name=Grund-Solarmotor
+item.SC2:projectile_potion.name=Projektil: Trank
+item.SC2:gift_storage.name=Giftaufbewahrung
+item.SC2:chunk_loader.name=Chunklader
+item.SC2:entity_detector_bat.name=Objekterkenner: Fledermaus
+item.SC2:freezer.name=Einfrierer
+item.SC2:projectile_snowball.name=Projektil: Schneeball
+item.SC2:projectile_egg.name=Projektil: Ei
+item.SC2:projectile_fire_charge.name=Projektil: Feuerkugel
+item.SC2:firework_display.name=Feuerwerkanzeige
+item.SC2:crop_nether_wart.name=Nutzpflanze: Netherwarze
+item.SC2:cage.name=Käfig
+item.SC2:compact_solar_engine.name=Kompakter Solarmotor
+item.SC2:internal_tank.name=Interner Tank
+item.SC2:mechanical_pig.name=Mechanisches Schwein
+item.SC2:creative_engine.name=Kreativmotor
+item.SC2:incinerator.name=Müllverbrenner
+item.SC2:thermal_engine.name=Verbrennungsmotor
+item.SC2:advanced_thermal_engine.name=Fortgeschrittener Verbrennungsmotor
+item.SC2:liquid_cleaner.name=Flüssigkeitsreinigung
+item.SC2:top_tank.name=Oberer Tank
+item.SC2:advanced_tank.name=Fortgeschrittener Tank
+item.SC2:front_tank.name=Vorderer Tank
+item.SC2:creative_hull.name=Kreativhülle
+item.SC2:power_observer.name=Kraftbeobachter
+item.SC2:steves_arcade.name=Steves Arcade
+item.SC2:hardened_wood_cutter.name=Gehärteter Holzfäller
+item.SC2:creative_tank.name=Kreativtank
+item.SC2:open_tank.name=Offener Tank
+item.SC2:egg_basket=Eikorb
+item.SC2:drill_intelligence.name=Bohrerintelligenz
+item.SC2:lawn_mower.name=Rasenmäher
+item.SC2:galgadorian_farmer.name=Galgadorfarmer
+item.SC2:crafter.name=Hersteller
+item.SC2:milker.name=Melker
+item.SC2:galgadorian_hull.name=Galgadorhülle
+item.SC2:galgadorian_wood_cutter.name=Galgadorholzfäller
+item.SC2:ore_extractor.name=Erzextraktor
+item.SC2:enchanter.name=Verzauberer
+item.SC2:advanced_smelter.name=Fortgeschrittener Schmelzer
+item.SC2:advanced_crafter.name=Fortgeschrittener Hersteller
+item.SC2:experience_bank.name=Erfahrungsbank
+item.SC2:information_provider.name=Informationsanbieter
+item.SC2:planter_range_extender.name=Planzradiuserweiterung
+item.SC2:tree_exotic.name=Baum: Exotisch
+item.SC2:smelter.name=Schmelzer
+item.SC2:projectile_cake.name=Projektil: Kuchen
+item.SC2:trick_or_treat_cake_server.name=Süßes-oder-Saures Kuchenservierer
+item.SC2:cake_server.name=Kuchenservierer
+item.SC2:creative_incinerator.name=Kreativmüllverbrenner
+item.SC2:creative_supplies.name=Kreativvorräte
+
+# Components
+item.SC2:unknowncomponent.name=Unbekannter SC2 Komponent
+item.SC2:wooden_wheels.name=Holzräder
+item.SC2:iron_wheels.nameEisenräder
+item.SC2:red_pigment.name=Rotes Pigment
+item.SC2:green_pigment.name=Grünes Pigment
+item.SC2:blue_pigment.name=Blaues Pigment
+item.SC2:glass_o'magic.name=Magisches Glas
+item.SC2:dynamite.name=Dynamit
+item.SC2:unknowncomponent.name=Unbekannter SC2 Komponent
+item.SC2:unknowncomponent.name=Unbekannter SC2 Komponent
+item.SC2:simple_pcb.name=Einfache Leiterplatte
+item.SC2:graphical_interface.name=Graphische Schnittstelle
+item.SC2:raw_handle.name=Roher Griff
+item.SC2:refined_handle.name=Raffinierter Griff
+item.SC2:speed_handle.name=Schnelligkeitsgriff
+item.SC2:wheel.name=Reifen
+item.SC2:saw_blade.name=Sägeblatt
+item.SC2:advanced_pcb.name=Erweiterte Leiterplatte
+item.SC2:wood_cutting_core.name=Holzfällergehäuse
+item.SC2:raw_hardener.name=Roher Härter
+item.SC2:refined_hardener.name=Raffinierter Härter
+item.SC2:hardened_mesh.name=Gehärtetes Netz
+item.SC2:stabilized_metal.name=Stabilisiertes Metall
+item.SC2:reinforced_metal.name=Verstärktes Metall
+item.SC2:reinforced_wheels.name=Verstärkte Räder
+item.SC2:pipe.name=Rohr
+item.SC2:shooting_station.name=Kanonenstation
+item.SC2:entity_scanner.name=Objektscanner
+item.SC2:entity_analyzer.name=Objektanalysierer
+item.SC2:empty_disk.name=Leere Diskette
+item.SC2:tri-torch.name=Trifackel
+item.SC2:chest_pane.name=Truhenscheibe
+item.SC2:large_chest_pane.name=Große Truhenscheibe
+item.SC2:huge_chest_pane.name=Rießige Truhenscheibe
+item.SC2:chest_lock.name=Turhenschloss
+item.SC2:iron_pane.name=Eisenscheibe
+item.SC2:large_iron_pane.name=Große Eisenscheibe
+item.SC2:huge_iron_pane.name=Rießige Eisenscheibe
+item.SC2:dynamic_pane.name=Dynamische Scheibe
+item.SC2:large_dynamic_pane.name=Großes dynamische Scheibe
+item.SC2:huge_dynamic_pane.name=Rießige dynamische Scheibe
+item.SC2:cleaning_fan.name=Reinigngsventilator
+item.SC2:cleaning_core.name=Reinigungsgehäuse
+item.SC2:cleaning_tube.name=Reinigungsrohr
+item.SC2:fuse.name=Zünder
+item.SC2:solar_panel.name=Sonnenkollektor
+item.SC2:eye_of_galgador.name=Galgadorauge
+item.SC2:lump_of_galgador.name=Galgadorklumpen
+item.SC2:galgadorian_metal.name=Galgadormetall
+item.SC2:large_lump_of_galgador.name=Großer Galgadorklumpen
+item.SC2:enhanced_galgadorian_metal.name=Verbessertes Galgadormetall
+item.SC2:stolen_present.name=Gestohlenes Geschenk
+item.SC2:green_wrapping_paper.name=Grünes Geschenkpapier
+item.SC2:red_wrapping_paper.name=Rotes Geschenkpapier
+item.SC2:warm_hat.name=Warmer Hut
+item.SC2:red_gift_ribbon.name=Rotes Geschenkband
+item.SC2:yellow_gift_ribbon.name=Gelbes Geschenkband
+item.SC2:sock.name=Socke
+item.SC2:stuffed_sock.name=Gefüllte Socke
+item.SC2:advanced_solar_panel.name=Fortgeschrittener Sonnenkollektor
+item.SC2:blank_upgrade.name=Leeres Upgrade
+item.SC2:tank_valve.name=Tankventil
+item.SC2:tank_pane.name=Tankscheibe
+item.SC2:large_tank_pane.name=Große Tankscheibe
+item.SC2:huge_tank_pane.name=Rießige Tankscheibe
+item.SC2:liquid_cleaning_core.name=Flüssigkeitsreinigungsgehäuse
+item.SC2:liquid_cleaning_tube.name=Flüssigkeitsreinigungsrohr
+item.SC2:explosive_easter_egg.name=Explodierendes Osterei
+item.SC2:burning_easter_egg.name=Brennendes Osterei
+item.SC2:glistering_easter_egg.name=Glitzernes Osterei
+item.SC2:chocolate_easter_egg.name=Schokoloadenosterei
+item.SC2:painted_easter_egg.name=Gefärbtes Osterei
+item.SC2:basket.name=Korb
+item.SC2:oak_log.name=Eichenstamm
+item.SC2:oak_twig.name=Eichentzweig
+item.SC2:spruce_log.name=Fichtenstamm
+item.SC2:spruce_twig.name=Fichtenzweig
+item.SC2:birch_log.name=Birkenstamm
+item.SC2:birch_twig.name=Birkenzweig
+item.SC2:jungle_log.name=Tropenstamm
+item.SC2:jungle_twig.name=Tropenzweig
+item.SC2:hardened_saw_blade.name=Gehärtetes Sägeblatt
+item.SC2:galgadorian_saw_blade.name=Galgadorsägeblatt
+item.SC2:galgadorian_wheels.name=Galgadorräder
+item.SC2:iron_blade.name=Eisenklinge
+item.SC2:blade_arm.name=Klingenarm
+
+
+
+# ======================================
+                                BLOCKS
+# ======================================
+
+tile.SC2:BlockCargoManager.name=Cargomanager
+tile.SC2:BlockJunction.name=Anschlussschiene
+tile.SC2:BlockAdvDetector.name=Fortgeschrittene Detektorschiene
+tile.SC2:BlockCartAssembler.name=Lorenmonteur
+tile.SC2:BlockActivator.name=Moduländerer
+tile.SC2:BlockDistributor.name=Externer Verteiler
+tile.SC2:BlockLiquidManager.name=Flüssigkeitsmanager
+
+# Storage
+item.SC2:BlockStorage0.name=Verstärkter Metallblock
+item.SC2:BlockStorage1.name=Galgadorblock
+item.SC2:BlockStorage2.name=Verbesserter Galgadorblock
+
+# Upgrades
+item.SC2:batteries.name=Upgrade: Batterien
+item.SC2:power_crystal.name=Upgrade: Kraftkristall
+item.SC2:module_knowledge.name=Upgrade: Modulwissen
+item.SC2:industrial_espionage.name=Upgrade: Industrielle Spionage
+item.SC2:experienced_assembler.name=Upgrade: Erfahrener Monteur
+item.SC2:new_era.name=Upgrade: Neue Ära
+item.SC2:co2_friendly.name=Upgrade: CO2 freundlich
+item.SC2:generic_engine.name=Upgrade: Generischer Motor
+item.SC2:module_input.name=Upgrade: Moduleinput
+item.SC2:production_line.name=Upgrade: Fließband
+item.SC2:cart_deployer.name=Upgrade: Lorenaufsteller
+item.SC2:cart_modifier.name=Upgrade: Lorenmodifizierer
+item.SC2:cart_crane.name=Upgrade: Lorenkran
+item.SC2:redstone_control.name=Upgrade: Redstonekontrolleur
+item.SC2:creative_mode.name=Upgrade: Kreativmodus
+item.SC2:quick_demolisher.name=Upgrade: Schneller Demolierer
+item.SC2:manager_bridge.name=Upgrade: Managerbrücke
+item.SC2:entropy.name=Upgrade: Entropie
+item.SC2:solar_panel.name=Upgrade: Sonnenkollektor
+item.SC2:thermal_engine.name=Upgrade: Verbrennungsmotor
+
+# Detector Units
+item.SC2:BlockDetector0.name=Detektorenmanager
+item.SC2:BlockDetector1.name=Detektoreneinheit
+item.SC2:BlockDetector2.name=Detektorenstation
+item.SC2:BlockDetector3.name=Detektorenkreuzung
+item.SC2:BlockDetector4.name=Detektorenredstone Einheit
+
+
+
