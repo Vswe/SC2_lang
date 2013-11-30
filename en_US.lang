@@ -1,0 +1,105 @@
+# Cart assembler gui localization
+gui.SC2:cartAssembler=Cart Assembler
+gui.SC2:basicAssembleInstruction=To start making a cart, please add a Cart Hull of your choice to the Hull Slot.
+gui.SC2:invalidHullError=The Cart Hull added to the Hull Slot is not a valid Hull. This should not be possible so you've probably done something strange.
+gui.SC2:hullCapacity=Hull capacity
+gui.SC2:complexityCap=Complexity cap
+gui.SC2:totalCost=Total cost
+gui.SC2:totalTime=Total Time
+gui.SC2:readyMessage=Ready to assemble cart!
+gui.SC2:assembleProgress=Progress
+gui.SC2:timeLeft=Time left
+gui.SC2:idleAssemblerMessage=The assembler is currently idle
+gui.SC2:modifyCart=Modify cart
+gui.SC2:assembleCart=Assemble cart
+gui.SC2:fuelLevel=Fuel level
+
+
+# Cargo manager and Liquid manager shared gui localization
+gui.SC2:manager=Manager
+gui.SC2:currentSetting=Currently
+gui.SC2:changeTransferDirection=Change transfer direction
+gui.SC2:directionToCart=To the cart
+gui.SC2:directionFromCart=From the cart
+gui.SC2:changeTurnBack=Change turn back settings
+gui.SC2:turnBackDisabled=No side selected
+gui.SC2:turnBack=Turn back after transfer
+gui.SC2:continueForward=Continue along after transfer
+gui.SC2:changeTransferSize=Change transfer size
+gui.SC2:changeSide=Change side
+gui.SC2:currentSide=Current side
+gui.SC2:sideRed=Red
+gui.SC2:sideBlue=Blue
+gui.SC2:sideYellow=Yellow
+gui.SC2:sideGreen=Green
+gui.SC2:sideDisabled=Disabled
+
+# Cargo manager gui localization
+gui.SC2:cargoManager=Cargo
+gui.SC2:changeSlotLayout=Change slot layout
+gui.SC2:layoutShared=All slots are shared by all sides
+gui.SC2:layoutSide=Each side has its own slots
+gui.SC2:layoutColor=Each color has its own slots
+gui.SC2:transferAll=Transfer as much as possible
+gui.SC2:transferItems=Transfer a maximum of [%1] [%2:item|items]
+gui.SC2:transferStacks=Transfer a maximum of [%1] [%2:stack|stacks]
+gui.SC2:transferAllShort=MAX
+gui.SC2:transferItemsShort=I
+gui.SC2:transferStacksShort=S
+gui.SC2:changeTransferCartArea=Change part of the cart
+gui.SC2:unknownAreaMessage=Unknown option
+
+# Liquid manager gui localization
+gui.SC2:liquidManager=Liquid
+gui.SC2:changeTankLayout=Change tank layout
+gui.SC2:layoutSharedTanks=All tanks are shared by all sides
+gui.SC2:layoutSidedTanks=Each side has its own tank
+gui.SC2:layoutColorTanks=Each color has its own tank(s)
+gui.SC2:transferAllLiquid=Transfer as much as possible
+gui.SC2:transferBuckets=Transfer a maximum of [%1]
+gui.SC2:transferAllLiquidShort=MAX
+gui.SC2:transferBucketShort=B
+
+# Module Toggler gui localization
+gui.SC2:moduleToggler:Module Toggler
+gui.SC2:optionDrill=Drill
+gui.SC2:optionShield=Shield
+gui.SC2:optionInvisibility=Invisibility
+gui.SC2:optionChunk=Chunk loading
+gui.SC2:optionCageAuto=Cage auto pick up
+gui.SC2:optionCage=Cage pick up
+gui.SC2:settingDisabled=Disabled
+gui.SC2:settingOrange=Orange direction
+gui.SC2:settingBlue=Blue direction
+gui.SC2:stateActivate=Activate
+gui.SC2:stateDeactivate=Deactivate
+gui.SC2:stateToggle=Toggle
+
+# External Distributer gui localization
+gui.SC2:externalDistributor=External Distributor
+gui.SC2:distributorNotConnected=Not connected to any Managers!
+gui.SC2:sideName=[%1] side
+gui.SC2:dropInstruction=Drop here to add this setting
+gui.SC2:removeInstruction=Right click to remove
+gui.SC2:distributorAll=All
+gui.SC2:distributorRed=Red
+gui.SC2:distributorBlue=Blue
+gui.SC2:distributorYellow=Yellow
+gui.SC2:distributorGreen=Green
+gui.SC2:distributorTopLeft=Top Left
+gui.SC2:distributorTopRight=Top Right
+gui.SC2:distributorBottomLeft=Bottom Left
+gui.SC2:distributorBottomRight=Bottom Right
+gui.SC2:distributorToCart=To Cart
+gui.SC2:distributorFromCart=From Cart
+gui.SC2:managerTop=Top Manager
+gui.SC2:managerBot=Bot Manager
+gui.SC2:distributorSideOrange=Orange
+gui.SC2:distributorSidePurple=Purple
+gui.SC2:distributorSideYellow=Yellow
+gui.SC2:distributorSideGreen=Green
+gui.SC2:distributorSideBlue=Blue
+gui.SC2:distributorSideRed=Red
+gui.SC2:sideToolTip=Side: [%1]
+
+

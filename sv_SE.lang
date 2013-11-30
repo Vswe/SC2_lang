@@ -1,0 +1,21 @@
+# Cart assembler gui localization
+gui.SC2:cartAssembler=Vagnsverkstad
+gui.SC2:basicAssembleInstruction=Var vänlig och placera valfritt vagnsskrov på skrovplatsen för att börja skapa en vagn.
+gui.SC2:invalidHullError=Vagnsskrovet som placerats på skrovplatsen är inte ett giltigt skrov. Detta ska inte ske så du har antagligen gjort något dumt.
+gui.SC2:hullCapacity=Skrovkapacitet
+gui.SC2:complexityCap=Komplexitetsgräns
+gui.SC2:totalCost=Total Kostnad
+gui.SC2:totalTime=Total Tid
+gui.SC2:readyMessage=Redo att konstruera vagnen!
+gui.SC2:assembleProgress=Färdigställande
+gui.SC2:timeLeft=Återstående tid
+gui.SC2:idleAssemblerMessage=Vagnverkstaden används inte just nu
+gui.SC2:modifyCart=Modifiera vagnen
+gui.SC2:assembleCart=Konstruera vagnen
+gui.SC2:fuelLevel=Bränslenivå
+
+
+# Du får väldigt gärna fortsätta på denna fil. Jag skrev den endast för att kunna testa att allting fungerade
+
+
+					
