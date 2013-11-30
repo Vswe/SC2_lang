@@ -187,7 +187,7 @@ item.SC2:steves_arcade.name=Steve's Arcade
 item.SC2:hardened_wood_cutter.name=Hardened Wood Cutter
 item.SC2:creative_tank.name=Creative Tank
 item.SC2:open_tank.name=Open Tank
-item.SC2:egg_componenttypes.basket.getitemstack().name=Egg ComponentTypes.BASKET.getItemStack()
+item.SC2:egg_basket:Egg Basket
 item.SC2:drill_intelligence.name=Drill Intelligence
 item.SC2:lawn_mower.name=Lawn Mower
 item.SC2:galgadorian_farmer.name=Galgadorian Farmer
