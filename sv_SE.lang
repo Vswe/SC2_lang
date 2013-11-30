@@ -15,7 +15,90 @@ gui.SC2:assembleCart=Konstruera vagnen
 gui.SC2:fuelLevel=Bränslenivå
 
 
-# Du får väldigt gärna fortsätta på denna fil. Jag skrev den endast för att kunna testa att allting fungerade
+# Cargo manager and Liquid manager shared gui localization
+gui.SC2:manager=Hanterare
+gui.SC2:currentSetting=Nuvarande
+gui.SC2:changeTransferDirection=Ändra riktning
+gui.SC2:directionToCart=Till vagn
+gui.SC2:directionFromCart=Från vagn
+gui.SC2:changeTurnBack=Ändra återvändningsinställning
+gui.SC2:turnBackDisabled=Ingen sida vald
+gui.SC2:turnBack=Återvänd efter överföring
+gui.SC2:continueForward=Fortsätt efter överföring
+gui.SC2:changeTransferSize=Ändra överföringsstorlek
+gui.SC2:changeSide=Ändra sida
+gui.SC2:currentSide=Nuvarande sida
+gui.SC2:sideRed=Röd
+gui.SC2:sideBlue=Blå
+gui.SC2:sideYellow=Gul
+gui.SC2:sideGreen=Grön
+gui.SC2:sideDisabled=Avstängd
 
+# Cargo manager gui localization
+gui.SC2:cargoManager=Last
+gui.SC2:changeSlotLayout=Ändra utrymmeslayout
+gui.SC2:layoutShared=Alla utrymmen delas av alla sidor
+gui.SC2:layoutSide=Varje sida har sitt eget utrymme
+gui.SC2:layoutColor=Varje färg har sina egna utrymmen
+gui.SC2:transferAll=Överför så mycket som möjligt
+gui.SC2:transferItems=Överför max [%1] [%2:item|items]
+gui.SC2:transferStacks=Överrför max [%1] [%2:stack|stacks]
+gui.SC2:transferAllShort=MAX
+gui.SC2:transferItemsShort=I
+gui.SC2:transferStacksShort=S
+gui.SC2:changeTransferCartArea=Ändra vart i vagnen
+gui.SC2:unknownAreaMessage=Okänt område
 
-					
+# Liquid manager gui localization
+gui.SC2:liquidManager=Vätska
+gui.SC2:changeTankLayout=Ändra tanklayout
+gui.SC2:layoutSharedTanks=Alla tankar delas av alla sidor
+gui.SC2:layoutSidedTanks=Varje sida har sin egna tank
+gui.SC2:layoutColorTanks=Varje färg har sina egna tank(er)
+gui.SC2:transferAllLiquid=Överför så mycket som möjligt
+gui.SC2:transferBuckets=Överför max [%1]
+gui.SC2:transferAllLiquidShort=MAX
+gui.SC2:transferBucketShort=H
+
+# Module Toggler gui localization
+gui.SC2:moduleToggler:Modul på/av
+gui.SC2:optionDrill=Borr
+gui.SC2:optionShield=Sköld
+gui.SC2:optionInvisibility=Osynlighet
+gui.SC2:optionChunk=Chunkladdare
+gui.SC2:optionCageAuto=Bur auto upplockning
+gui.SC2:optionCage=Bur upplockning
+gui.SC2:settingDisabled=Av
+gui.SC2:settingOrange=Orange riktning
+gui.SC2:settingBlue=Blå riktning
+gui.SC2:stateActivate=Aktivera
+gui.SC2:stateDeactivate=Deaktivera
+gui.SC2:stateToggle=Slå på/av
+
+# External Distributer gui localization
+gui.SC2:externalDistributor=Extern distributör
+gui.SC2:distributorNotConnected=Ej kopplad till någon distrubutör!
+gui.SC2:sideName=[%1] sida
+gui.SC2:dropInstruction= Släpp här för att lägga till denna instruktionen
+gui.SC2:removeInstruction=Högerklicka för att ta bort
+gui.SC2:distributorAll=Alla
+gui.SC2:distributorRed=Röd
+gui.SC2:distributorBlue=Blå
+gui.SC2:distributorYellow=Gul
+gui.SC2:distributorGreen=Grön
+gui.SC2:distributorTopLeft=Upp till vänster
+gui.SC2:distributorTopRight=Upp till höger
+gui.SC2:distributorBottomLeft=Ner till vänster
+gui.SC2:distributorBottomRight=Ner till höger
+gui.SC2:distributorToCart=Till vagn
+gui.SC2:distributorFromCart=Från vagn
+gui.SC2:managerTop=Övre distrubutör
+gui.SC2:managerBot=Nedre distrubutör
+gui.SC2:distributorSideOrange=Orange
+gui.SC2:distributorSidePurple=Lila
+gui.SC2:distributorSideYellow=Gul
+gui.SC2:distributorSideGreen=Grön
+gui.SC2:distributorSideBlue=Blå
+gui.SC2:distributorSideRed=Röd
+gui.SC2:sideToolTip=Sida: [%1]
+
