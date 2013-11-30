@@ -17,7 +17,7 @@ CURRENTLY NOT POSSIBLE (you need beta 2 which hasn't been released yet)
 
 4) Put your lang file in the lang folder of Steve's Carts (if it's not there already)
 
-5) Run minecraft, swap yo your language and see if it look good.
+5) Run minecraft, swap to your language and see if it look good.
 
 
 

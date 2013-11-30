@@ -103,3 +103,249 @@ gui.SC2:distributorSideRed=Red
 gui.SC2:sideToolTip=Side: [%1]
 
 
+
+# ======================================
+				ITEMS
+# ======================================
+
+# Carts
+item.SC2:ModularCart.name=Modular cart
+
+# Modules
+item.SC2:unknownmodule.name=Unknown SC2 module
+item.SC2:coal_engine.name=Coal Engine
+item.SC2:solar_engine.name=Solar Engine
+item.SC2:side_chests.name=Side Chests
+item.SC2:top_chest.name=Top Chest
+item.SC2:front_chest.name=Front Chest
+item.SC2:internal_storage.name=Internal Storage
+item.SC2:extracting_chests.name=Extracting Chests
+item.SC2:torch_placer.name=Torch Placer
+item.SC2:basic_drill.name=Basic Drill
+item.SC2:galgadorian_drill.name=Galgadorian Drill
+item.SC2:railer.name=Railer
+item.SC2:large_railer.name=Large Railer
+item.SC2:bridge_builder.name=Bridge Builder
+item.SC2:track_remover.name=Track Remover
+item.SC2:basic_farmer.name=Basic Farmer
+item.SC2:basic_wood_cutter.name=Basic Wood Cutter
+item.SC2:hydrator.name=Hydrator
+item.SC2:height_controller.name=Height Controller
+item.SC2:fertilizer.name=Fertilizer
+item.SC2:entity_detector_animal.name=Entity Detector: Animal
+item.SC2:liquid_sensors.name=Liquid Sensors
+item.SC2:entity_detector_villager.name=Entity Detector: Villager
+item.SC2:entity_detector_player.name=Entity Detector: Player
+item.SC2:seat.name=Seat
+item.SC2:entity_detector_monster.name=Entity Detector: Monster
+item.SC2:advanced_control_system.name=Advanced Control System
+item.SC2:brake_handle.name=Brake Handle
+item.SC2:advanced_shooter.name=Advanced Shooter
+item.SC2:shooter.name=Shooter
+item.SC2:dynamite_carrier.name=Dynamite Carrier
+item.SC2:cleaning_machine.name=Cleaning Machine
+item.SC2:extreme_melter.name=Extreme Melter
+item.SC2:divine_shield.name=Divine Shield
+item.SC2:melter.name=Melter
+item.SC2:standard_hull.name=Standard Hull
+item.SC2:reinforced_hull.name=Reinforced Hull
+item.SC2:invisibility_core.name=Invisibility Core
+item.SC2:wooden_hull.name=Wooden Hull
+item.SC2:iron_drill.name=Iron Drill
+item.SC2:hardened_drill.name=Hardened Drill
+item.SC2:note_sequencer.name=Note Sequencer
+item.SC2:colorizer.name=Colorizer
+item.SC2:pumpkin_chariot.name=Pumpkin chariot
+item.SC2:tiny_coal_engine.name=Tiny Coal Engine
+item.SC2:basic_solar_engine.name=Basic Solar Engine
+item.SC2:projectile_potion.name=Projectile: Potion
+item.SC2:gift_storage.name=Gift Storage
+item.SC2:chunk_loader.name=Chunk Loader
+item.SC2:entity_detector_bat.name=Entity Detector: Bat
+item.SC2:freezer.name=Freezer
+item.SC2:projectile_snowball.name=Projectile: Snowball
+item.SC2:projectile_egg.name=Projectile: Egg
+item.SC2:projectile_fire_charge.name=Projectile: Fire Charge
+item.SC2:firework_display.name=Firework display
+item.SC2:crop_nether_wart.name=Crop: Nether Wart
+item.SC2:cage.name=Cage
+item.SC2:compact_solar_engine.name=Compact Solar Engine
+item.SC2:internal_tank.name=Internal Tank
+item.SC2:mechanical_pig.name=Mechanical Pig
+item.SC2:creative_engine.name=Creative Engine
+item.SC2:incinerator.name=Incinerator
+item.SC2:thermal_engine.name=Thermal Engine
+item.SC2:advanced_thermal_engine.name=Advanced Thermal Engine
+item.SC2:liquid_cleaner.name=Liquid Cleaner
+item.SC2:side_tanks.name=Side Tanks
+item.SC2:top_tank.name=Top Tank
+item.SC2:advanced_tank.name=Advanced Tank
+item.SC2:front_tank.name=Front Tank
+item.SC2:creative_hull.name=Creative Hull
+item.SC2:power_observer.name=Power Observer
+item.SC2:steves_arcade.name=Steve's Arcade
+item.SC2:hardened_wood_cutter.name=Hardened Wood Cutter
+item.SC2:creative_tank.name=Creative Tank
+item.SC2:open_tank.name=Open Tank
+item.SC2:egg_componenttypes.basket.getitemstack().name=Egg ComponentTypes.BASKET.getItemStack()
+item.SC2:drill_intelligence.name=Drill Intelligence
+item.SC2:lawn_mower.name=Lawn Mower
+item.SC2:galgadorian_farmer.name=Galgadorian Farmer
+item.SC2:crafter.name=Crafter
+item.SC2:milker.name=Milker
+item.SC2:galgadorian_hull.name=Galgadorian Hull
+item.SC2:galgadorian_wood_cutter.name=Galgadorian Wood Cutter
+item.SC2:ore_extractor.name=Ore Extractor
+item.SC2:enchanter.name=Enchanter
+item.SC2:advanced_smelter.name=Advanced Smelter
+item.SC2:advanced_crafter.name=Advanced Crafter
+item.SC2:experience_bank.name=Experience Bank
+item.SC2:information_provider.name=Information Provider
+item.SC2:planter_range_extender.name=Planter Range Extender
+item.SC2:tree_exotic.name=Tree: Exotic
+item.SC2:smelter.name=Smelter
+item.SC2:projectile_cake.name=Projectile: Cake
+item.SC2:trick_or_treat_cake_server.name=Trick-or-Treat Cake Server
+item.SC2:cake_server.name=Cake Server
+item.SC2:creative_incinerator.name=Creative Incinerator
+item.SC2:creative_supplies.name=Creative Supplies
+
+# Components
+item.SC2:unknowncomponent.name=Unknown SC2 Component
+item.SC2:wooden_wheels.name=Wooden Wheels
+item.SC2:iron_wheels.name=Iron Wheels
+item.SC2:red_pigment.name=Red Pigment
+item.SC2:green_pigment.name=Green Pigment
+item.SC2:blue_pigment.name=Blue Pigment
+item.SC2:glass_o'magic.name=Glass o'Magic
+item.SC2:dynamite.name=Dynamite
+item.SC2:unknowncomponent.name=Unknown SC2 Component
+item.SC2:unknowncomponent.name=Unknown SC2 Component
+item.SC2:simple_pcb.name=Simple PCB
+item.SC2:graphical_interface.name=Graphical Interface
+item.SC2:raw_handle.name=Raw Handle
+item.SC2:refined_handle.name=Refined Handle
+item.SC2:speed_handle.name=Speed Handle
+item.SC2:wheel.name=Wheel
+item.SC2:saw_blade.name=Saw Blade
+item.SC2:advanced_pcb.name=Advanced PCB
+item.SC2:wood_cutting_core.name=Wood Cutting Core
+item.SC2:raw_hardener.name=Raw Hardener
+item.SC2:refined_hardener.name=Refined Hardener
+item.SC2:hardened_mesh.name=Hardened Mesh
+item.SC2:stabilized_metal.name=Stabilized Metal
+item.SC2:reinforced_metal.name=Reinforced Metal
+item.SC2:reinforced_wheels.name=Reinforced Wheels
+item.SC2:pipe.name=Pipe
+item.SC2:shooting_station.name=Shooting Station
+item.SC2:entity_scanner.name=Entity Scanner
+item.SC2:entity_analyzer.name=Entity Analyzer
+item.SC2:empty_disk.name=Empty Disk
+item.SC2:tri-torch.name=Tri-torch
+item.SC2:chest_pane.name=Chest Pane
+item.SC2:large_chest_pane.name=Large Chest Pane
+item.SC2:huge_chest_pane.name=Huge Chest Pane
+item.SC2:chest_lock.name=Chest Lock
+item.SC2:iron_pane.name=Iron Pane
+item.SC2:large_iron_pane.name=Large Iron Pane
+item.SC2:huge_iron_pane.name=Huge Iron Pane
+item.SC2:dynamic_pane.name=Dynamic Pane
+item.SC2:large_dynamic_pane.name=Large Dynamic Pane
+item.SC2:huge_dynamic_pane.name=Huge Dynamic Pane
+item.SC2:cleaning_fan.name=Cleaning Fan
+item.SC2:cleaning_core.name=Cleaning Core
+item.SC2:cleaning_tube.name=Cleaning Tube
+item.SC2:fuse.name=Fuse
+item.SC2:solar_panel.name=Solar Panel
+item.SC2:eye_of_galgador.name=Eye of Galgador
+item.SC2:lump_of_galgador.name=Lump of Galgador
+item.SC2:galgadorian_metal.name=Galgadorian Metal
+item.SC2:large_lump_of_galgador.name=Large Lump of Galgador
+item.SC2:enhanced_galgadorian_metal.name=Enhanced Galgadorian Metal
+item.SC2:stolen_present.name=Stolen Present
+item.SC2:green_wrapping_paper.name=Green Wrapping Paper
+item.SC2:red_wrapping_paper.name=Red Wrapping Paper
+item.SC2:warm_hat.name=Warm hat
+item.SC2:red_gift_ribbon.name=Red Gift Ribbon
+item.SC2:yellow_gift_ribbon.name=Yellow Gift Ribbon
+item.SC2:sock.name=Sock
+item.SC2:stuffed_sock.name=Stuffed Sock
+item.SC2:advanced_solar_panel.name=Advanced Solar Panel
+item.SC2:blank_upgrade.name=Blank Upgrade
+item.SC2:tank_valve.name=Tank Valve
+item.SC2:tank_pane.name=Tank Pane
+item.SC2:large_tank_pane.name=Large Tank Pane
+item.SC2:huge_tank_pane.name=Huge Tank Pane
+item.SC2:liquid_cleaning_core.name=Liquid Cleaning Core
+item.SC2:liquid_cleaning_tube.name=Liquid Cleaning Tube
+item.SC2:explosive_easter_egg.name=Explosive Easter Egg
+item.SC2:burning_easter_egg.name=Burning Easter Egg
+item.SC2:glistering_easter_egg.name=Glistering Easter Egg
+item.SC2:chocolate_easter_egg.name=Chocolate Easter Egg
+item.SC2:painted_easter_egg.name=Painted Easter Egg
+item.SC2:basket.name=Basket
+item.SC2:oak_log.name=Oak Log
+item.SC2:oak_twig.name=Oak Twig
+item.SC2:spruce_log.name=Spruce Log
+item.SC2:spruce_twig.name=Spruce Twig
+item.SC2:birch_log.name=Birch Log
+item.SC2:birch_twig.name=Birch Twig
+item.SC2:jungle_log.name=Jungle Log
+item.SC2:jungle_twig.name=Jungle Twig
+item.SC2:hardened_saw_blade.name=Hardened Saw Blade
+item.SC2:galgadorian_saw_blade.name=Galgadorian Saw Blade
+item.SC2:galgadorian_wheels.name=Galgadorian Wheels
+item.SC2:iron_blade.name=Iron Blade
+item.SC2:blade_arm.name=Blade Arm
+
+
+
+# ======================================
+				BLOCKS
+# ======================================
+
+tile.SC2:BlockCargoManager.name=Cargo Manager
+tile.SC2:BlockJunction.name=Junction Rail
+tile.SC2:BlockAdvDetector.name=Advanced Detector Rail
+tile.SC2:BlockCartAssembler.name=Cart Assembler
+tile.SC2:BlockActivator.name=Module Toggler
+tile.SC2:BlockDistributor.name=External Distributor
+tile.SC2:BlockLiquidManager.name=Liquid Manager
+
+# Storage
+item.SC2:BlockStorage0.name=Reinforced Metal Block
+item.SC2:BlockStorage1.name=Galgadorian Block
+item.SC2:BlockStorage2.name=Enhanced Galgadorian Block
+
+# Upgrades
+item.SC2:batteries.name=Upgrade: Batteries
+item.SC2:power_crystal.name=Upgrade: Power Crystal
+item.SC2:module_knowledge.name=Upgrade: Module knowledge
+item.SC2:industrial_espionage.name=Upgrade: Industrial espionage
+item.SC2:experienced_assembler.name=Upgrade: Experienced assembler
+item.SC2:new_era.name=Upgrade: New Era
+item.SC2:co2_friendly.name=Upgrade: CO2 friendly
+item.SC2:generic_engine.name=Upgrade: Generic engine
+item.SC2:module_input.name=Upgrade: Module input
+item.SC2:production_line.name=Upgrade: Production line
+item.SC2:cart_deployer.name=Upgrade: Cart Deployer
+item.SC2:cart_modifier.name=Upgrade: Cart Modifier
+item.SC2:cart_crane.name=Upgrade: Cart Crane
+item.SC2:redstone_control.name=Upgrade: Redstone Control
+item.SC2:creative_mode.name=Upgrade: Creative Mode
+item.SC2:quick_demolisher.name=Upgrade: Quick Demolisher
+item.SC2:manager_bridge.name=Upgrade: Manager Bridge
+item.SC2:entropy.name=Upgrade: Entropy
+item.SC2:solar_panel.name=Upgrade: Solar Panel
+item.SC2:thermal_engine.name=Upgrade: Thermal Engine
+
+# Detector Units
+item.SC2:BlockDetector0.name=Detector Manager
+item.SC2:BlockDetector1.name=Detector Unit
+item.SC2:BlockDetector2.name=Detector Station
+item.SC2:BlockDetector3.name=Detector Junction
+item.SC2:BlockDetector4.name=Detector Redstone Unit
+
+
+
+
