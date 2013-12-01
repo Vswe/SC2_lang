@@ -487,7 +487,7 @@ info.SC2:sideClashError=[%1] und [%2] wird bei [%3] kollidieren
                                 UPGRADES
 # ======================================
 
-info.SC2:effectBlueprint=AKtviert die Benutzung von Entwurfloren.
+info.SC2:effectBlueprint=Aktviert die Benutzung von Entwurfloren.
 info.SC2:effectCombustionFuel=Aktiviert Standardkraftstoffe.
 info.SC2:effectDeployer=Aktiviert die Bereitstellung von fertiggestellten Loren.
 info.SC2:effectDisassemble=Erlaubt, Loren auseinanderzunehmen und zu modifizieren.
@@ -505,3 +505,59 @@ info.SC2:effectTimeFlatRemove=Modulauseinandernehmzeit [%1] [%1:Sekunde|Sekunden
 info.SC2:effectTransposer=Kann Loren zur Modifikation aufnehmen.
 info.SC2:effectEfficiency=Montierungseffizienz [%1]%.
 
+# ======================================
+                                MODULES
+# ======================================
+
+# Addons
+modules.addons.SC2:detectorAnimals=Tiere
+modules.addons.SC2:detectorBats=Fledermäuse
+modules.addons.SC2:detectorMonsters=Monster
+modules.addons.SC2:detectorPlayers=Spieler
+modules.addons.SC2:detectorVillagers=Dorfbewohner
+modules.addons.SC2:planterRangeExtenderTitle=Pflanzradius
+modules.addons.SC2:saplingPlantAmount=Aktuelle Setzlinganzahl
+modules.addons.SC2:controlLeverTitle=Kontrollhebel
+modules.addons.SC2:leverStartCart=Startet die Lore
+modules.addons.SC2:leverStopCart=Stoppt die Lore
+modules.addons.SC2:leverTurnAroundCart=Dreht die Lore um
+modules.addons.SC2:colorizerRgbRed=Rot
+modules.addons.SC2:colorizerRgbGreen=Grün
+modules.addons.SC2:colorizerRgbBlue=Blau
+modules.addons.SC2:intelligenceLockedBlock=Der Bohrer entfernt diesen Block immer.
+modules.addons.SC2:intelligenceChange=Ändert Bohrerintelligenz
+modules.addons.SC2:intelligenceCurrent=Aktuell: [%1->Aktiviert|Deaktiviert]
+modules.addons.SC2:enchanterInstruction=Füge ein Verzaubertes Buch in den linken SLot hinzu.
+modules.addons.SC2:invisibilityToggle=[%1->AKtiviert|Deaktiviert] Unsichtbarkeitskern
+modules.addons.SC2:informationProviderLabelName=Name
+modules.addons.SC2:informationProviderLabelDistance=Distanz
+modules.addons.SC2:informationProviderMessageDistance=Distanz: [%1]m
+modules.addons.SC2:informationProviderLabelPosition=Position
+modules.addons.SC2:informationProviderMessagePosition=X: [%1] Y: [%2] Z: [%3]
+modules.addons.SC2:informationProviderLabelFuel=Übriger Treibstoff
+modules.addons.SC2:informationProviderMessageFuel=Übrige Treibstoffzeit
+modules.addons.SC2:informationProviderMessageNoConsumption=Kein Verbrauch
+modules.addons.SC2:informationProviderLabelStorage=Benutzer Aufbewahrungsplatz
+modules.addons.SC2:informationProviderLabelDurability=Haltbarkeit
+modules.addons.SC2:informationProviderMessageToolBroken=Werkzeug ist kaputt
+modules.addons.SC2:informationProviderMessageToolNotBroken=Werkzeug ist nicht beschäfigt. Entferne das Material.
+modules.addons.SC2:informationProviderMessageRepair=Werkzeug wird repariert
+modules.addons.SC2:informationProviderMessageUnbreakable=Werkzeug ist unzerstörbar
+modules.addons.SC2:informationProviderLabels=Bechriftung
+modules.addons.SC2:powerThousandSuffix=T
+modules.addons.SC2:powerObserverInstruction=Klicke und ziehe, um in erwünschtes Gebiet zu platzieren.
+modules.addons.SC2:powerObserverRemoveInstruction=Rechtsklick zum entfernen
+modules.addons.SC2:powerObserverDropInstruction=Platziere den Motor hier.
+modules.addons.SC2:powerObserverChangeInstruction=Klick, um das Kraftlevel zu ändern.
+modules.addons.SC2:powerObserverChangeInstruction10=Shiftklick, um das Level um 10K zu ändern.
+modules.addons.SC2:recipeOutput=Ändert den Ausgabepunkt
+modules.addons.SC2:recipeCurrentSelection=Aktuell
+modules.addons.SC2:recipeInvalidOutput=Unbekannt
+modules.addons.SC2:recipeChangeMode=Ändert aktuellen Modus
+modules.addons.SC2:recipeNoLimit=Kein Limit
+modules.addons.SC2:recipeLimit=Limitiert gelagerte Items
+modules.addons.SC2:recipeDisabled=Produziert überhaupt nichts
+modules.addons.SC2:recipeChangeLimit=[%1->Erhöhe|Verringere] maximal gelagerte Items.
+modules.addons.SC2:recipeChangeLimit10=Shiftklick, um die Anzahl um 10 zu ändern.
+modules.addons.SC2:recipeChangeLimit64=Strg-klick, um die Anzahl um 64 zu ändern.
+modules.addons.SC2:shieldToggle=[%1->Aktiviert|Deaktiviert] Schild
