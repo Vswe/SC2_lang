@@ -480,3 +480,24 @@ info.SC2:presentDuplicateError[%1] is not allowed to be added twice.
 info.SC2:sideClashError=[%1] and [%2] will clash at the [%3]
 
 
+# ======================================
+				UPGRADES
+# ======================================
+
+info.SC2:effectBlueprint=Enable the use of Blueprint carts.
+info.SC2:effectCombustionFuel=Enabled standard fuel sources.
+info.SC2:effectDeployer=Enables deployment of finished carts.
+info.SC2:effectDisassemble=Allows you to disassemble and modify carts.
+info.SC2:effectFuelCapacity=Fuel capacity [%1].
+info.SC2:effectFuelCost=Fuel cost [%1]%.
+info.SC2:effectInputChest=Input Chest with [%1] slots.
+info.SC2:effectManagerBridge=Connects the Assembler with a Manager.
+info.SC2:effectGenerator=Generate [%1] [%2:unit|units] of power per minute.
+info.SC2:effectRedstone=Enables redstone controlled assembling.
+info.SC2:effectSolar=Generate power while in the sun.
+info.SC2:effectThermal=Power the Cart Assembler with lava in internal tank.
+info.SC2:effectTimeFlat=Module assembling time [%1] [%1:second|seconds].
+info.SC2:effectTimeFlatCart=Cart assembling time [%1] [%1:second|seconds].
+info.SC2:effectTimeFlatRemove=Module disassembling time [%1] [%1:second|seconds].
+info.SC2:effectTransposer=Can pick up carts for modifying
+info.SC2:effectEfficiency=Assembling efficiency [%1]%.
