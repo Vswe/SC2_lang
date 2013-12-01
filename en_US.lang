@@ -52,6 +52,22 @@ gui.SC2:transferItemsShort=I
 gui.SC2:transferStacksShort=S
 gui.SC2:changeTransferCartArea=Change part of the cart
 gui.SC2:unknownAreaMessage=Unknown option
+gui.SC2:cartAreaAll=All slots
+gui.SC2:cartAreaEngine=Engine
+gui.SC2:cartAreaRailer=Railers
+gui.SC2:cartAreaStorage=Storage slots
+gui.SC2:cartAreaTorches=Torches
+gui.SC2:cartAreaExplosives=Explosives
+gui.SC2:cartAreaArrows=Arrows
+gui.SC2:cartAreaBridge=Bridge material
+gui.SC2:cartAreaSeeds=Seeds
+gui.SC2:cartAreaFertilizer=Fertilizer
+gui.SC2:cartAreaSaplings=Saplings
+gui.SC2:cartAreaFirework=Firework
+gui.SC2:cartAreaBuckets=Buckets (for milker)
+gui.SC2:cartAreaCakes=Cakes
+
+
 
 # Liquid manager gui localization
 gui.SC2:liquidManager=Liquid
