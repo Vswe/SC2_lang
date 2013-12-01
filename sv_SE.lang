@@ -45,8 +45,22 @@ gui.SC2:transferStacks=Överför max [%1] [%2:stack|stacks]
 gui.SC2:transferAllShort=MAX
 gui.SC2:transferItemsShort=I
 gui.SC2:transferStacksShort=S
-gui.SC2:changeTransferCartArea=Ändra vart i vagnen
+gui.SC2:changeTransferCartArea=Ändra område i vagnen
 gui.SC2:unknownAreaMessage=Okänt område
+gui.SC2:cartAreaAll=Överallt
+gui.SC2:cartAreaEngine=Motor
+gui.SC2:cartAreaRailer=Spårläggare
+gui.SC2:cartAreaStorage=Förrådsutrymmen
+gui.SC2:cartAreaTorches=Facklor
+gui.SC2:cartAreaExplosives=Sprängmedel
+gui.SC2:cartAreaArrows=Pilar
+gui.SC2:cartAreaBridge=Bromaterial
+gui.SC2:cartAreaSeeds=Frön
+gui.SC2:cartAreaFertilizer=Gödsel
+gui.SC2:cartAreaSaplings=Plantor
+gui.SC2:cartAreaFirework=Fyrverkerier
+gui.SC2:cartAreaBuckets=Hinkar (för mjölkare)
+gui.SC2:cartAreaCakes=Tårtor
 
 # Liquid manager gui localization
 gui.SC2:liquidManager=Vätska
