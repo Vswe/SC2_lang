@@ -75,7 +75,7 @@ gui.SC2:transferAllLiquidShort=MAX
 gui.SC2:transferBucketShort=E
 
 # Module Toggler gui localization
-gui.SC2:moduleToggler:Moduländerer
+gui.SC2:moduleToggler=Moduländerer
 gui.SC2:optionDrill=Bohrer
 gui.SC2:optionShield=Schild
 gui.SC2:optionInvisibility=Unsichtbarkeit
