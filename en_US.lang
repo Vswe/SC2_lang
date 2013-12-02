@@ -597,3 +597,20 @@ modules.tanks.SC2:tankUnlock=Click to unlock
 modules.tanks.SC2:tankEmpty=Empty
 modules.tanks.SC2:tankInvalidFluid=Unknown
 
+# Tools
+modules.tools.SC2:toolDurability=Durability
+modules.tools.SC2:toolBroken=Broken
+modules.tools.SC2:toolRepairing=Currently repairing tool
+modules.tools.SC2:toolDecent=Remove the repair materials, this tool is still pretty decent.
+modules.tools.SC2:toolRepairInstruction=Repair this tool with [%1]
+modules.tools.SC2:toolUnbreakable=This tool will never break.
+modules.tools.SC2:toolUnbreakableRepairError=Remove the repair materials.
+modules.tools.SC2:drillTitle=Drill
+modules.tools.SC2:drillToggle=[%1->Enable|Disable] drill
+modules.tools.SC2:repairDiamonds=Diamonds
+modules.tools.SC2:repairIron=Iron Ingots
+modules.tools.SC2:farmerTitle=Farmer
+modules.tools.SC2:cutterTitle=Wood cutter
+
+
+
