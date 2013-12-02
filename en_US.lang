@@ -492,7 +492,14 @@ info.SC2:missingParentError=[%1] requires [%2] to work!
 info.SC2:presentNemesisError=[%1] won't work with [%2]
 info.SC2:presentDuplicateError[%1] is not allowed to be added twice.
 info.SC2:sideClashError=[%1] and [%2] will clash at the [%3]
-
+# need beta 3 for these ones to show up (remove this note)
+info.SC2:toolUnbreakable=Unbreakable
+info.SC2:toolDurability=Durability: [%1]%
+info.SC2:modularCapacity=Modular capacity: [%1]
+info.SC2:complexityCap=Module complexity cap: [%1]
+info.SC2:maxEngineCount=Max engines count: [%1]
+info.SC2:maxAddonCount=Max Addon count: [%1]
+# end of beta 3 requirement (remove this note)
 
 # ======================================
 				UPGRADES
@@ -646,4 +653,3 @@ modules.attachments.SC2:noteDelay=Change delay. Current Delay: [%1]
 modules.attachments.SC2:noteAdd=Add note to track #[%1]
 modules.attachments.SC2:noteRemove=Remove rightmost note from track #[%1]
 modules.attachments.SC2:noteVolume=Track volume: [%1->Muted|Low|Medium|High]
-
