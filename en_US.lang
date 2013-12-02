@@ -17,7 +17,12 @@ gui.SC2:idleAssemblerMessage=The assembler is currently idle
 gui.SC2:modifyCart=Modify cart
 gui.SC2:assembleCart=Assemble cart
 gui.SC2:fuelLevel=Fuel level
-
+# need beta 3 for these ones to show up (remove this note)
+gui.SC2:noHullError=You have no hull
+gui.SC2:invalidHullError=The hull added is not a hull!
+gui.SC2:busyAssemblerError=The Assembler is busy!
+gui.SC2:departureBayError=There's a Cart in the Departure Bay.
+# end of beta 3 requirement (remove this note)
 
 # Cargo manager and Liquid manager shared gui localization
 gui.SC2:manager=Manager
@@ -653,3 +658,4 @@ modules.attachments.SC2:noteDelay=Change delay. Current Delay: [%1]
 modules.attachments.SC2:noteAdd=Add note to track #[%1]
 modules.attachments.SC2:noteRemove=Remove rightmost note from track #[%1]
 modules.attachments.SC2:noteVolume=Track volume: [%1->Muted|Low|Medium|High]
+
