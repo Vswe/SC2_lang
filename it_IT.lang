@@ -21,22 +21,22 @@ gui.SC2:fuelLevel=Livello carburante
 
 # Cargo manager and Liquid manager shared gui localization
 gui.SC2:manager=Manager
-gui.SC2:currentSetting=Currently
-gui.SC2:changeTransferDirection=Change transfer direction
-gui.SC2:directionToCart=To the cart
-gui.SC2:directionFromCart=From the cart
-gui.SC2:changeTurnBack=Change turn back settings
-gui.SC2:turnBackDisabled=No side selected
-gui.SC2:turnBack=Turn back after transfer
-gui.SC2:continueForward=Continue along after transfer
-gui.SC2:changeTransferSize=Change transfer size
-gui.SC2:changeSide=Change side
-gui.SC2:currentSide=Current side
-gui.SC2:sideRed=Red
-gui.SC2:sideBlue=Blue
-gui.SC2:sideYellow=Yellow
-gui.SC2:sideGreen=Green
-gui.SC2:sideDisabled=Disabled
+gui.SC2:currentSetting=Impostazione correnti
+gui.SC2:changeTransferDirection=Cambia direzione di trasferimento
+gui.SC2:directionToCart=Al cart
+gui.SC2:directionFromCart=Dal cart
+gui.SC2:changeTurnBack=Cambia le impostazioni di ritorno
+gui.SC2:turnBackDisabled=Nessun lato selezionato
+gui.SC2:turnBack=Torna indietro dopo il trasferimento
+gui.SC2:continueForward=Continua diritto dopo il trasferimento
+gui.SC2:changeTransferSize=Cambia lato di trasferimento
+gui.SC2:changeSide=Cambia lato
+gui.SC2:currentSide=Lato corrente
+gui.SC2:sideRed=Rosso
+gui.SC2:sideBlue=Blu
+gui.SC2:sideYellow=Giallo
+gui.SC2:sideGreen=Verde
+gui.SC2:sideDisabled=Disabilitato
 
 # Cargo manager gui localization
 gui.SC2:cargoManager=Cargo
