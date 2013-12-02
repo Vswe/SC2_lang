@@ -196,7 +196,7 @@ item.SC2:milker.name=Melker
 item.SC2:galgadorian_hull.name=Galgadorian Frame
 item.SC2:galgadorian_wood_cutter.name=Galgadorian Hout Hakker
 item.SC2:ore_extractor.name=Erts Uittrekker
-item.SC2:enchanter.name=Magiër
+item.SC2:enchanter.name=MagiÃ«r
 item.SC2:advanced_smelter.name=Geavanceerde Smelter
 item.SC2:advanced_crafter.name=Geavanceerde Handwerker
 item.SC2:experience_bank.name=Betoveringskosten Bank
@@ -368,7 +368,7 @@ info.SC2:moduleGroupTank=[%1:Reservoir|Reservoirs]
 info.SC2:moduleGroupEntity=[%1:Entiteit Detector|Entiteit Detectoren]
 info.SC2:moduleGroupShooter=[%1:Shieter|Shieters]
 info.SC2:moduleGroupTool=[%1:Gereedschap|Gereedschappen]
-info.SC2:moduleGroupToolShooter=[%1:Gereedschap|Gereedschappen] or [%1:Shieter|Shieters]
+info.SC2:moduleGroupToolShooter=[%1:Gereedschap|Gereedschappen] or [%1:Schieter|Schieters]
 
 # Messages
 info.SC2:pigExtraMessage=Ter nagedachtenis aan Vswe's Thunderpig arena overwinning. Iedereen bedankt voor de donatie tijdens de Minecraft Marathon in 2013
