@@ -35,7 +35,7 @@ gui.SC2:sideGreen=Grün
 gui.SC2:sideDisabled=Deaktiviert
 
 # Cargo manager gui localization
-gui.SC2:cargoManager=Cargo Manager
+gui.SC2:cargoManager=Cargo
 gui.SC2:changeSlotLayout=Ändert Slotgestaltung
 gui.SC2:layoutShared=Alle Slots werden von allen Seiten geteilt
 gui.SC2:layoutSide=Jede Seite hat ihre eigenen Slots
