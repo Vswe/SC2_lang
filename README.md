@@ -12,14 +12,9 @@ How to translate the mod
 
 3) Translate all the entries to your language
 
-
-CURRENTLY NOT POSSIBLE (you need beta 2 which hasn't been released yet)
-
-4) Put your lang file in the lang folder of Steve's Carts (if it's not there already)
+4) Put your lang file in the lang folder of Steve's Carts
 
 5) Run minecraft, swap yo your language and see if it look good.
-
-
 
 6) Make a pull request to this repository (github.com/Vswe/SC2_lang/) to submit your changes.
 
@@ -62,7 +57,17 @@ this is used can be seen in the real example below. This entry could however be 
 
 info.SC2:moduleGroupToolShooter=[%1:Tool|Tools] or [%1:Shooter|Shooters]
 
-Note that these tags can only be used if they are in the original entry. You can't add it whereever you please since then it won't be replaced by anything.
-If you find the tags in the english entry, then you can move them around or add multiple ones of the longer version if you so like. Just keep the indices.
+There's also a third version of the tag which is quite similar to the second. take a look at the example below.
+
+modules.attachments.SC2:cageAutoPickUp=[%1->Activate|Deactivate] auto pick up
+
+Instead of the colon in the plural/singular tag there is now an arrow. This means that the option is not picked depending on if we have multiple items or not. The option
+is picked depending on something else. In this case whether the auto pick up for the cage module is active or not. The good thing with this type of tag is that it allows
+multiple options (of course you need to use the same number of options as you find in the english file). An example of multiple options can be seen below.
+
+modules.tanks.SC2:creativeTankMode=Current creative mode: [%1][%2->Normal|Always full|Always empty|Always half]
+
+Note that all different types of tags can only be used if they are in the original entry. You can't add it whereever you please since then it won't be replaced by anything.
+If you find the tags in the english entry, then you can move them around or add multiple ones of the longer versions if you so like. Just keep the indices.
 
 
