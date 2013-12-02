@@ -612,5 +612,38 @@ modules.tools.SC2:repairIron=Iron Ingots
 modules.tools.SC2:farmerTitle=Farmer
 modules.tools.SC2:cutterTitle=Wood cutter
 
-
+# Attachments
+modules.attachments.SC2:fertilizers=Fertilizers
+modules.attachments.SC2:railerTitle=Railer
+modules.attachments.SC2:controlSystemTitle=Adv Control Sys
+modules.attachments.SC2:controlSystemDistanceUnits=[%1->|k|M|G|T|P]m
+modules.attachments.SC2:controlSystemOdoMeter=ODO
+modules.attachments.SC2:controlSystemTripMeter=TRIP
+modules.attachments.SC2:cageAutoPickUp=[%1->Activate|Deactivate] auto pick up
+modules.attachments.SC2:cagePickUp=[%1->Grab nearby|Release caged] creature
+modules.attachments.SC2:cakeServerTitle=Cake Server
+modules.attachments.SC2:cakesLabel=Cakes: [%1] / [%2]
+modules.attachments.SC2:slicesLabel=Slices: [%1] / [%2]
+modules.attachments.SC2:explosivesTitle=Explosives
+modules.attachments.SC2:experienceTitle=Experience
+modules.attachments.SC2:experienceLevel=Experience level: [%1] / [%2]
+modules.attachments.SC2:experienceExtract=Click to extract 50xp
+modules.attachments.SC2:experiencePlayerLevel=Your current level is [%1]
+modules.attachments.SC2:shooterTitle=Shooter
+modules.attachments.SC2:shooterFrequency=#/s
+modules.attachments.SC2:shooterSeconds=s
+modules.attachments.SC2:shooterDelay=Delay
+modules.attachments.SC2:notePiano=Piano
+modules.attachments.SC2:noteBassDrum=Bass Drum
+modules.attachments.SC2:noteSnareDrum=Snare Drum
+modules.attachments.SC2:noteSticks=Sticks
+modules.attachments.SC2:noteBassGuitar=Bass Guitar
+modules.attachments.SC2:noteCreateTrack=Create new track
+modules.attachments.SC2:noteRemoveTrack=Remove bottom track
+modules.attachments.SC2:noteActivateInstrument=Activate [%1]
+modules.attachments.SC2:noteDeactivateInstrument=Remove NoteBlock setting
+modules.attachments.SC2:noteDelay=Change delay. Current Delay: [%1]
+modules.attachments.SC2:noteAdd=Add note to track #[%1]
+modules.attachments.SC2:noteRemove=Remove rightmost note from track #[%1]
+modules.attachments.SC2:noteVolume=Track volume: [%1->Muted|Low|Medium|High]
 
