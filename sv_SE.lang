@@ -417,7 +417,7 @@ item.SC2:quick_demolisher.name=Uppgradering: snabb demontör
 item.SC2:manager_bridge.name=Uppgradering: hanterarbrygga
 item.SC2:entropy.name=Uppgradering: entropi
 item.SC2:solar_panel.name=Uppgradering: Solpanel
-item.SC2:thermal_engine.name=Uppgradering: termisk motor
+item.SC2:thermal_engine_upgrade.name=Uppgradering: termisk motor
 
 # Detector Units
 item.SC2:BlockDetector0.name=Detektorhanterare
