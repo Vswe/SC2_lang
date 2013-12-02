@@ -452,7 +452,7 @@ info.SC2:moduleGroupTool=[%1:Verktyg|Verktyg]
 info.SC2:moduleGroupToolShooter=[%1:Verktyg|Vergtyg] eller [%1:Skytt|Skyttar]
 
 # Messages
-info.SC2:pigExtraMessage=Till minne av Vswes "Thunderpig arena" vinst. Tack till alla som donerade under 2013 Minecraft maratonet
+info.SC2:pigExtraMessage=Till minne av Vswes "Thunderpig arena" vinst. Tack till alla som donerade under 2013 Minecraft maraton
 info.SC2:oceanExtraMessage=Utrymme för en genomsnittlig ocean
 info.SC2:alphaExtraMessage=1 år i alpha
 info.SC2:storageEmpty=Tom
@@ -487,3 +487,157 @@ info.SC2:missingParentError=[%1] kräver [%2] för att fungera!
 info.SC2:presentNemesisError=[%1] kommer ej funka med [%2]
 info.SC2:presentDuplicateError[%1] får ej läggas till flera gånger.
 info.SC2:sideClashError=[%1] och [%2] kommer krocka vid [%3]
+
+
+# ======================================
+                                UPGRADES
+# ======================================
+
+info.SC2:effectBlueprint=Tillåter konstruktion av vagnar med ritningar
+info.SC2:effectCombustionFuel=Tillåtna standardbränslen
+info.SC2:effectDeployer=Aktiverar placering av färdig vagn
+info.SC2:effectDisassemble=Tillåter demontering och modifikation
+info.SC2:effectFuelCapacity=Bränslekapacitet [%1]
+info.SC2:effectFuelCost=Bränslekostnad [%1]%
+info.SC2:effectInputChest=Ingångskista med [%1] utrymmen
+info.SC2:effectManagerBridge=Kopplar ihop en verkstad och en hanterare
+info.SC2:effectGenerator=Genererar [%1] [%2:enhet|enheter] med kraft per minut
+info.SC2:effectRedstone=Tillåter rödstenskontrollerad byggnad av vagnar
+info.SC2:effectSolar=Genererar kraft när i solen.
+info.SC2:effectThermal=Driv verkstaden med kraft från lava i en intern tank
+info.SC2:effectTimeFlat=Tid per påsatt modul [%1] [%1:sekund|sekunder].
+info.SC2:effectTimeFlatCart=Total tid [%1] [%1:sekund|sekunder].
+info.SC2:effectTimeFlatRemove=Tid per avtagen modul [%1] [%1:sekund|sekunder].
+info.SC2:effectTransposer=Kan plocka upp vagnar för modifikation
+info.SC2:effectEfficiency=Byggnadseffektivitet [%1]%.
+
+
+# ======================================
+                                MODULES
+# ======================================
+
+# Addons
+modules.addons.SC2:detectorAnimals=Djur
+modules.addons.SC2:detectorBats=Fladdermöss
+modules.addons.SC2:detectorMonsters=Monster
+modules.addons.SC2:detectorPlayers=Spelare
+modules.addons.SC2:detectorVillagers=Bybor
+modules.addons.SC2:planterRangeExtenderTitle=Odlingsräckvidd
+modules.addons.SC2:saplingPlantAmount=Nuvarande plantantal
+modules.addons.SC2:controlLeverTitle=Kontrollspak
+modules.addons.SC2:leverStartCart=Starta vagnen
+modules.addons.SC2:leverStopCart=Stoppa vagnen
+modules.addons.SC2:leverTurnAroundCart=Vänd vagnen
+modules.addons.SC2:colorizerRgbRed=Röd
+modules.addons.SC2:colorizerRgbGreen=Grön
+modules.addons.SC2:colorizerRgbBlue=Blå
+modules.addons.SC2:intelligenceLockedBlock=Borren kommer alltid ta bor detta block
+modules.addons.SC2:intelligenceChange=Ändra beteende
+modules.addons.SC2:intelligenceCurrent=Nuvarande: [%1->På|Av]
+modules.addons.SC2:enchanterInstruction=Lägg till en förtrollad bok till det vänstra utrymmet
+modules.addons.SC2:invisibilityToggle=[%1->Sätt på|Stäng av] osynlighetskärna
+modules.addons.SC2:informationProviderLabelName=Namn
+modules.addons.SC2:informationProviderLabelDistance=Avstånd
+modules.addons.SC2:informationProviderMessageDistance=Avstånd: [%1]m
+modules.addons.SC2:informationProviderLabelPosition=Position
+modules.addons.SC2:informationProviderMessagePosition=X: [%1] Y: [%2] Z: [%3]
+modules.addons.SC2:informationProviderLabelFuel=Bränsle kvar
+modules.addons.SC2:informationProviderMessageFuel=Tid kvar på bränsle
+modules.addons.SC2:informationProviderMessageNoConsumption=Ingen konsumtion
+modules.addons.SC2:informationProviderLabelStorage=Använd utrymme
+modules.addons.SC2:informationProviderLabelDurability=Hållbarhet
+modules.addons.SC2:informationProviderMessageToolBroken=Verktyg är trasigt
+modules.addons.SC2:informationProviderMessageToolNotBroken=Verktyget är inte skadat. Ta ur material
+modules.addons.SC2:informationProviderMessageRepair=Verktyg repareras...
+modules.addons.SC2:informationProviderMessageUnbreakable=Verktyg är oförstörbart
+modules.addons.SC2:informationProviderLabels=Etiketter
+modules.addons.SC2:powerThousandSuffix=k
+modules.addons.SC2:powerObserverInstruction=Klicka och dra för att placera i önskat område.
+modules.addons.SC2:powerObserverRemoveInstruction=Högerklicka för att ta bort.
+modules.addons.SC2:powerObserverDropInstruction=Släpp motor här.
+modules.addons.SC2:powerObserverChangeInstruction=Klicka för att ändra energigräns
+modules.addons.SC2:powerObserverChangeInstruction10=Shift-klicka för att öka med 10.000
+modules.addons.SC2:recipeOutput=Ändra utmatningsplats
+modules.addons.SC2:recipeCurrentSelection=Nuvarande
+modules.addons.SC2:recipeInvalidOutput=Okänt område
+modules.addons.SC2:recipeChangeMode=Ändra nuvarande läge
+modules.addons.SC2:recipeNoLimit=Ingen övre gräns
+modules.addons.SC2:recipeLimit=Begränsa lagring av saker
+modules.addons.SC2:recipeDisabled=Producera inte
+modules.addons.SC2:recipeChangeLimit=[%1->Öka|Minska] antalet saker att alltid ha lagrade.
+modules.addons.SC2:recipeChangeLimit10=Shift-klicka för att ändra med 10.
+modules.addons.SC2:recipeChangeLimit64=Ctrl-klicka för att ändra med 64.
+modules.addons.SC2:shieldToggle=[%1->Sätt på|Stäng av] sköld
+
+# Engines
+modules.engines.SC2:creativePowerLevel=Energinivå: [%1]
+modules.engines.SC2:coalEngineTitle=Kolmotor
+modules.engines.SC2:outOfFuel=Slut på bränsle
+modules.engines.SC2:fuelLevel=Bränsle: [%1]
+modules.engines.SC2:solarEngineTitle=Solpanelsmotor
+modules.engines.SC2:outOfPower=Slut på kraft
+modules.engines.SC2:powerLevel=Energi: [%1]
+modules.engines.SC2:thermalEngineTitle=Termisk motor
+modules.engines.SC2:thermalPowered=Har kraft
+modules.engines.SC2:outOfWater=Slut på vatten
+modules.engines.SC2:outOfLava=Slut på lava
+
+# Tanks
+modules.tanks.SC2:creativeTankMode=Nuvarande kreativt läge: [%1][%2->normal|alltid full|alltid tom|alltid halv]
+modules.tanks.SC2:creativeTankChangeMode=Höger-klicka för att ändra
+modules.tanks.SC2:creativeTankResetMode=håll shift och höger-klicka för att gå till normalt läge
+modules.tanks.SC2:tankLocked=Låst till denna vätska
+modules.tanks.SC2:tankLock=Klicka för att låsa till denna vätska
+modules.tanks.SC2:tankUnlock=Klicka för att låsa upp
+modules.tanks.SC2:tankEmpty=Tom
+modules.tanks.SC2:tankInvalidFluid=Okänd
+
+# Tools
+modules.tools.SC2:toolDurability=Hållbarhet
+modules.tools.SC2:toolBroken=Trasig
+modules.tools.SC2:toolRepairing=Reparerar verktyg...
+modules.tools.SC2:toolDecent=Ta ur material, redskapet är fortfarande i gott skick
+modules.tools.SC2:toolRepairInstruction=Reparera detta verktyg med [%1]
+modules.tools.SC2:toolUnbreakable=Detta verktyg kommer aldrig gå sönder.
+modules.tools.SC2:toolUnbreakableRepairError=Ta ur reparationsmaterialen
+modules.tools.SC2:drillTitle=Borr
+modules.tools.SC2:drillToggle=[%1->Sätt på|Stäng av] borr
+modules.tools.SC2:repairDiamonds=Diamanter
+modules.tools.SC2:repairIron=Järntackor
+modules.tools.SC2:farmerTitle=Odlare
+modules.tools.SC2:cutterTitle=Trähuggare
+
+# Attachments
+modules.attachments.SC2:fertilizers=Gödsel
+modules.attachments.SC2:railerTitle=Rälsläggare
+modules.attachments.SC2:controlSystemTitle=Advancerat kontrollsystem
+modules.attachments.SC2:controlSystemDistanceUnits=[%1->|k|M|G|T|P]m
+modules.attachments.SC2:controlSystemOdoMeter=ODO
+modules.attachments.SC2:controlSystemTripMeter=TRIP
+modules.attachments.SC2:cageAutoPickUp=[%1->Sätt på|Stäng av] auto-upplockning
+modules.attachments.SC2:cagePickUp=[%1->Ta upp varelse i närheten|Släpp ut fångad varelse]
+modules.attachments.SC2:cakeServerTitle=Tårtserverare
+modules.attachments.SC2:cakesLabel=Cakes: [%1] / [%2]
+modules.attachments.SC2:slicesLabel=Slices: [%1] / [%2]
+modules.attachments.SC2:explosivesTitle=Sprängmedel
+modules.attachments.SC2:experienceTitle=XP
+modules.attachments.SC2:experienceLevel=XP-nivå: [%1] / [%2]
+modules.attachments.SC2:experienceExtract=Tryck för att ta ut 50XP
+modules.attachments.SC2:experiencePlayerLevel=Din nuvarande nivå är [%1]
+modules.attachments.SC2:shooterTitle=Skytt
+modules.attachments.SC2:shooterFrequency=#/s
+modules.attachments.SC2:shooterSeconds=s
+modules.attachments.SC2:shooterDelay=Fördröjning
+modules.attachments.SC2:notePiano=Piano
+modules.attachments.SC2:noteBassDrum=Bastrumma
+modules.attachments.SC2:noteSnareDrum=Virveltrumma
+modules.attachments.SC2:noteSticks=Slagverk
+modules.attachments.SC2:noteBassGuitar=Basgitarr
+modules.attachments.SC2:noteCreateTrack=Skapa nytt spår
+modules.attachments.SC2:noteRemoveTrack=Ta bort bottenspår
+modules.attachments.SC2:noteActivateInstrument=Aktivera [%1]
+modules.attachments.SC2:noteDeactivateInstrument=Ta bort notblocksinställning
+modules.attachments.SC2:noteDelay=Ändra fördröjning. Nuvarande fördröjning: [%1]
+modules.attachments.SC2:noteAdd=Lägg till not på spår [%1]
+modules.attachments.SC2:noteRemove=Ta bort högra noten på spår [%1]
+modules.attachments.SC2:noteVolume=Spårvolym: [%1->tyst|låg|medium|Hög]
