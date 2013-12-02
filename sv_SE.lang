@@ -1,4 +1,4 @@
-t# Cart assembler gui localization
+# Cart assembler gui localization
 gui.SC2:cartAssembler=Vagnsverkstad
 gui.SC2:basicAssembleInstruction=Var vänlig och placera valfritt vagnsskrov på skrovplatsen för att börja skapa en vagn.
 gui.SC2:invalidHullError=Vagnsskrovet som placerats på skrovplatsen är inte ett giltigt skrov. Detta ska inte ske så du har antagligen gjort något dumt.
@@ -116,7 +116,7 @@ gui.SC2:distributorSideRed=Röd
 gui.SC2:sideToolTip=Sida: [%1]
 
 # Detector Units gui localization
-gui.SC2:operator=GE
+gui.SC2:operatorOutput=GE
 gui.SC2:operatorAnd=OCH
 gui.SC2:operatorOr=ELLER
 gui.SC2:operatorNot=INTE
