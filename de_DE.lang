@@ -1,3 +1,7 @@
+# ======================================
+				BLOCK GUI
+# ======================================
+
 # Cart assembler gui localization
 gui.SC2:cartAssembler=Lorenmonteur
 gui.SC2:basicAssembleInstruction=Um beginnen, eine Lore zu machen, füge eine Hülle deiner Wahl in den Hüllenslot.
@@ -50,7 +54,7 @@ gui.SC2:changeTransferCartArea=Überträgt einen Teil der Lore
 gui.SC2:unknownAreaMessage=Unbekannte Option
 gui.SC2:cartAreaAll=Alle Slots
 gui.SC2:cartAreaEngine=Motoren
-gui.SC2:cartAreaRailer=Aufgleisgeräte
+gui.SC2:cartAreaRailer=Schienenleger
 gui.SC2:cartAreaStorage=Aufbewahrungsslots
 gui.SC2:cartAreaTorches=Fackeln
 gui.SC2:cartAreaExplosives=Sprengstoff
@@ -62,6 +66,8 @@ gui.SC2:cartAreaSaplings=Setzlinge
 gui.SC2:cartAreaFirework=Feuerwerk
 gui.SC2:cartAreaBuckets=Eimer (für Melker)
 gui.SC2:cartAreaCakes=Kuchen
+
+
 
 # Liquid manager gui localization
 gui.SC2:liquidManager=Flüssigkeit
@@ -185,6 +191,10 @@ gui.SC2:stateTanksEmpty=Sind die Tanks komplett leer
 gui.SC2:stateTankEmpty=Ist ein Tank komplett leer
 
 
+# ======================================
+				ITEMS
+# ======================================
+
 # Carts
 item.SC2:ModularCart.name=Modulare Lore
 
@@ -200,9 +210,8 @@ item.SC2:extracting_chests.name=Ausfahrende Kisten
 item.SC2:torch_placer.name=Fackelsetzer
 item.SC2:basic_drill.name=Grundbohrer
 item.SC2:galgadorian_drill.name=Galgadorbohrer
-item.SC2:railer.name=Aufgleisgerät
-item.SC2:large_railer.name=Großes Aufgleisgerät
-item.SC2:side_tanks.name=Side Tanksroßes Aufgleisgerät
+item.SC2:railer.name=Schienenleger
+item.SC2:large_railer.name=Großer Schienenleger
 item.SC2:bridge_builder.name=Brückenbauer
 item.SC2:track_remover.name=Schienenentferner
 item.SC2:basic_farmer.name=Grundfarmer
@@ -255,6 +264,7 @@ item.SC2:incinerator.name=Müllverbrenner
 item.SC2:thermal_engine.name=Verbrennungsmotor
 item.SC2:advanced_thermal_engine.name=Fortgeschrittener Verbrennungsmotor
 item.SC2:liquid_cleaner.name=Flüssigkeitsreinigung
+item.SC2:side_tanks.name=Seitentank
 item.SC2:top_tank.name=Oberer Tank
 item.SC2:advanced_tank.name=Fortgeschrittener Tank
 item.SC2:front_tank.name=Vorderer Tank
@@ -296,8 +306,6 @@ item.SC2:green_pigment.name=Grünes Pigment
 item.SC2:blue_pigment.name=Blaues Pigment
 item.SC2:glass_o'magic.name=Magisches Glas
 item.SC2:dynamite.name=Dynamit
-item.SC2:unknowncomponent.name=Unbekannter SC2 Komponent
-item.SC2:unknowncomponent.name=Unbekannter SC2 Komponent
 item.SC2:simple_pcb.name=Einfache Leiterplatte
 item.SC2:graphical_interface.name=Graphische Schnittstelle
 item.SC2:raw_handle.name=Roher Griff
@@ -378,7 +386,7 @@ item.SC2:blade_arm.name=Klingenarm
 
 
 # ======================================
-                                BLOCKS
+				BLOCKS
 # ======================================
 
 tile.SC2:BlockCargoManager.name=Cargomanager
@@ -424,7 +432,10 @@ item.SC2:BlockDetector3.name=Detektorenkreuzung
 item.SC2:BlockDetector4.name=Detektorenredstone Einheit
 
 
-----
+
+# ======================================
+				MODULE MISC
+# ======================================
 
 # Categories
 info.SC2:moduleCategoryHull=Hülle
@@ -484,7 +495,7 @@ info.SC2:sideClashError=[%1] und [%2] wird bei [%3] kollidieren
 
 
 # ======================================
-                                UPGRADES
+				UPGRADES
 # ======================================
 
 info.SC2:effectBlueprint=Aktviert die Benutzung von Entwurfloren.
@@ -505,8 +516,9 @@ info.SC2:effectTimeFlatRemove=Modulauseinandernehmzeit [%1] [%1:Sekunde|Sekunden
 info.SC2:effectTransposer=Kann Loren zur Modifikation aufnehmen.
 info.SC2:effectEfficiency=Montierungseffizienz [%1]%.
 
+
 # ======================================
-                                MODULES
+				MODULES
 # ======================================
 
 # Addons
@@ -561,3 +573,77 @@ modules.addons.SC2:recipeChangeLimit=[%1->Erhöhe|Verringere] maximal gelagerte 
 modules.addons.SC2:recipeChangeLimit10=Shiftklick, um die Anzahl um 10 zu ändern.
 modules.addons.SC2:recipeChangeLimit64=Strg-klick, um die Anzahl um 64 zu ändern.
 modules.addons.SC2:shieldToggle=[%1->Aktiviert|Deaktiviert] Schild
+
+# Engines
+modules.engines.SC2:creativePowerLevel=Energielevel: [%1]
+modules.engines.SC2:coalEngineTitle=Kohlemotor
+modules.engines.SC2:outOfFuel=Kein Treibstoff
+modules.engines.SC2:fuelLevel=Treibstoff: [%1]
+modules.engines.SC2:solarEngineTitle=Solarmotor
+modules.engines.SC2:outOfPower=Keine Energie
+modules.engines.SC2:powerLevel=Energie: [%1]
+modules.engines.SC2:thermalEngineTitle=Wärmekraftmaschine
+modules.engines.SC2:thermalPowered=Versorgt
+modules.engines.SC2:outOfWater=Kein Wasser
+modules.engines.SC2:outOfLava=Keine Lava
+
+# Tanks
+modules.tanks.SC2:creativeTankMode=Aktueller Kreativmodus: [%1][%2->Normal|Immer voll|Immer leer|Immer halb]
+modules.tanks.SC2:creativeTankChangeMode=Mit Rechtsklick anpassen
+modules.tanks.SC2:creativeTankResetMode=Shift-Rechtsklick um auf normal zurückzusetzen
+modules.tanks.SC2:tankLocked=Auf diese Flüssigkeit festgelegt
+modules.tanks.SC2:tankLock=Klicken um ausschließlicht diese Flüssigkeit zu akzeptieren
+modules.tanks.SC2:tankUnlock=Klicken um Flüssigkeitsperre aufzuheben
+modules.tanks.SC2:tankEmpty=Leer
+modules.tanks.SC2:tankInvalidFluid=Unbekannt
+
+# Tools
+modules.tools.SC2:toolDurability=Haltbarkeit
+modules.tools.SC2:toolBroken=Kaputt
+modules.tools.SC2:toolRepairing=Werkzeug wird momentan repariert
+modules.tools.SC2:toolDecent=Remove the repair materials, this tool is still pretty decent.
+modules.tools.SC2:toolRepairInstruction=Dieses Werkzeug mit [%1] reparieren
+modules.tools.SC2:toolUnbreakable=Dieses Werkzeug ist unzerstörbar.
+modules.tools.SC2:toolUnbreakableRepairError=Für reparatur benötigte Materialen entfernen.
+modules.tools.SC2:drillTitle=Bohrer
+modules.tools.SC2:drillToggle=Bohrer [%1->anschalten|abschalten]
+modules.tools.SC2:repairDiamonds=Diamanten
+modules.tools.SC2:repairIron=Metallbarren
+modules.tools.SC2:farmerTitle=Farmer
+modules.tools.SC2:cutterTitle=Holzfäller
+
+# Attachments
+modules.attachments.SC2:fertilizers=Dünger
+modules.attachments.SC2:railerTitle=Schienenleger
+modules.attachments.SC2:controlSystemTitle=Erw. Kontrollsystem
+modules.attachments.SC2:controlSystemDistanceUnits=[%1->|k|M|G|T|P]m
+modules.attachments.SC2:controlSystemOdoMeter=ODO    #TODO
+modules.attachments.SC2:controlSystemTripMeter=TRIP  # TODO
+modules.attachments.SC2:cageAutoPickUp=Automatisches aufheben [%1->aktivieren|deaktivieren]
+modules.attachments.SC2:cagePickUp=[%1->Nahgelegenen Kreatur fangen|Kreatur freilassen]
+modules.attachments.SC2:cakeServerTitle=Kuchen Server
+modules.attachments.SC2:cakesLabel=Kuchen: [%1] / [%2]
+modules.attachments.SC2:slicesLabel=Kuchenstücke: [%1] / [%2]
+modules.attachments.SC2:explosivesTitle=Sprengstoff
+modules.attachments.SC2:experienceTitle=Erfahrung
+modules.attachments.SC2:experienceLevel=Erfahrungslevel: [%1] / [%2]
+modules.attachments.SC2:experienceExtract=Klicken um 50xp zu extrahieren
+modules.attachments.SC2:experiencePlayerLevel=Dein Level ist [%1]
+modules.attachments.SC2:shooterTitle=Kanone
+modules.attachments.SC2:shooterFrequency=#/s
+modules.attachments.SC2:shooterSeconds=s
+modules.attachments.SC2:shooterDelay=Verzögerung
+modules.attachments.SC2:notePiano=Klavier
+modules.attachments.SC2:noteBassDrum=Basstrommel
+modules.attachments.SC2:noteSnareDrum=Snare
+modules.attachments.SC2:noteSticks=Sticks
+modules.attachments.SC2:noteBassGuitar=Bassgitarre
+modules.attachments.SC2:noteCreateTrack=Spur hinzufügen
+modules.attachments.SC2:noteRemoveTrack=Letze Spur entfernen
+modules.attachments.SC2:noteActivateInstrument=[%1] aktivieren
+modules.attachments.SC2:noteDeactivateInstrument=Notenblock Einstellungen löschen
+modules.attachments.SC2:noteDelay=Verzögerung anpassen. Aktuelle Verzögerung: [%1]
+modules.attachments.SC2:noteAdd=Note in Spur #[%1] hinzufügen
+modules.attachments.SC2:noteRemove=Aus Spur #[%1] die Note rechstaußen löschen
+modules.attachments.SC2:noteVolume=Spurlautstärke: [%1->Lautlos|Leise|Mittel|Laut]
+
