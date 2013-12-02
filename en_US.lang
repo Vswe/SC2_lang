@@ -19,7 +19,7 @@ gui.SC2:assembleCart=Assemble cart
 gui.SC2:fuelLevel=Fuel level
 # need beta 3 for these ones to show up (remove this note)
 gui.SC2:noHullError=You have no hull
-gui.SC2:invalidHullError=The hull added is not a hull!
+gui.SC2:invalidHullErrorShort=The hull added is not a hull!
 gui.SC2:busyAssemblerError=The Assembler is busy!
 gui.SC2:departureBayError=There's a Cart in the Departure Bay.
 # end of beta 3 requirement (remove this note)
