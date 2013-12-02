@@ -492,12 +492,12 @@ info.SC2:missingParentError=[%1] necesita [%2] para funcionar!
 info.SC2:presentNemesisError=[%1] no funcionará con [%2]
 info.SC2:presentDuplicateError[%1] no tiene permitido ser añadido dos veces.
 info.SC2:sideClashError=[%1] y [%2] no irá junto a [%3]
-+info.SC2:toolUnbreakable=Indestructible
-+info.SC2:toolDurability=Durabilidad: [%1]%
-+info.SC2:modularCapacity=Capacidad modular: [%1]
-+info.SC2:complexityCap=Tope de complejidad modular: [%1]
-+info.SC2:maxEngineCount=Máximo de motores: [%1]
-+info.SC2:maxAddonCount=Máximo de adicionales: [%1]
+info.SC2:toolUnbreakable=Indestructible
+info.SC2:toolDurability=Durabilidad: [%1]%
+info.SC2:modularCapacity=Capacidad modular: [%1]
+info.SC2:complexityCap=Tope de complejidad modular: [%1]
+info.SC2:maxEngineCount=Máximo de motores: [%1]
+info.SC2:maxAddonCount=Máximo de adicionales: [%1]
 
 
 # ======================================
@@ -652,3 +652,91 @@ modules.attachments.SC2:noteDelay=Cambiar retraso. Retraso actual: [%1]
 modules.attachments.SC2:noteAdd=Añadir nota al track #[%1]
 modules.attachments.SC2:noteRemove=Remover la última nota del track #[%1]
 modules.attachments.SC2:noteVolume=Volumen del track: [%1->Mudo|Bajo|Medio|Alto]
+# ======================================
+         Steve's Arcade 
+# ======================================
+# need beta 3 for these ones to show up (remove this note)
+# Ghast Invaders
+arcade.SC2:ghastInvaders=Invasores Ghast
+arcade.SC2:ghastLives=Vidas extra
+arcade.SC2:highScore=Puntuación máxima: [%1]
+arcade.SC2:score=Puntuación: [%1]
+arcade.SC2:instructionShoot=Disparar
+arcade.SC2:instructionLeft=Mover a la izquierda
+arcade.SC2:instructionRight=Mover a la derecha
+arcade.SC2:instructionRestart=Reiniciar
+arcade.SC2:creeperSweeper=Barredora de creepers
+arcade.SC2:creeperMapName1=Pequeño
+arcade.SC2:creeperMapName2=Mediano
+arcade.SC2:creeperMapName3=Grande
+arcade.SC2:creepersLeft=Creepers restantes:  [%1]
+arcade.SC2:creeperTime=Tiempo dedicado: [%1]s
+arcade.SC2:instructionChangeMap=Cambiar tamaño de mapa
+arcade.SC2:creeperCurrentMap=Actual [%1]
+arcade.SC2:creeperHighScores=Puntuaciones máximas
+arcade.SC2:creeperHighScore=[%1]: [%2]s
+arcade.SC2:mobStacker=Apilador de mobs
+arcade.SC2:stackerRemovedLines=Líneas removidas: [%1]
+arcade.SC2:stackerRemovedLinesCombo=Líneas [%1->únicas|dobles|triples|cuádruples] removidas: [%2]
+arcade.SC2:instructionRotate=Rotar
+arcade.SC2:instructionDrop=Soltar
+arcade.SC2:trackOperator=Operador de vía
+arcade.SC2:operatorSaveError=Fallo al guardar
+arcade.SC2:operatorSave=Guardar
+arcade.SC2:operatorUserCreatedMaps=Mapas creados por el usuario
+arcade.SC2:operatorStories=Historias
+arcade.SC2:operatorHelp=Para más info sobre cómo jugar, véte a modo Historia y comienza la historia "El comienzo". Para hacer tu propio mapa, ve al editor y crea uno nuevo. Allí habrá más instrucciones. Haz click en una vía detectora y después en una vía de intersección si quieres que se conecten. Para aún más información, entrá a la wiki de SC2.
+arcade.SC2:instructionTrackShape=Seleccione la forma de la vía
+arcade.SC2:instructionRotateTrack=Rotar la vía
+arcade.SC2:instructionFlipTrack=Voltear la vía
+arcade.SC2:instructionDefaultDirection=Cambiar dirección por defecto
+arcade.SC2:instructionTrackType=Cambiar tipo de vía
+arcade.SC2:instructionDeleteTrack=Eliminar vía
+arcade.SC2:instructionCopyTrack=Copiar vía
+arcade.SC2:instructionMoveSteve=Mover o rotar a Steve
+arcade.SC2:instructionMoveMap=Mover mapa
+arcade.SC2:instructionPlaceTrack=Colocar vía
+arcade.SC2:instructionDeselectTrack=Deseleccionar vía
+arcade.SC2:leftMouseButton=LMouse
+arcade.SC2:rightMouseButton=RMouse
+arcade.SC2:buttonStart=Comenzar
+arcade.SC2:buttonMenu=Menú
+arcade.SC2:buttonStop=Parar
+arcade.SC2:buttonNextLevel=Siguiente nivel
+arcade.SC2:buttonStartLevel=Comenzar nivel
+arcade.SC2:buttonSelectStory=Seleccionar historia
+arcade.SC2:buttonSelectStoryOther=Seleccionar otra historia
+arcade.SC2:buttonCreateLevel=Crear nivel
+arcade.SC2:buttonEditLevel=Editar nivel
+arcade.SC2:buttonRefreshList=Refrescar lista
+arcade.SC2:buttonSave=Guardar
+arcade.SC2:buttonSaveAs=Guardar como...
+arcade.SC2:buttonCancel=Cancelar
+stories.beginning.SC2:mapEditor=Editor de mapas
+
+# Story - The beginning
+stories.beginning.SC2:title=El comienzo
+stories.beginning.SC2:mission=Steve tiene una misión, necesita encontrar el mapa para el siguiente nivel.
+stories.beginning.SC2:start=Presioná el boton de Comenzar a tu derecha.
+stories.beginning.SC2:stop=Si querés, podés presionar el boton de Parar para detenerlo
+stories.beginning.SC2:map=Steve ahora tiene el mapa, apretá el botón de Siguiente nivel para continuar.
+stories.beginning.SC2:trackOperator=Sos el operador de vías, tu trabajo es asegurarte de que las vías estén correctamente puestas. Haz click en las intersecciones antes de presionar el botón de comenzar.
+stories.beginning.SC2:goodJob=Buen trabajo! Así se hace.
+stories.beginning.SC2:changeJunctions=Siempre podés presionar el botón de parar y cambiar cómo están configuradas las intersecciones.
+stories.beginning.SC2:blast=Steve piensa que es muy divertido montar su carro, pero a veces demasiado divertido. Por ejemplo, si va en círculos. Buena suerte.
+stories.beginning.SC2:steel=Siempre hay bultos en el camino, para un operador de vías se llaman vías de acero. Las intersecciones de acero no pueden ser cambiadas, buena suerte.
+stories.beginning.SC2:detector=Las vías detectoras pueden ser tus amigas o enemigas. Cuando Steve pasa sobre una vía detectora, un numero de intersecciones puede cambiar, inclusive intersecciones de acero. Para ver cuáles serán afectadas, poné el mouse sobre la vía detectora.
+stories.beginning.SC2:outOfReach=Fuera de alcance...
+stories.beginning.SC2:outOfReach2=...pero eso no te detiene.
+stories.beginning.SC2:longJourney=Después de un largo viaje Steve puede ver el fin de este largo comino...
+stories.beginning.SC2:end=...pero no todo siempre sale como fue planeado. Mientras esperás por más historias para jugar podés crear y compartir tus propios mapas.Andá a la pestaña del editor de mapas en el menú para empezar a hacer uno.
+stories.beginning.SC2:thanks=Gracias por jugar! :)
+stories.beginning.SC2:level1=Un nuevo día
+stories.beginning.SC2:level2=El operador
+stories.beginning.SC2:level3=Escapá del círculo
+stories.beginning.SC2:level4=Duro como el acero
+stories.beginning.SC2:level5=Mundo en movimiento
+stories.beginning.SC2:level6=El candado con contraseña
+stories.beginning.SC2:level7=Tan cerca
+stories.beginning.SC2:level8=Una locura
+stories.beginning.SC2:level9=La torta
