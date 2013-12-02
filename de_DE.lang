@@ -1,3 +1,8 @@
+# ======================================
+#        BLOCK GUI
+# ======================================
+ 
+ 
 # Cart assembler gui localization
 gui.SC2:cartAssembler=Lorenmonteur
 gui.SC2:basicAssembleInstruction=Um beginnen, eine Lore herzustellen, füge eine Hülle deiner Wahl in den Hüllenslot.
@@ -50,7 +55,7 @@ gui.SC2:changeTransferCartArea=Überträgt aus einem Teil der Lore
 gui.SC2:unknownAreaMessage=Unbekannte Option
 gui.SC2:cartAreaAll=Alle Slots
 gui.SC2:cartAreaEngine=Motoren
-gui.SC2:cartAreaRailer=Aufgleisgeräte
+gui.SC2:cartAreaRailer=Schienenleger
 gui.SC2:cartAreaStorage=Aufbewahrungsslots
 gui.SC2:cartAreaTorches=Fackeln
 gui.SC2:cartAreaExplosives=Sprengstoff
@@ -60,7 +65,7 @@ gui.SC2:cartAreaSeeds=Samen
 gui.SC2:cartAreaFertilizer=Dünger
 gui.SC2:cartAreaSaplings=Setzlinge
 gui.SC2:cartAreaFirework=Feuerwerk
-gui.SC2:cartAreaBuckets=Eimer (für Melker)
+gui.SC2:cartAreaBuckets=Eimer (für Melkmaschine)
 gui.SC2:cartAreaCakes=Kuchen
 
 # Liquid manager gui localization
@@ -184,6 +189,9 @@ gui.SC2:stateTanksFull=Sind die Tanks komplett voll
 gui.SC2:stateTanksEmpty=Sind die Tanks komplett leer
 gui.SC2:stateTankEmpty=Ist ein Tank komplett leer
 
+# ======================================
+         ITEMS
+# ======================================
 
 # Carts
 item.SC2:ModularCart.name=Modulare Lore
@@ -235,7 +243,7 @@ item.SC2:note_sequencer.name=Notenablaufsteuerung
 item.SC2:colorizer.name=Färber
 item.SC2:pumpkin_chariot.name=Kürbisstreitwagen
 item.SC2:tiny_coal_engine.name=Kleiner Kohlemotor
-item.SC2:basic_solar_engine.name=Grund-Solarmotor
+item.SC2:basic_solar_engine.name=Kleiner Solarmotor
 item.SC2:projectile_potion.name=Projektil: Trank
 item.SC2:gift_storage.name=Geschenkspeicher
 item.SC2:chunk_loader.name=Chunklader
@@ -255,6 +263,7 @@ item.SC2:incinerator.name=Müllverbrenner
 item.SC2:thermal_engine.name=Verbrennungsmotor
 item.SC2:advanced_thermal_engine.name=Verbesserter Verbrennungsmotor
 item.SC2:liquid_cleaner.name=Flüssigkeitsreiniger
+item.SC2:side_tanks.name=Seitentank
 item.SC2:top_tank.name=Oberer Tank
 item.SC2:advanced_tank.name=Verbesserter Tank
 item.SC2:front_tank.name=Vorderer Tank
@@ -269,7 +278,7 @@ item.SC2:drill_intelligence.name=Bohrerintelligenz
 item.SC2:lawn_mower.name=Rasenmäher
 item.SC2:galgadorian_farmer.name=Galgadorfarmer
 item.SC2:crafter.name=Hersteller
-item.SC2:milker.name=Melker
+item.SC2:milker.name=Melkmaschine
 item.SC2:galgadorian_hull.name=Galgadorhülle
 item.SC2:galgadorian_wood_cutter.name=Galgadorholzfäller
 item.SC2:ore_extractor.name=Erzextraktor
@@ -288,7 +297,7 @@ item.SC2:creative_incinerator.name=Kreativmüllverbrenner
 item.SC2:creative_supplies.name=Kreativversorger
 
 # Components
-item.SC2:unknowncomponent.name=Unbekannter SC2 Komponent
+item.SC2:unknowncomponent.name=Unbekannte SC2 Komponente
 item.SC2:wooden_wheels.name=Holzräder
 item.SC2:iron_wheels.name=Eisenräder
 item.SC2:red_pigment.name=Rotes Pigment
@@ -296,8 +305,6 @@ item.SC2:green_pigment.name=Grünes Pigment
 item.SC2:blue_pigment.name=Blaues Pigment
 item.SC2:glass_o'magic.name=Magisches Glas
 item.SC2:dynamite.name=Dynamit
-item.SC2:unknowncomponent.name=Unbekannter SC2 Komponent
-item.SC2:unknowncomponent.name=Unbekannter SC2 Komponent
 item.SC2:simple_pcb.name=Einfache Leiterplatte
 item.SC2:graphical_interface.name=Graphische Schnittstelle
 item.SC2:raw_handle.name=Roher Griff
@@ -565,13 +572,13 @@ modules.addons.SC2:shieldToggle=[%1->Aktiviert|Deaktiviert] Schild
 
 
 # Engines
-modules.engines.SC2:creativePowerLevel=Kraftpegel: [%1]
-modules.engines.SC2:coalEngineTitle=Kohle-Motor
+modules.engines.SC2:creativePowerLevel=Energielevel: [%1]
+modules.engines.SC2:coalEngineTitle=Kohlemotor
 modules.engines.SC2:outOfFuel=Kein Kraftstoff
 modules.engines.SC2:fuelLevel=Kraftstoff: [%1]
 modules.engines.SC2:solarEngineTitle=Solarmotor
-modules.engines.SC2:outOfPower=Keine Kraft
-modules.engines.SC2:powerLevel=Kraft: [%1]
+modules.engines.SC2:outOfPower=Keine Energie
+modules.engines.SC2:powerLevel=Energie: [%1]
 modules.engines.SC2:thermalEngineTitle=Verbrennungsmotor
 modules.engines.SC2:thermalPowered=Angetrieben
 modules.engines.SC2:outOfWater=Kein Wasser
@@ -613,7 +620,7 @@ modules.attachments.SC2:cageAutoPickUp=[%1->Aktivert|Deaktiviert] automatisches 
 modules.attachments.SC2:cagePickUp=[%1->Schnappt die nächste Kreatur|Lässt die nächste Kreatur frei]
 modules.attachments.SC2:cakeServerTitle=Kuchenservierer
 modules.attachments.SC2:cakesLabel=Kuchen: [%1] / [%2]
-modules.attachments.SC2:slicesLabel=Stücke: [%1] / [%2]
+modules.attachments.SC2:slicesLabel=Kuchenstücke: [%1] / [%2]
 modules.attachments.SC2:explosivesTitle=Sprengstoff
 modules.attachments.SC2:experienceTitle=Erfahrung
 modules.attachments.SC2:experienceLevel=Erfahrungspegel: [%1] / [%2]
@@ -622,17 +629,17 @@ modules.attachments.SC2:experiencePlayerLevel=Dein aktuelles Level ist [%1]
 modules.attachments.SC2:shooterTitle=Kanone
 modules.attachments.SC2:shooterFrequency=#/s
 modules.attachments.SC2:shooterSeconds=s
-modules.attachments.SC2:shooterDelay=Verzägerung
+modules.attachments.SC2:shooterDelay=Verzögerung
 modules.attachments.SC2:notePiano=Klavier
-modules.attachments.SC2:noteBassDrum=Bass Drum
-modules.attachments.SC2:noteSnareDrum=Snare Drum
-modules.attachments.SC2:noteSticks=Stäbe
+modules.attachments.SC2:noteBassDrum=Basstrommel
+modules.attachments.SC2:noteSnareDrum=Snare
+modules.attachments.SC2:noteSticks=Sticks
 modules.attachments.SC2:noteBassGuitar=Bassgitarre
-modules.attachments.SC2:noteCreateTrack=Erstellt neue Aufnahme
-modules.attachments.SC2:noteRemoveTrack=Entfernt untere Aufnahme
-modules.attachments.SC2:noteActivateInstrument=Aktiviert [%1]
-modules.attachments.SC2:noteDeactivateInstrument=Entfernt Notenblockeinstellung
-modules.attachments.SC2:noteDelay=Ändert Verzögerung. Aktuelle Verzögerung: [%1]
-modules.attachments.SC2:noteAdd=Fügt Note zur Aufnahme #[%1] hinzu
-modules.attachments.SC2:noteRemove=Entfernt die ganz rechte Note von der Aufnahme #[%1]
-modules.attachments.SC2:noteVolume=Track volume: [%1->Stumm|Leise|Mittel|Laut]
+modules.attachments.SC2:noteCreateTrack=Spur hinzufügen
+modules.attachments.SC2:noteRemoveTrack=Letze Spur entfernen
+modules.attachments.SC2:noteActivateInstrument=[%1] aktivieren
+modules.attachments.SC2:noteDeactivateInstrument=Notenblockeinstellungen löschen
+modules.attachments.SC2:noteDelay=Verzögerung anpassen. Aktuelle Verzögerung: [%1]
+modules.attachments.SC2:noteAdd=Note in Spur #[%1] hinzufügen
+modules.attachments.SC2:noteRemove=Aus Spur #[%1] die Note rechstaußen löschen
+modules.attachments.SC2:noteVolume=Spurlautstärke: [%1->Stumm|Leise|Mittel|Laut]
