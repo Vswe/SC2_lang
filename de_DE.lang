@@ -26,12 +26,12 @@ gui.SC2:currentSetting=Zur Zeit
 gui.SC2:changeTransferDirection=Verändere Übertragungsrichtung
 gui.SC2:directionToCart=Zur Lore
 gui.SC2:directionFromCart=Von der Lore
-gui.SC2:changeTurnBack=Ändere Umkehreinstellung
+gui.SC2:changeTurnBack=Umkehreinstellung
 gui.SC2:turnBackDisabled=Keine Seite ausgewählt
 gui.SC2:turnBack=Kehrt um nach Übertragung
 gui.SC2:continueForward=Setzt nach Übertragung fort
 gui.SC2:changeTransferSize=Ändert Übrteragungsgröße
-gui.SC2:changeSide=Ändert Seite
+gui.SC2:changeSide=Gebundene Seite
 gui.SC2:currentSide=Aktuelle Seite
 gui.SC2:sideRed=Rot
 gui.SC2:sideBlue=Blau
@@ -41,8 +41,8 @@ gui.SC2:sideDisabled=Deaktiviert
 
 # Cargo manager gui localization
 gui.SC2:cargoManager=Cargo
-gui.SC2:changeSlotLayout=Ändert die Slotgestaltung
-gui.SC2:layoutShared=Alle Slots werden von allen Seiten benutzt werden
+gui.SC2:changeSlotLayout=Ändert die Slotnutzung
+gui.SC2:layoutShared=Alle Slots werden von allen Seiten benutzt
 gui.SC2:layoutSide=Jede Seite hat ihre eigenen Slots
 gui.SC2:layoutColor=Jede Farbe hat ihren eigenen Slot
 gui.SC2:transferAll=Übertrage so viel wie möglich
@@ -56,7 +56,7 @@ gui.SC2:unknownAreaMessage=Unbekannte Option
 gui.SC2:cartAreaAll=Alle Slots
 gui.SC2:cartAreaEngine=Motoren
 gui.SC2:cartAreaRailer=Schienenleger
-gui.SC2:cartAreaStorage=Aufbewahrungsslots
+gui.SC2:cartAreaStorage=Truhenslots
 gui.SC2:cartAreaTorches=Fackeln
 gui.SC2:cartAreaExplosives=Sprengstoff
 gui.SC2:cartAreaArrows=Pfeile
@@ -70,8 +70,8 @@ gui.SC2:cartAreaCakes=Kuchen
 
 # Liquid manager gui localization
 gui.SC2:liquidManager=Flüssigkeit
-gui.SC2:changeTankLayout=Ändere Tankgestaltung
-gui.SC2:layoutSharedTanks=Alle Tanks werden von allen Seiten benutzt werden
+gui.SC2:changeTankLayout=Ändere Tanknutzung
+gui.SC2:layoutSharedTanks=Alle Tanks werden von allen Seiten benutzt
 gui.SC2:layoutSidedTanks=Jede Seite hat ihren eigenen Slot
 gui.SC2:layoutColorTanks=Jede Farbe hat ihre(n) eigenen Tank(s)
 gui.SC2:transferAllLiquid=Übertrage so viel wie möglich
@@ -101,10 +101,10 @@ gui.SC2:sideName=[%1] Seite
 gui.SC2:dropInstruction=Hier hin, um diese Einstellung hinzuzufügen
 gui.SC2:removeInstruction=Rechtsklick um es zu löschen
 gui.SC2:distributorAll=Alle
-gui.SC2:distributorRed=Rote
-gui.SC2:distributorBlue=Blaue
-gui.SC2:distributorYellow=Gelbe
-gui.SC2:distributorGreen=Grüne
+gui.SC2:distributorRed=Rot
+gui.SC2:distributorBlue=Blau
+gui.SC2:distributorYellow=Gelb
+gui.SC2:distributorGreen=Grün
 gui.SC2:distributorTopLeft=Oben Links
 gui.SC2:distributorTopRight=Oben Rechts
 gui.SC2:distributorBottomLeft=Unten Links
@@ -114,10 +114,10 @@ gui.SC2:distributorFromCart=Von der Lore
 gui.SC2:managerTop=Oberer Manager
 gui.SC2:managerBot=Unterer Manager
 gui.SC2:distributorSideOrange=Orange
-gui.SC2:distributorSidePurple=Violett
-gui.SC2:distributorSideYellow=Gelb
-gui.SC2:distributorSideGreen=Grün
-gui.SC2:distributorSideBlue=Blau
+gui.SC2:distributorSidePurple=Violette
+gui.SC2:distributorSideYellow=Gelbe
+gui.SC2:distributorSideGreen=Grüne
+gui.SC2:distributorSideBlue=Blaue
 gui.SC2:distributorSideRed=Rot
 gui.SC2:sideToolTip=Side: [%1]
 
@@ -142,9 +142,9 @@ gui.SC2:operatorRedstoneSouth=Südlicher Redstone Input
 gui.SC2:operatorRedstoneEast=Östlicher Redstone Input
 gui.SC2:stateRails=Hat Schienenvorräte
 gui.SC2:stateTorches=Hat Fackelvorräte
-gui.SC2:stateSaplings=Hat Setlingvorräte
+gui.SC2:stateSaplings=Hat Setzling
 gui.SC2:sateSeeds=Hat Samenvorräte
-gui.SC2:stateBridge=Hat Brückenvorräte
+gui.SC2:stateBridge=HatBrückenmaterial
 gui.SC2:stateProjectiles=Hat Projektilvorräte
 gui.SC2:stateFertilizing=Hat Düngervorräte
 gui.SC2:stateShield=Ist das Schild aktiv
@@ -182,9 +182,9 @@ gui.SC2:stateZombieVillager=Hat Zombiedorfbewohner als Passagier
 gui.SC2:stateChild=Hat Baby als Passagier
 gui.SC2:stateTamed=Hat einen gezähmten Passagier
 gui.SC2:statePowerRed=Ist Kraftbeobachter[Rot] aktiv
-gui.SC2:statePowerBlue=Ist Kraftbeobachte[Blau] aktiv
-gui.SC2:statePowerGreen=Ist Kraftbeobachte[Grün] aktiv
-gui.SC2:statePowerYellow=Ist Kraftbeobachte[Gelb] aktiv
+gui.SC2:statePowerBlue=Ist Kraftbeobachter [Blau] aktiv
+gui.SC2:statePowerGreen=Ist Kraftbeobachter [Grün] aktiv
+gui.SC2:statePowerYellow=Ist Kraftbeobachter [Gelb] aktiv
 gui.SC2:stateTanksFull=Sind die Tanks komplett voll
 gui.SC2:stateTanksEmpty=Sind die Tanks komplett leer
 gui.SC2:stateTankEmpty=Ist ein Tank komplett leer
@@ -421,7 +421,7 @@ item.SC2:quick_demolisher.name=Upgrade: Schneller Demolierer
 item.SC2:manager_bridge.name=Upgrade: Managerbrücke
 item.SC2:entropy.name=Upgrade: Entropie
 item.SC2:solar_panel.name=Upgrade: Sonnenkollektor
-item.SC2:thermal_engine.name=Upgrade: Verbrennungsmotor
+item.SC2:thermal_engine_upgrade.name=Upgrade: Wärmekraftmotor
 
 # Detector Units
 item.SC2:BlockDetector0.name=Detektorenmanager
@@ -429,9 +429,6 @@ item.SC2:BlockDetector1.name=Detektoreneinheit
 item.SC2:BlockDetector2.name=Detektorenstation
 item.SC2:BlockDetector3.name=Detektorenkreuzung
 item.SC2:BlockDetector4.name=Detektorenredstone Einheit
-
-
-----
 
 # Categories
 info.SC2:moduleCategoryHull=Hülle
@@ -487,15 +484,20 @@ info.SC2:complexityOverloadError=[%1] ist zu komplex für diese Hülle.
 info.SC2:missingParentError=[%1] benötigt [%2] um zu funktionieren!
 info.SC2:presentNemesisError=[%1] wird nicht mit [%2] funktionieren
 info.SC2:presentDuplicateError[%1] ist nicht zwei Mal erlaubt.
-info.SC2:sideClashError=[%1] und [%2] wird [%3] kollidieren.
-
+info.SC2:sideClashError=[%1] und [%2] wird auf der [%3] Seite kollidieren.
+info.SC2:toolUnbreakable=Unzerstörbar
+info.SC2:toolDurability=Haltbarkeit: [%1]%
+info.SC2:modularCapacity=Modulkapazität: [%1]
+info.SC2:complexityCap=Maximale Komplexität: [%1]
+info.SC2:maxEngineCount=Maximale Motorenanzahl: [%1]
+info.SC2:maxAddonCount=Maximale Zusatzanzahl: [%1]
 
 # ======================================
                                 UPGRADES
 # ======================================
 
 info.SC2:effectBlueprint=Aktviert die Benutzung von Entwurfloren.
-info.SC2:effectCombustionFuel=Aktiviert Standardkraftstoffe.
+info.SC2:effectCombustionFuel=Erlaubt die Nutzung von allen Kraftstoffen.
 info.SC2:effectDeployer=Aktiviert die Bereitstellung von fertiggestellten Loren.
 info.SC2:effectDisassemble=Erlaubt, Loren auseinanderzunehmen und zu modifizieren.
 info.SC2:effectFuelCapacity=Kraftstoffkapazität [%1]
@@ -507,7 +509,7 @@ info.SC2:effectRedstone=Aktiviert Redstone-kontrolliertes montieren.
 info.SC2:effectSolar=Generiert Kraft während das Upgrade unter der Sonne steht.
 info.SC2:effectThermal=Versorgt den Monteur mit Kraft druch Lava im Internen Tank.
 info.SC2:effectTimeFlat=Modulmontierungszeit [%1] [%1:Sekunde|Sekunden]
-info.SC2:effectTimeFlatCart=Lorenmontierungszwei [%1] [%1:Sekunde|Sekunden]
+info.SC2:effectTimeFlatCart=Lorenmontierungszeit [%1] [%1:Sekunde|Sekunden]
 info.SC2:effectTimeFlatRemove=Modulauseinandernehmzeit [%1] [%1:Sekunde|Sekunden]
 info.SC2:effectTransposer=Kann Loren zur Modifikation aufnehmen.
 info.SC2:effectEfficiency=Montierungseffizienz [%1]%
@@ -603,7 +605,7 @@ modules.tools.SC2:toolRepairInstruction=Repariere dieses Werkzeug mit [%1].
 modules.tools.SC2:toolUnbreakable=Dieses Werkzeug ist unzerstörbar.
 modules.tools.SC2:toolUnbreakableRepairError=Entferne die Reparaturmaterialen.
 modules.tools.SC2:drillTitle=Bohrer
-modules.tools.SC2:drillToggle=[%1->Aktiviert|Disaktivert] Bohrer
+modules.tools.SC2:drillToggle=[%1->Aktiviert|Deaktivert] Bohrer
 modules.tools.SC2:repairDiamonds=Diamanten
 modules.tools.SC2:repairIron=Eisenbarren
 modules.tools.SC2:farmerTitle=Farmer
@@ -612,7 +614,7 @@ modules.tools.SC2:cutterTitle=Halzfäller
 # Attachments
 modules.attachments.SC2:fertilizers=Dünger
 modules.attachments.SC2:railerTitle=Aufgleisgerät
-modules.attachments.SC2:controlSystemTitle=Fortgeschrittenes Kontrollsystem
+modules.attachments.SC2:controlSystemTitle=Fortgeschr. Kontrsys.
 modules.attachments.SC2:controlSystemDistanceUnits=[%1->|k|M|G|T|P]m
 modules.attachments.SC2:controlSystemOdoMeter=GES
 modules.attachments.SC2:controlSystemTripMeter=REISE
