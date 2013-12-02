@@ -659,3 +659,64 @@ modules.attachments.SC2:noteAdd=Add note to track #[%1]
 modules.attachments.SC2:noteRemove=Remove rightmost note from track #[%1]
 modules.attachments.SC2:noteVolume=Track volume: [%1->Muted|Low|Medium|High]
 
+
+# ======================================
+				Steve's Arcade 
+# ======================================
+# need beta 3 for these ones to show up (remove this note)
+# Ghast Invaders
+arcade.SC2:ghastInvaders=Ghast Invaders
+arcade.SC2:ghastLives=Extra lives
+arcade.SC2:highScore=High Score: [%1]
+arcade.SC2:score=Score: [%1]
+arcade.SC2:instructionShoot=Shoot
+arcade.SC2:instructionLeft=Move left
+arcade.SC2:instructionRight=Move right
+arcade.SC2:instructionRestart=Restart
+arcade.SC2:creeperSweeper=Creeper Sweeper
+arcade.SC2:creeperMapName1=Tiny
+arcade.SC2:creeperMapName2=Medium
+arcade.SC2:creeperMapName3=Large
+arcade.SC2:creepersLeft=Creepers left:  [%1]
+arcade.SC2:creeperTime=Time spent: [%1]s
+arcade.SC2:instructionChangeMap=Change map size
+arcade.SC2:creeperCurrentMap=Current [%1]
+arcade.SC2:creeperHighScores=High Scores
+arcade.SC2:creeperHighScore=[%1]: [%2]s
+arcade.SC2:mobStacker=Mob Stacker
+arcade.SC2:stackerRemovedLines=Removed lines: [%1]
+arcade.SC2:stackerRemovedLinesCombo=Removed [%1->single|double|triple|quadruple] lines: [%2]
+arcade.SC2:instructionRotate=Rotate
+arcade.SC2:instructionDrop=Drop
+arcade.SC2:trackOperator=Track Operator
+arcade.SC2:operatorSaveError=Failed to save
+arcade.SC2:operatorSave=Save
+arcade.SC2:operatorUserCreatedMaps=User created maps
+arcade.SC2:operatorStories=Stories
+arcade.SC2:operatorHelp=For information on how to play just go into the Story mode and start 'The Beginning' story. To make your own map, go into the map editor and create a new map. Further instructions will be in there. Click on a detector rail and then on a junction if you want them to be connected. If you need more info, check the wiki.
+arcade.SC2:instructionTrackShape=Select track shape
+arcade.SC2:instructionRotateTrack=Rotate track
+arcade.SC2:instructionFlipTrack=Flip track
+arcade.SC2:instructionDefaultDirection=Change default direction
+arcade.SC2:instructionTrackType=Change track type
+arcade.SC2:instructionDeleteTrack=Delete track
+arcade.SC2:instructionCopyTrack=Copy track
+arcade.SC2:instructionMoveSteve=Move or rotate Steve
+arcade.SC2:instructionMoveMap=Move map
+arcade.SC2:instructionPlaceTrack=Place track
+arcade.SC2:instructionDeselectTrack=Deselect track
+arcade.SC2:leftMouseButton=LMouse
+arcade.SC2:rightMouseButton=RMouse
+arcade.SC2:buttonStart=Start
+arcade.SC2:buttonMenu=Menu
+arcade.SC2:buttonStop=Stop
+arcade.SC2:buttonNextLevel=Next Level
+arcade.SC2:buttonStartLevel=Start Level
+arcade.SC2:buttonSelectStory=Select Story
+arcade.SC2:buttonSelectStoryOther=Select another Story
+arcade.SC2:buttonCreateLevel=Create Level
+arcade.SC2:buttonEditLevel=Edit Level
+arcade.SC2:buttonRefreshList=Refresh List
+arcade.SC2:buttonSave=Save
+arcade.SC2:buttonSaveAs=Save as...
+arcade.SC2:buttonCancel=Cancel
