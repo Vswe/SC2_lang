@@ -1,0 +1,96 @@
+# ======================================
+                                BLOCK GUI
+# ======================================
+
+# Cart assembler gui localization
+gui.SC2:cartAssembler=Cesta ensamblador
+gui.SC2:basicAssembleInstruction=Para empezar a hacer una compra, por favor, añadir un carrito de casco de su elección a la ranura del casco.
+gui.SC2:invalidHullError=El carro del casco añadido a la ranura del casco no es un casco válida. Esto no debería ser posible por lo que probablemente ha hecho algo extraño.
+gui.SC2:hullCapacity=capacidad del casco
+gui.SC2:complexityCap=tapa de complejidad
+gui.SC2:totalCost=costo total
+gui.SC2:totalTime=Tiempo total
+gui.SC2:readyMessage=Listo para ensamblar el carro!
+gui.SC2:assembleProgress=Progreso
+gui.SC2:timeLeft=Tiempo restante
+gui.SC2:idleAssemblerMessage=El montador es actualmente inactivo
+gui.SC2:modifyCart=Modificar cesta
+gui.SC2:assembleCart=Ensamble cesta
+gui.SC2:fuelLevel=El nivel de combustible
+
+
+# Cargo manager and Liquid manager shared gui localization
+gui.SC2:manager=Gerente
+gui.SC2:currentSetting=Actualmente
+gui.SC2:changeTransferDirection=Cambiar la dirección de la transferencia
+gui.SC2:directionToCart=Para el carro
+gui.SC2:directionFromCart=Desde el carro
+gui.SC2:changeTurnBack=Cambie volver ajustes
+gui.SC2:turnBackDisabled=Ningún equipo seleccionado
+gui.SC2:turnBack=Gire de nuevo después de la transferencia
+gui.SC2:continueForward=Continuar a lo largo después de la transferencia
+gui.SC2:changeTransferSize=Cambiar tamaño de la transferencia
+gui.SC2:changeSide=cambie lado
+gui.SC2:currentSide=lateral actual
+gui.SC2:sideRed=Rojo
+gui.SC2:sideBlue=Azul
+gui.SC2:sideYellow=Amarillo
+gui.SC2:sideGreen=Verde
+gui.SC2:sideDisabled=discapacitado
+
+# Cargo manager gui localization
+gui.SC2:cargoManager=Charge
+gui.SC2:changeSlotLayout=Cambiar la apariencia de la ranura
+gui.SC2:layoutShared=Todas las ranuras son compartidos por todos los lados
+gui.SC2:layoutSide=Cada lado tiene sus propias ranuras
+gui.SC2:layoutColor=Cada color tiene sus propias ranuras
+gui.SC2:transferAll=Transferencia tanto como sea posible
+gui.SC2:transferItems=Transferir un máximo de [%1] [%2:material|materiales]
+gui.SC2:transferStacks=Transferir un máximo de [%1] [%2:pila|pilas]
+gui.SC2:transferAllShort=MAX
+gui.SC2:transferItemsShort=M
+gui.SC2:transferStacksShort=P
+gui.SC2:changeTransferCartArea=Cambiar parte de la cesta
+gui.SC2:unknownAreaMessage=opción desconocida
+gui.SC2:cartAreaAll=Todas las ranuras
+gui.SC2:cartAreaEngine=Motor
+gui.SC2:cartAreaRailer=Railers
+gui.SC2:cartAreaStorage=ranuras de almacenamiento
+gui.SC2:cartAreaTorches=Linternas
+gui.SC2:cartAreaExplosives=Explosivos
+gui.SC2:cartAreaArrows=flechas
+gui.SC2:cartAreaBridge=material de Puente
+gui.SC2:cartAreaSeeds=Semillas
+gui.SC2:cartAreaFertilizer=Fertilizante
+gui.SC2:cartAreaSaplings=Plantones
+gui.SC2:cartAreaFirework=Firework
+gui.SC2:cartAreaBuckets=Cucharones (por ordeñador)
+gui.SC2:cartAreaCakes=Tortas
+
+
+
+# Liquid manager gui localization
+gui.SC2:liquidManager=Líquido
+gui.SC2:changeTankLayout=Cambiar el diseño del tanque
+gui.SC2:layoutSharedTanks=Todos los tanques son compartidos por todos los lados
+gui.SC2:layoutSidedTanks=Cada lado tiene su propio tanque
+gui.SC2:layoutColorTanks=Cada color tiene su propio tanque(s)
+gui.SC2:transferAllLiquid=Transferencia tanto como sea posible
+gui.SC2:transferBuckets=Transferencia de un máximo de [%1]
+gui.SC2:transferAllLiquidShort=MAX
+gui.SC2:transferBucketShort=C
+
+# Module Toggler gui localization
+gui.SC2:moduleToggler=Módulo Toggler
+gui.SC2:optionDrill=Taladro
+gui.SC2:optionShield=Escudo
+gui.SC2:optionInvisibility=Invisibilidad
+gui.SC2:optionChunk=Chunk carga
+gui.SC2:optionCageAuto=Auto Jaula recoger
+gui.SC2:optionCage=Jaula recoger
+gui.SC2:settingDisabled=Discapacitado
+gui.SC2:settingOrange=dirección naranja
+gui.SC2:settingBlue=dirección azul
+gui.SC2:stateActivate=Activar
+gui.SC2:stateDeactivate=Desactivar
+gui.SC2:stateToggle=Palanca
