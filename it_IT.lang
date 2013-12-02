@@ -3,20 +3,20 @@
 # ======================================
 
 # Cart assembler gui localization
-gui.SC2:cartAssembler=Cart Assembler
-gui.SC2:basicAssembleInstruction=To start making a cart, please add a Cart Hull of your choice to the Hull Slot.
-gui.SC2:invalidHullError=The Cart Hull added to the Hull Slot is not a valid Hull. This should not be possible so you've probably done something strange.
-gui.SC2:hullCapacity=Hull capacity
-gui.SC2:complexityCap=Complexity cap
-gui.SC2:totalCost=Total cost
-gui.SC2:totalTime=Total Time
-gui.SC2:readyMessage=Ready to assemble cart!
-gui.SC2:assembleProgress=Progress
-gui.SC2:timeLeft=Time left
-gui.SC2:idleAssemblerMessage=The assembler is currently idle
-gui.SC2:modifyCart=Modify cart
-gui.SC2:assembleCart=Assemble cart
-gui.SC2:fuelLevel=Fuel level
+gui.SC2:cartAssembler=Assemblatore di cart
+gui.SC2:basicAssembleInstruction=Per iniziare a costruire un Cart, inserisci una carena di tua scelta nello slot carena Cart.
+gui.SC2:invalidHullError=La carena che hai aggiunto nello slot non è valida. Normalmente non sarebbe possibile, quindi devi aver fatto qualcosa di strano.
+gui.SC2:hullCapacity=Capienza carena
+gui.SC2:complexityCap=Tetto di complessità
+gui.SC2:totalCost=Costo totale
+gui.SC2:totalTime=Tempo totale
+gui.SC2:readyMessage=Pronto a costruire il cart!
+gui.SC2:assembleProgress=Progresso
+gui.SC2:timeLeft=Tempo rimanente
+gui.SC2:idleAssemblerMessage=L'assemblatore è in stato di inattività
+gui.SC2:modifyCart=Modifica cart
+gui.SC2:assembleCart=Assembla cart
+gui.SC2:fuelLevel=Livello carburante
 
 
 # Cargo manager and Liquid manager shared gui localization
