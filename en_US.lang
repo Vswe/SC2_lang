@@ -720,3 +720,34 @@ arcade.SC2:buttonRefreshList=Refresh List
 arcade.SC2:buttonSave=Save
 arcade.SC2:buttonSaveAs=Save as...
 arcade.SC2:buttonCancel=Cancel
+#This one is slightly ugly, will probably be re-named later
+stories.beginning.SC2:mapEditor=Map Editor
+
+# Story - The beginning
+stories.beginning.SC2:title=The beginning
+stories.beginning.SC2:mission=Steve is on a mission, he needs to get the map to find the next level.
+stories.beginning.SC2:start=Press the Start button to the right.
+stories.beginning.SC2:stop=If you want you can now press the Stop button to stop him.
+stories.beginning.SC2:map=Steve now has the map, press the Next Level button to continue.
+stories.beginning.SC2:trackOperator=You are The Track Operator, your job is to make sure that the rails are set up properly. Click on the junctions to change their directions before pressing the Start button.
+stories.beginning.SC2:goodJob=Good job. That's the way to do it.
+stories.beginning.SC2:changeJunctions=You can always press the Stop button and change how the junctions are set up.
+stories.beginning.SC2:blast=Steve thinks it's a blast to ride his Minecart but sometimes it gets too much. For instance if he loops forever. Good luck.
+stories.beginning.SC2:steel=There are always bumps in the road, for a Track Operator those are called Steel Rails. Steel Rail Junctions can't be changed, good luck.
+stories.beginning.SC2:detector=Detector rails can both be your friends and your enemies. When Steve moves over a detector rail a number of junctions may change, even steel junctions. To see which junctions will be affected, hover your mouse over a detector rail.
+stories.beginning.SC2:outOfReach=Just out of reach...
+stories.beginning.SC2:outOfReach2=...but that doesn't stop you.
+stories.beginning.SC2:longJourney=After a long journey Steve can see the end of his long path...
+stories.beginning.SC2:end=...but everything doesn't always go as planned. While you're waiting for more stories to play you can create and share your own maps. Go to the map editor tab in the menu to start making a map.
+stories.beginning.SC2:thanks=Thank you for playing! :)
+stories.beginning.SC2:level1=A new day
+stories.beginning.SC2:level2=The Operator
+stories.beginning.SC2:level3=Escape the loop
+stories.beginning.SC2:level4=Hard as steel
+stories.beginning.SC2:level5=Moving world
+stories.beginning.SC2:level6=The code lock
+stories.beginning.SC2:level7=So close
+stories.beginning.SC2:level8=Madness
+stories.beginning.SC2:level9=The cake
+
+
