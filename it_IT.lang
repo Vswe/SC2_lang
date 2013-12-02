@@ -3,28 +3,28 @@
 # ======================================
 
 # Cart assembler gui localization
-gui.SC2:cartAssembler=Assemblatore di cart
-gui.SC2:basicAssembleInstruction=Per iniziare a costruire un Cart, inserisci una carena di tua scelta nello slot carena Cart.
+gui.SC2:cartAssembler=Assemblatore di carrelli
+gui.SC2:basicAssembleInstruction=Per iniziare a costruire un carrello, inserisci una carena di tua scelta nello slot carena carrello.
 gui.SC2:invalidHullError=La carena che hai aggiunto nello slot non è valida. Normalmente non sarebbe possibile, quindi devi aver fatto qualcosa di strano.
 gui.SC2:hullCapacity=Capienza carena
 gui.SC2:complexityCap=Tetto di complessità
 gui.SC2:totalCost=Costo totale
 gui.SC2:totalTime=Tempo totale
-gui.SC2:readyMessage=Pronto a costruire il cart!
+gui.SC2:readyMessage=Pronto a costruire il carrello!
 gui.SC2:assembleProgress=Progresso
 gui.SC2:timeLeft=Tempo rimanente
 gui.SC2:idleAssemblerMessage=L'assemblatore è in stato di inattività
-gui.SC2:modifyCart=Modifica cart
-gui.SC2:assembleCart=Assembla cart
+gui.SC2:modifyCart=Modifica carrello
+gui.SC2:assembleCart=Assembla carrello
 gui.SC2:fuelLevel=Livello carburante
 
 
 # Cargo manager and Liquid manager shared gui localization
-gui.SC2:manager=Manager
+gui.SC2:manager=Gestore
 gui.SC2:currentSetting=Impostazione correnti
 gui.SC2:changeTransferDirection=Cambia direzione di trasferimento
-gui.SC2:directionToCart=Al cart
-gui.SC2:directionFromCart=Dal cart
+gui.SC2:directionToCart=Al carrello
+gui.SC2:directionFromCart=Dal carrello
 gui.SC2:changeTurnBack=Cambia le impostazioni di ritorno
 gui.SC2:turnBackDisabled=Nessun lato selezionato
 gui.SC2:turnBack=Torna indietro dopo il trasferimento
@@ -50,7 +50,7 @@ gui.SC2:transferStacks=Trasferisci al massimo [%1] [%2:pila|pile]
 gui.SC2:transferAllShort=MAX
 gui.SC2:transferItemsShort=O
 gui.SC2:transferStacksShort=P
-gui.SC2:changeTransferCartArea=Trasferisci parte del cart
+gui.SC2:changeTransferCartArea=Trasferisci parte del carrello
 gui.SC2:unknownAreaMessage=Opzione sconosciuta
 gui.SC2:cartAreaAll=Tutti gli slot
 gui.SC2:cartAreaEngine=Motore
@@ -70,15 +70,15 @@ gui.SC2:cartAreaCakes=Torte
 
 
 # Liquid manager gui localization
-gui.SC2:liquidManager=Liquid
-gui.SC2:changeTankLayout=Change tank layout
-gui.SC2:layoutSharedTanks=All tanks are shared by all sides
-gui.SC2:layoutSidedTanks=Each side has its own tank
-gui.SC2:layoutColorTanks=Each color has its own tank(s)
-gui.SC2:transferAllLiquid=Transfer as much as possible
-gui.SC2:transferBuckets=Transfer a maximum of [%1]
+gui.SC2:liquidManager=Liquidi
+gui.SC2:changeTankLayout=Cambia la disposizione del serbatoio
+gui.SC2:layoutSharedTanks=Tutti i serbatoi sono condivisi da tutti i lati
+gui.SC2:layoutSidedTanks=Ogni lato ha il suo serbatoio
+gui.SC2:layoutColorTanks=Ogni colore ha i suoi serbatoi
+gui.SC2:transferAllLiquid=Trasferisci quanto più possibile
+gui.SC2:transferBuckets=Trasferisci un massimo di [%1] secchi
 gui.SC2:transferAllLiquidShort=MAX
-gui.SC2:transferBucketShort=B
+gui.SC2:transferBucketShort=S
 
 # Module Toggler gui localization
 gui.SC2:moduleToggler=Module Toggler
