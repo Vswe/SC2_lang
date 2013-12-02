@@ -20,7 +20,7 @@ Notes about syntax
 
 When you edit the lang files you might encounter some special syntax in it. See the line below for instance
 
-info.SC2:complexityOverloadError=[%1] is too complex for this hull.
+<b>info.SC2:complexityOverloadError=[%1] is too complex for this hull.</b>
 
 The tag [%1] means that something will be put their by the code. It could be anything but usually it's quite easy to get it from the context.
 In the above example the tag will be replaced by the name of the module which is too complex for the hull. This allows you to move this name around.
