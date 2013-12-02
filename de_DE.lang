@@ -1,6 +1,6 @@
 # Cart assembler gui localization
 gui.SC2:cartAssembler=Lorenmonteur
-gui.SC2:basicAssembleInstruction=Um beginnen, eine Lore zu machen, füge eine Hülle deiner Wahl in den Hüllenslot.
+gui.SC2:basicAssembleInstruction=Um beginnen, eine Lore herzustellen, füge eine Hülle deiner Wahl in den Hüllenslot.
 gui.SC2:invalidHullError=Die Lorenhülle im Hüllenslot ist keine gültige Hülle. Das sollte nicht möglich sein, also hast du wahrscheinlich etwas seltsames gemacht.
 gui.SC2:hullCapacity=Hüllenkapazität
 gui.SC2:complexityCap=Maximale Komplexität
@@ -35,7 +35,7 @@ gui.SC2:sideGreen=Grün
 gui.SC2:sideDisabled=Deaktiviert
 
 # Cargo manager gui localization
-gui.SC2:cargoManager=Cargomanager
+gui.SC2:cargoManager=Cargo
 gui.SC2:changeSlotLayout=Ändert Slotgestaltung
 gui.SC2:layoutShared=Alle Slots werden von allen Seiten geteilt
 gui.SC2:layoutSide=Jede Seite hat ihre eigenen Slots
@@ -46,7 +46,7 @@ gui.SC2:transferStacks=Übertrage maximal [%1] [%2:Stack|Stacks]
 gui.SC2:transferAllShort=MAX
 gui.SC2:transferItemsShort=I
 gui.SC2:transferStacksShort=S
-gui.SC2:changeTransferCartArea=Überträgt einen Teil der Lore
+gui.SC2:changeTransferCartArea=Überträgt aus einem Teil der Lore
 gui.SC2:unknownAreaMessage=Unbekannte Option
 gui.SC2:cartAreaAll=Alle Slots
 gui.SC2:cartAreaEngine=Motoren
@@ -448,22 +448,22 @@ info.SC2:moduleGroupToolShooter=[%1:Werkzeug|Werkzeuge] or [%1:Kanone|Kanonen]
 # Messages
 info.SC2:pigExtraMessage=In Gedenken an Vswes Sieg bei "Thunderpig Arena". Danke an alle, die während des Minecraft Marathons 2013 gespendet haben.
 info.SC2:oceanExtraMessage=Platz für einen durchschnittlichen Ozean
-info.SC2:alphaExtraMessage=Ein Jahr Alpha
+info.SC2:alphaExtraMessage=Ein Jahr Alpha!
 info.SC2:storageEmpty=Leer
 info.SC2:storageFull=Voll
-info.SC2:giftStorageFull=Erhält möglicherweise eine Geschenk
+info.SC2:giftStorageFull=Enthält möglicherweise eine Geschenk
 info.SC2:eggStorageFull=Voll von Eiern
 
 # Labels
 info.SC2:modularCost=Modularkosten
-info.SC2:cartSideTop=Oben
-info.SC2:cartSideCenter=Mittle
-info.SC2:cartSideBottom=Unter
-info.SC2:cartSideBack=Hinten
-info.SC2:cartSideLeft=Links
-info.SC2:cartSideRight=Rechts
-info.SC2:cartSideFront=Vorne
-info.SC2:occupiedSides=Übernimmt die [%1] [%2:Seite|Seiten]
+info.SC2:cartSideTop=Obere
+info.SC2:cartSideCenter=Mittlere
+info.SC2:cartSideBottom=Untere
+info.SC2:cartSideBack=Hintere
+info.SC2:cartSideLeft=Linke
+info.SC2:cartSideRight=Rechte
+info.SC2:cartSideFront=Vordere
+info.SC2:occupiedSides=Übernimmt die [%1] [%2:Seite|Seite]
 info.SC2:sidesAnd=und
 info.SC2:noSides=Übernimmt keine Seiten
 info.SC2:moduleConflictHowever=Gibt aber einen Konflikt mit
@@ -479,8 +479,8 @@ info.SC2:impossibleCombinationError=Die Kombinationen der gegebenen Modultypen i
 info.SC2:complexityOverloadError=[%1] ist zu komplex für diese Hülle.
 info.SC2:missingParentError=[%1] benötigt [%2] um zu funktionieren!
 info.SC2:presentNemesisError=[%1] wird nicht mit [%2] funktionieren
-info.SC2:presentDuplicateError[%1] ist nicht doppelt erlaubt.
-info.SC2:sideClashError=[%1] und [%2] wird bei [%3] kollidieren
+info.SC2:presentDuplicateError[%1] ist nicht zwei Mal erlaubt.
+info.SC2:sideClashError=[%1] und [%2] wird [%3] kollidieren
 
 
 # ======================================
@@ -491,19 +491,19 @@ info.SC2:effectBlueprint=Aktviert die Benutzung von Entwurfloren.
 info.SC2:effectCombustionFuel=Aktiviert Standardkraftstoffe.
 info.SC2:effectDeployer=Aktiviert die Bereitstellung von fertiggestellten Loren.
 info.SC2:effectDisassemble=Erlaubt, Loren auseinanderzunehmen und zu modifizieren.
-info.SC2:effectFuelCapacity=Kraftstoffkapazität [%1].
-info.SC2:effectFuelCost=Kraftstoffkosten [%1]%.
+info.SC2:effectFuelCapacity=Kraftstoffkapazität [%1]
+info.SC2:effectFuelCost=Kraftstoffkosten [%1]%
 info.SC2:effectInputChest=Inputtruhe mit [%1] Slots.
 info.SC2:effectManagerBridge=Verbindet den Monteur mit einem Manager.
 info.SC2:effectGenerator=Generiert [%1] [%2:Einheit|Einheiten] Kraft pro minute.
 info.SC2:effectRedstone=Aktiviert Redstone-kontrolliertes montieren.
 info.SC2:effectSolar=Generiert Kraft während das Upgrade unter der Sonne steht.
 info.SC2:effectThermal=Versorgt den Monteur mit Kraft druch Lava im Internen Tank.
-info.SC2:effectTimeFlat=Modulmontierungszeit [%1] [%1:Sekunde|Sekunden].
-info.SC2:effectTimeFlatCart=Lorenmontierungszwei [%1] [%1:Sekunde|Sekunden].
-info.SC2:effectTimeFlatRemove=Modulauseinandernehmzeit [%1] [%1:Sekunde|Sekunden].
+info.SC2:effectTimeFlat=Modulmontierungszeit [%1] [%1:Sekunde|Sekunden]
+info.SC2:effectTimeFlatCart=Lorenmontierungszwei [%1] [%1:Sekunde|Sekunden]
+info.SC2:effectTimeFlatRemove=Modulauseinandernehmzeit [%1] [%1:Sekunde|Sekunden]
 info.SC2:effectTransposer=Kann Loren zur Modifikation aufnehmen.
-info.SC2:effectEfficiency=Montierungseffizienz [%1]%.
+info.SC2:effectEfficiency=Montierungseffizienz [%1]%
 
 # ======================================
                                 MODULES
@@ -561,3 +561,78 @@ modules.addons.SC2:recipeChangeLimit=[%1->Erhöhe|Verringere] maximal gelagerte 
 modules.addons.SC2:recipeChangeLimit10=Shiftklick, um die Anzahl um 10 zu ändern.
 modules.addons.SC2:recipeChangeLimit64=Strg-klick, um die Anzahl um 64 zu ändern.
 modules.addons.SC2:shieldToggle=[%1->Aktiviert|Deaktiviert] Schild
+
+
+
+# Engines
+modules.engines.SC2:creativePowerLevel=Kraftpegel: [%1]
+modules.engines.SC2:coalEngineTitle=Kohle-Motor
+modules.engines.SC2:outOfFuel=Kein Kraftstoff
+modules.engines.SC2:fuelLevel=Kraftstoff: [%1]
+modules.engines.SC2:solarEngineTitle=Solarmotor
+modules.engines.SC2:outOfPower=Keine Kraft
+modules.engines.SC2:powerLevel=Kraft: [%1]
+modules.engines.SC2:thermalEngineTitle=Verbrennungsmotor
+modules.engines.SC2:thermalPowered=Angetrieben
+modules.engines.SC2:outOfWater=Kein Wasser
+modules.engines.SC2:outOfLava=Keine Lava
+
+# Tanks
+modules.tanks.SC2:creativeTankMode=Aktueller Kreativmodus: [%1][%2->Normal|Immer voll|Immer leer|Immer zur Hälfte]
+modules.tanks.SC2:creativeTankChangeMode=Rechtsklick, um zu ändern
+modules.tanks.SC2:creativeTankResetMode=Shift-Rechtsklick, um den Einsetllung zurückzusetzen
+modules.tanks.SC2:tankLocked=Gebunden zu dieser Flüssigkeit
+modules.tanks.SC2:tankLock=Klicke, um zu dieser Flüssigkeit zu binden
+modules.tanks.SC2:tankUnlock=Klicken, um den Bund zu entfernen
+modules.tanks.SC2:tankEmpty=Leer
+modules.tanks.SC2:tankInvalidFluid=Unbekannt
+
+# Tools
+modules.tools.SC2:toolDurability=Haltbarkeit
+modules.tools.SC2:toolBroken=Kaputt
+modules.tools.SC2:toolRepairing=Werkzeug wird zur Zeit repariert.
+modules.tools.SC2:toolDecent=Entferne die Reparaturmaterialen, das Werkzeug, es ist immer noch ziemlich gut.
+modules.tools.SC2:toolRepairInstruction=Repariere dieses Werkzeug mit [%1].
+modules.tools.SC2:toolUnbreakable=Dieses Werkzeug ist unzerstörbar.
+modules.tools.SC2:toolUnbreakableRepairError=Entferne die Reparaturmaterialen.
+modules.tools.SC2:drillTitle=Bohrer
+modules.tools.SC2:drillToggle=[%1->Aktiviert|Disaktivert] Bohrer
+modules.tools.SC2:repairDiamonds=Diamanten
+modules.tools.SC2:repairIron=Eisenbarren
+modules.tools.SC2:farmerTitle=Farmer
+modules.tools.SC2:cutterTitle=Halzfäller
+
+# Attachments
+modules.attachments.SC2:fertilizers=Dünger
+modules.attachments.SC2:railerTitle=Aufgleisgerät
+modules.attachments.SC2:controlSystemTitle=Fortgeschrittenes Kontrollsystem
+modules.attachments.SC2:controlSystemDistanceUnits=[%1->|k|M|G|T|P]m
+modules.attachments.SC2:controlSystemOdoMeter=GES
+modules.attachments.SC2:controlSystemTripMeter=REISE
+modules.attachments.SC2:cageAutoPickUp=[%1->Aktivert|Deaktiviert] automatisches aufsammeln
+modules.attachments.SC2:cagePickUp=[%1->Schnappt die nächste Kreatur|Lässt die nächste Kreatur frei]
+modules.attachments.SC2:cakeServerTitle=Kuchenservierer
+modules.attachments.SC2:cakesLabel=Kuchen: [%1] / [%2]
+modules.attachments.SC2:slicesLabel=Stücke: [%1] / [%2]
+modules.attachments.SC2:explosivesTitle=Sprengstoff
+modules.attachments.SC2:experienceTitle=Erfahrung
+modules.attachments.SC2:experienceLevel=Erfahrungspegel: [%1] / [%2]
+modules.attachments.SC2:experienceExtract=Klicken, um 50 Erfahrung herauszunehmen
+modules.attachments.SC2:experiencePlayerLevel=Dein aktuelles Level ist [%1]
+modules.attachments.SC2:shooterTitle=Kanone
+modules.attachments.SC2:shooterFrequency=#/s
+modules.attachments.SC2:shooterSeconds=s
+modules.attachments.SC2:shooterDelay=Verzägerung
+modules.attachments.SC2:notePiano=Klavier
+modules.attachments.SC2:noteBassDrum=Bass Drum
+modules.attachments.SC2:noteSnareDrum=Snare Drum
+modules.attachments.SC2:noteSticks=Stäbe
+modules.attachments.SC2:noteBassGuitar=Bassgitarre
+modules.attachments.SC2:noteCreateTrack=Erstellt neue Aufnahme
+modules.attachments.SC2:noteRemoveTrack=Entfernt untere Aufnahme
+modules.attachments.SC2:noteActivateInstrument=Aktiviert [%1]
+modules.attachments.SC2:noteDeactivateInstrument=Entfernt Notenblockeinstellung
+modules.attachments.SC2:noteDelay=Ändert Verzögerung. Aktuelle Verzögerung: [%1]
+modules.attachments.SC2:noteAdd=Fügt Note zur Aufnahme #[%1] hinzu
+modules.attachments.SC2:noteRemove=Entfernt die ganz rechte Note von der Aufnahme #[%1]
+modules.attachments.SC2:noteVolume=Track volume: [%1->Stumm|Leise|Mittel|Laut]
