@@ -421,7 +421,7 @@ item.SC2:quick_demolisher.name=Upgrade: Schneller Demolierer
 item.SC2:manager_bridge.name=Upgrade: Managerbrücke
 item.SC2:entropy.name=Upgrade: Entropie
 item.SC2:solar_panel.name=Upgrade: Sonnenkollektor
-item.SC2:thermal_engine.name=Upgrade: Verbrennungsmotor
+item.SC2:thermal_engine_upgrade.name=Upgrade: Wärmekraftmotor
 
 # Detector Units
 item.SC2:BlockDetector0.name=Detektorenmanager
