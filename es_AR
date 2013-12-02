@@ -492,6 +492,12 @@ info.SC2:missingParentError=[%1] necesita [%2] para funcionar!
 info.SC2:presentNemesisError=[%1] no funcionará con [%2]
 info.SC2:presentDuplicateError[%1] no tiene permitido ser añadido dos veces.
 info.SC2:sideClashError=[%1] y [%2] no irá junto a [%3]
++info.SC2:toolUnbreakable=Indestructible
++info.SC2:toolDurability=Durabilidad: [%1]%
++info.SC2:modularCapacity=Capacidad modular: [%1]
++info.SC2:complexityCap=Tope de complejidad modular: [%1]
++info.SC2:maxEngineCount=Máximo de motores: [%1]
++info.SC2:maxAddonCount=Máximo de adicionales: [%1]
 
 
 # ======================================
