@@ -13,6 +13,10 @@ gui.SC2:idleAssemblerMessage=Vagnverkstaden används inte just nu
 gui.SC2:modifyCart=Modifiera vagnen
 gui.SC2:assembleCart=Konstruera vagnen
 gui.SC2:fuelLevel=Bränslenivå
+gui.SC2:noHullError=Inget skrov!
+gui.SC2:invalidHullErrorShort=Skrovet du lagt i är inte ett riktigt skrov.
+gui.SC2:busyAssemblerError=Verkstaden jobbar redan!
+gui.SC2:departureBayError=Det finns en vagn i vagnsplaceraren.
 
 # Cargo manager and Liquid manager shared gui localization
 gui.SC2:manager=Hanterare
@@ -400,12 +404,12 @@ item.SC2:BlockStorage2.name=Förbättrat Galgadoriskt block
 # Upgrades
 item.SC2:batteries.name=Uppgradering: Batterier
 item.SC2:power_crystal.name=Uppgradering: Energikristall
-item.SC2:module_knowledge.name=Uppgradering: Modul kunskap
+item.SC2:module_knowledge.name=Uppgradering: modulkunskap
 item.SC2:industrial_espionage.name=Uppgradering: industriellt spionage
 item.SC2:experienced_assembler.name=Uppgradering: erfaren monterare
 item.SC2:new_era.name=Uppgradering: ny era
 item.SC2:co2_friendly.name=Uppgradering: miljövänlig
-item.SC2:generic_engine.name=Uppgradering: Normal motor
+item.SC2:generic_engine.name=Uppgradering: normal motor
 item.SC2:module_input.name=Uppgradering: modulingång
 item.SC2:production_line.name=Uppgradering: löpande band
 item.SC2:cart_deployer.name=Uppgradering: vagnplacerare
