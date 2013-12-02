@@ -81,19 +81,19 @@ gui.SC2:transferAllLiquidShort=MAX
 gui.SC2:transferBucketShort=S
 
 # Module Toggler gui localization
-gui.SC2:moduleToggler=Module Toggler
-gui.SC2:optionDrill=Drill
-gui.SC2:optionShield=Shield
-gui.SC2:optionInvisibility=Invisibility
-gui.SC2:optionChunk=Chunk loading
-gui.SC2:optionCageAuto=Cage auto pick up
-gui.SC2:optionCage=Cage pick up
-gui.SC2:settingDisabled=Disabled
-gui.SC2:settingOrange=Orange direction
-gui.SC2:settingBlue=Blue direction
-gui.SC2:stateActivate=Activate
-gui.SC2:stateDeactivate=Deactivate
-gui.SC2:stateToggle=Toggle
+gui.SC2:moduleToggler=Selettore dei moduli
+gui.SC2:optionDrill=Trivella
+gui.SC2:optionShield=Scudo
+gui.SC2:optionInvisibility=Invisibilità
+gui.SC2:optionChunk=Carica-settori
+gui.SC2:optionCageAuto=Raccogliere gabbia automaticamente
+gui.SC2:optionCage=Raccogliere gabbia
+gui.SC2:settingDisabled=Disabilitato
+gui.SC2:settingOrange=Direzione arancione
+gui.SC2:settingBlue=Direzione blu
+gui.SC2:stateActivate=Attivare
+gui.SC2:stateDeactivate=Disattivare
+gui.SC2:stateToggle=On/Off
 
 # External Distributer gui localization
 gui.SC2:externalDistributor=External Distributor
