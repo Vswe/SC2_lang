@@ -18,7 +18,6 @@ gui.SC2:modifyCart=Modificer vogn
 gui.SC2:assembleCart=Saml vogn
 gui.SC2:fuelLevel=Brændstofniveau
 
-
 # Cargo manager and Liquid manager shared gui localization
 gui.SC2:manager=Bestyrer
 gui.SC2:currentSetting=Nuværende
@@ -573,3 +572,170 @@ modules.addons.SC2:recipeChangeLimit=[%1->Hæv|Sænk] antal ting der skal opbeva
 modules.addons.SC2:recipeChangeLimit10=Skift-klik for at ændre med 10.
 modules.addons.SC2:recipeChangeLimit64=Ctrl-klik for at ændre med 64.
 modules.addons.SC2:shieldToggle=[%1->Aktiver|deaktiver] skjold
+
+-----------------------------------------------------------------------------------------
+
+# Engines
+modules.engines.SC2:creativePowerLevel=Energi niveau: [%1]
+modules.engines.SC2:coalEngineTitle=Kulmotor
+modules.engines.SC2:outOfFuel=Ude af brændstof
+modules.engines.SC2:fuelLevel=Brændstof: [%1]
+modules.engines.SC2:solarEngineTitle=Solcellemotor
+modules.engines.SC2:outOfPower=Ude af energi
+modules.engines.SC2:powerLevel=Energi: [%1]
+modules.engines.SC2:thermalEngineTitle=Termisk motor
+modules.engines.SC2:thermalPowered=Energidrevet
+modules.engines.SC2:outOfWater=Ude af Vand
+modules.engines.SC2:outOfLava=Ude af Lava
+
+# Tanks
+modules.tanks.SC2:creativeTankMode=Nuværende kreativ spiltilstand: [%1][%2->Normal|Altid fuld|Altis|Altid halv]
+modules.tanks.SC2:creativeTankChangeMode=Højre-klik fo at ændre
+modules.tanks.SC2:creativeTankResetMode=Skift og Højre-klik for at gå tilbage til normal
+modules.tanks.SC2:tankLocked=Låst til denne væske
+modules.tanks.SC2:tankLock=Klik for at låse til denne væske
+modules.tanks.SC2:tankUnlock=Klik for at låse op
+modules.tanks.SC2:tankEmpty=Tom
+modules.tanks.SC2:tankInvalidFluid=Ukendt
+
+# Tools
+modules.tools.SC2:toolDurability=Holdbarhed
+modules.tools.SC2:toolBroken=I stykker
+modules.tools.SC2:toolRepairing=Reparerer i øjeblikket værktøj
+modules.tools.SC2:toolDecent=Fjern reparetionsmaterialerne, dette værktøj er stadig rimelig ordenlig.
+modules.tools.SC2:toolRepairInstruction=Reparer dette værktøj med [%1]
+modules.tools.SC2:toolUnbreakable=Dette værktøj vil aldrig gå i stykker.
+modules.tools.SC2:toolUnbreakableRepairError=Fjern reparetionsmeterialerne.
+modules.tools.SC2:drillTitle=Bor
+modules.tools.SC2:drillToggle=[%1->Start|Stop] Bor
+modules.tools.SC2:repairDiamonds=Diamander
+modules.tools.SC2:repairIron=Jerbarre
+modules.tools.SC2:farmerTitle=Farmer
+modules.tools.SC2:cutterTitle=Skovhugger
+
+# Attachments
+modules.attachments.SC2:fertilizers=Gødning
+modules.attachments.SC2:railerTitle=Sporudlægger
+modules.attachments.SC2:controlSystemTitle=Adv Kontrol System
+modules.attachments.SC2:controlSystemDistanceUnits=[%1->|k|M|G|T|P]m
+modules.attachments.SC2:controlSystemOdoMeter=Total Distance
+modules.attachments.SC2:controlSystemTripMeter=Tur distance
+modules.attachments.SC2:cageAutoPickUp=[%1->Aktiver|Deaktiver] auto-opsamling
+modules.attachments.SC2:cagePickUp=[%1->Fang nære|Løslad fanget] væsen
+modules.attachments.SC2:cakeServerTitle=Kageserver
+modules.attachments.SC2:cakesLabel=Kager: [%1] / [%2]
+modules.attachments.SC2:slicesLabel=Skiver: [%1] / [%2]
+modules.attachments.SC2:explosivesTitle=Eksplosive
+modules.attachments.SC2:experienceTitle=Erfaring
+modules.attachments.SC2:experienceLevel=Erfaringsniveau: [%1] / [%2]
+modules.attachments.SC2:experienceExtract=Klik for at udtrække 50xp
+modules.attachments.SC2:experiencePlayerLevel=Dit nuværende niveau er [%1]
+modules.attachments.SC2:shooterTitle=Skyder
+modules.attachments.SC2:shooterFrequency=#/s
+modules.attachments.SC2:shooterSeconds=s
+modules.attachments.SC2:shooterDelay=Forsinkelse
+modules.attachments.SC2:notePiano=Klaver
+modules.attachments.SC2:noteBassDrum=Stortrumme
+modules.attachments.SC2:noteSnareDrum=Lilletrumme
+modules.attachments.SC2:noteSticks=trummestik
+modules.attachments.SC2:noteBassGuitar=Bassguitar
+modules.attachments.SC2:noteCreateTrack=Lav nyt spor
+modules.attachments.SC2:noteRemoveTrack=Fjern nederste spor
+modules.attachments.SC2:noteActivateInstrument=Aktiver [%1]
+modules.attachments.SC2:noteDeactivateInstrument=Fjern Nodebloksinstilling
+modules.attachments.SC2:noteDelay=Ændr forsinkelse. Nuværende forsinkelse: [%1]
+modules.attachments.SC2:noteAdd=Tilføj tone til til spor #[%1]
+modules.attachments.SC2:noteRemove=Fjern tone til højre fra spor #[%1]
+modules.attachments.SC2:noteVolume=Lydstyrke på spor: [%1->Lydløs|Lav|Medium|Høj]
+
+
+# ======================================
+                                Steve's Arcade 
+# ======================================
+# need beta 3 for these ones to show up (remove this note)
+# Ghast Invaders
+arcade.SC2:ghastInvaders=Ghast Angrib
+arcade.SC2:ghastLives=Ekstra liv
+arcade.SC2:highScore=Highscore: [%1]
+arcade.SC2:score=Score: [%1]
+arcade.SC2:instructionShoot=Skyd
+arcade.SC2:instructionLeft=Bevæg til venstre
+arcade.SC2:instructionRight=Bevæg til højre
+arcade.SC2:instructionRestart=Genstart
+arcade.SC2:creeperSweeper=Creeperstryger
+arcade.SC2:creeperMapName1=Lille
+arcade.SC2:creeperMapName2=Medium
+arcade.SC2:creeperMapName3=Stor
+arcade.SC2:creepersLeft=Creepere tilbage:  [%1]
+arcade.SC2:creeperTime=Tid brugt: [%1]s
+arcade.SC2:instructionChangeMap=Ændr banestørrelse
+arcade.SC2:creeperCurrentMap=Nuværende [%1]
+arcade.SC2:creeperHighScores=Highscorer
+arcade.SC2:creeperHighScore=[%1]: [%2]s
+arcade.SC2:mobStacker=Mob Stabler
+arcade.SC2:stackerRemovedLines=Fjernede linjer: [%1]
+arcade.SC2:stackerRemovedLinesCombo=Removed [%1->single|double|triple|quadruple] lines: [%2]
+arcade.SC2:instructionRotate=Roter
+arcade.SC2:instructionDrop=Smid
+arcade.SC2:trackOperator=Spor Operatør
+arcade.SC2:operatorSaveError=Kunne ikke gemme
+arcade.SC2:operatorSave=Gem
+arcade.SC2:operatorUserCreatedMaps=Brugerlevet bane
+arcade.SC2:operatorStories=Historier
+arcade.SC2:operatorHelp=For information om hvordan man spiller gå ind i Historietilstand og start 'Begyndelsen'. For at lave din egen bane, gå ind i baneredigering og lav en ny bane. Flere instruktioner vil være der. Klik på et detektorspor og så på en sammenfletning hvis du vil forbinde dem. Har du brug for mere hjælp, tjek Wikiet.
+arcade.SC2:instructionTrackShape=Vælg sporform
+arcade.SC2:instructionRotateTrack=Roter spor
+arcade.SC2:instructionFlipTrack=Vend spor
+arcade.SC2:instructionDefaultDirection=Ændr standard retning
+arcade.SC2:instructionTrackType=Ændr sportype
+arcade.SC2:instructionDeleteTrack=Slet spor
+arcade.SC2:instructionCopyTrack=Kopier spor
+arcade.SC2:instructionMoveSteve=Flyt elelr roter Steve
+arcade.SC2:instructionMoveMap=Flyt bane
+arcade.SC2:instructionPlaceTrack=Placer spor
+arcade.SC2:instructionDeselectTrack=Fravælg spor
+arcade.SC2:leftMouseButton=Venstre-Mus
+arcade.SC2:rightMouseButton=Høre-Mus
+arcade.SC2:buttonStart=Start
+arcade.SC2:buttonMenu=Menu
+arcade.SC2:buttonStop=Stop
+arcade.SC2:buttonNextLevel=Næste Level
+arcade.SC2:buttonStartLevel=Start Level
+arcade.SC2:buttonSelectStory=Vælg Historie
+arcade.SC2:buttonSelectStoryOther=Vælg en anden Historie
+arcade.SC2:buttonCreateLevel=Lav Level
+arcade.SC2:buttonEditLevel=Rediger Level
+arcade.SC2:buttonRefreshList=Opdater Liste
+arcade.SC2:buttonSave=Gem
+arcade.SC2:buttonSaveAs=Gem som...
+arcade.SC2:buttonCancel=Annuler
+#This one is slightly ugly, will probably be re-named later
+stories.beginning.SC2:mapEditor=Baneredigering
+
+# Story - The beginning
+stories.beginning.SC2:title=Begyndelsen
+stories.beginning.SC2:mission=Steve is on a mission, he needs to get the map to find the next level.
+stories.beginning.SC2:start=Press the Start button to the right.
+stories.beginning.SC2:stop=If you want you can now press the Stop button to stop him.
+stories.beginning.SC2:map=Steve now has the map, press the Next Level button to continue.
+stories.beginning.SC2:trackOperator=You are The Track Operator, your job is to make sure that the rails are set up properly. Click on the junctions to change their directions before pressing the Start button.
+stories.beginning.SC2:goodJob=Good job. That's the way to do it.
+stories.beginning.SC2:changeJunctions=You can always press the Stop button and change how the junctions are set up.
+stories.beginning.SC2:blast=Steve thinks it's a blast to ride his Minecart but sometimes it gets too much. For instance if he loops forever. Good luck.
+stories.beginning.SC2:steel=There are always bumps in the road, for a Track Operator those are called Steel Rails. Steel Rail Junctions can't be changed, good luck.
+stories.beginning.SC2:detector=Detector rails can both be your friends and your enemies. When Steve moves over a detector rail a number of junctions may change, even steel junctions. To see which junctions will be affected, hover your mouse over a detector rail.
+stories.beginning.SC2:outOfReach=Just out of reach...
+stories.beginning.SC2:outOfReach2=...but that doesn't stop you.
+stories.beginning.SC2:longJourney=After a long journey Steve can see the end of his long path...
+stories.beginning.SC2:end=...but everything doesn't always go as planned. While you're waiting for more stories to play you can create and share your own maps. Go to the map editor tab in the menu to start making a map.
+stories.beginning.SC2:thanks=Thank you for playing! :)
+stories.beginning.SC2:level1=A new day
+stories.beginning.SC2:level2=The Operator
+stories.beginning.SC2:level3=Escape the loop
+stories.beginning.SC2:level4=Hard as steel
+stories.beginning.SC2:level5=Moving world
+stories.beginning.SC2:level6=The code lock
+stories.beginning.SC2:level7=So close
+stories.beginning.SC2:level8=Madness
+stories.beginning.SC2:level9=The cake
+
