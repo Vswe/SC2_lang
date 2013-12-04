@@ -498,23 +498,23 @@ info.SC2:sideClashError=[%1] e [%2] si scontreranno nel lato: [%3]
 				UPGRADES
 # ======================================
 
-info.SC2:effectBlueprint=Enable the use of Blueprint carts.
-info.SC2:effectCombustionFuel=Enabled standard fuel sources.
-info.SC2:effectDeployer=Enables deployment of finished carts.
-info.SC2:effectDisassemble=Allows you to disassemble and modify carts.
-info.SC2:effectFuelCapacity=Fuel capacity [%1].
-info.SC2:effectFuelCost=Fuel cost [%1]%.
-info.SC2:effectInputChest=Input Chest with [%1] slots.
-info.SC2:effectManagerBridge=Connects the Assembler with a Manager.
-info.SC2:effectGenerator=Generate [%1] [%2:unit|units] of power per minute.
-info.SC2:effectRedstone=Enables redstone controlled assembling.
-info.SC2:effectSolar=Generate power while in the sun.
-info.SC2:effectThermal=Power the Cart Assembler with lava in internal tank.
-info.SC2:effectTimeFlat=Module assembling time [%1] [%1:second|seconds].
-info.SC2:effectTimeFlatCart=Cart assembling time [%1] [%1:second|seconds].
-info.SC2:effectTimeFlatRemove=Module disassembling time [%1] [%1:second|seconds].
-info.SC2:effectTransposer=Can pick up carts for modifying
-info.SC2:effectEfficiency=Assembling efficiency [%1]%.
+info.SC2:effectBlueprint=Permette l'utilizzo di carrelli progetto.
+info.SC2:effectCombustionFuel=Permette l'utilizzo di carburante normale.
+info.SC2:effectDeployer=Permette di posizionare i carrelli finiti.
+info.SC2:effectDisassemble=Permette di disassemblare e modificare i carrelli.
+info.SC2:effectFuelCapacity=Capacita' di carburante [%1].
+info.SC2:effectFuelCost=Costo di carburante [%1]%.
+info.SC2:effectInputChest=Cassa di entrata con [%1] spazi.
+info.SC2:effectManagerBridge=Connette l'assemblatore con un gestore.
+info.SC2:effectGenerator=Genera [%1] [%2:unita'|unita'] di energia al minuto.
+info.SC2:effectRedstone=Abilita il controllo tramite un segnale di pietrarossa.
+info.SC2:effectSolar=Genera energia sotto il sole.
+info.SC2:effectThermal=Alimenta l'assemblatore con il serbatoio interno di lava.
+info.SC2:effectTimeFlat=Tempo di assemblaggio modulo [%1] [%1:secondo|secondi].
+info.SC2:effectTimeFlatCart=Tempo di assemblaggio carrello [%1] [%1:secondo|secondi].
+info.SC2:effectTimeFlatRemove=Tempo di disassemblaggio modulo [%1] [%1:secondo|secondi].
+info.SC2:effectTransposer=Permette il raccoglimento di carrelli per la modifica
+info.SC2:effectEfficiency=Efficienza d'assemblaggio [%1]%.
 
 
 # ======================================
