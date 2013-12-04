@@ -662,10 +662,10 @@ modules.attachments.SC2:noteDelay=Wijzig Vertraging. Huidige Vertraging: [%1]
 modules.attachments.SC2:noteAdd=Voeg noot toe aan track #[%1]
 modules.attachments.SC2:noteRemove=Verwijder meest rechtse noot van track #[%1]
 modules.attachments.SC2:noteVolume=Track volume: [%1->Gedempt|Laag|Middel|Hoog]
-# need beta 3 for these ones to show up (remove this note)
+
 modules.attachments.SC2:seatStateMessage=[%1->Deze kar is bezet|Ga zitten|Sta op]
 modules.attachments.SC2:controlSystemReset=Herstel afstands meter
-# end of beta 3 requirement (remove this note)
+
 
 # ======================================
 				Steve's Arcade 
