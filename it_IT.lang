@@ -425,11 +425,11 @@ item.SC2:solar_panel.name=Potenziamento: Pannello solare
 item.SC2:thermal_engine.name=Potenziamento: Motore termico
 
 # Detector Units
-item.SC2:BlockDetector0.name=Gestore di rilevazione
+item.SC2:BlockDetector0.name=Rilevatore primario
 item.SC2:BlockDetector1.name=Rilevatore
-item.SC2:BlockDetector2.name=Stazione di rilevazione
-item.SC2:BlockDetector3.name=Giunzione di rilevazione
-item.SC2:BlockDetector4.name=Rilevatore a pietrarossa
+item.SC2:BlockDetector2.name=Rilevatore stazione
+item.SC2:BlockDetector3.name=Rilevatore giunzione
+item.SC2:BlockDetector4.name=Rilevatore pietrarossa
 
 
 
