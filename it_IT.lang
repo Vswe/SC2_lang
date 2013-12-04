@@ -270,7 +270,7 @@ item.SC2:advanced_tank.name=Serbatoio avanzato
 item.SC2:front_tank.name=Serbatoio frontale
 item.SC2:creative_hull.name=Carena Creativa
 item.SC2:power_observer.name=Osservatore di Potenza
-item.SC2:steves_arcade.name=Steve's Arcade
+item.SC2:steves_arcade.name=Sala giochi "Steve's Arcade"
 item.SC2:hardened_wood_cutter.name=Taglialegna rinforzato
 item.SC2:creative_tank.name=Serbatoio Creativo
 item.SC2:open_tank.name=Serbatoio aperto
@@ -458,12 +458,12 @@ info.SC2:moduleGroupToolShooter=[%1:Strumento|Strumenti] o [%1:Lanciatore|Lancia
 
 # Messages
 info.SC2:pigExtraMessage=In memory of Vswe's Thunderpig arena victory. Thanks everyone who donated during the 2013 Minecraft Marathon
-info.SC2:oceanExtraMessage=Room for an average sized ocean
-info.SC2:alphaExtraMessage=1 year in alpha
-info.SC2:storageEmpty=Empty
-info.SC2:storageFull=Full
-info.SC2:giftStorageFull=Might contain a surprise
-info.SC2:eggStorageFull=Full of Eggs
+info.SC2:oceanExtraMessage=C'è posto per un oceano di dimensioni medie.
+info.SC2:alphaExtraMessage=1 anno in alfa
+info.SC2:storageEmpty=Vuoto
+info.SC2:storageFull=Pieno
+info.SC2:giftStorageFull=Potrebbe contenere una sorpresa
+info.SC2:eggStorageFull=Pieno di uova
 
 # Labels
 info.SC2:modularCost=Modular cost
