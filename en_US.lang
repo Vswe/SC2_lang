@@ -598,6 +598,10 @@ modules.engines.SC2:thermalEngineTitle=Thermal Engine
 modules.engines.SC2:thermalPowered=Powered
 modules.engines.SC2:outOfWater=Out of Water
 modules.engines.SC2:outOfLava=Out of Lava
+# need beta 3 for these ones to show up (remove this note)
+modules.engines.SC2:engineDisabledMessage=Disabled
+modules.engines.SC2:enginePriorityMessage=[%1->High|Medium|Low] priority
+# end of beta 3 requirement (remove this note)
 
 # Tanks
 modules.tanks.SC2:creativeTankMode=Current creative mode: [%1][%2->Normal|Always full|Always empty|Always half]
@@ -658,7 +662,10 @@ modules.attachments.SC2:noteDelay=Change delay. Current Delay: [%1]
 modules.attachments.SC2:noteAdd=Add note to track #[%1]
 modules.attachments.SC2:noteRemove=Remove rightmost note from track #[%1]
 modules.attachments.SC2:noteVolume=Track volume: [%1->Muted|Low|Medium|High]
-
+# need beta 3 for these ones to show up (remove this note)
+modules.attachments.SC2:seatStateMessage=[%1->This cart is occupied|Mount cart|Dismount cart]
+modules.attachments.SC2:controlSystemReset=Reset trip-meter
+# end of beta 3 requirement (remove this note)
 
 # ======================================
 				Steve's Arcade 
