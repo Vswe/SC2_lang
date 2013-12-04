@@ -588,14 +588,14 @@ modules.engines.SC2:outOfWater=Acqua esaurita
 modules.engines.SC2:outOfLava=Lava esaurita
 
 # Tanks
-modules.tanks.SC2:creativeTankMode=Current creative mode: [%1][%2->Normal|Always full|Always empty|Always half]
-modules.tanks.SC2:creativeTankChangeMode=Right-click to change
-modules.tanks.SC2:creativeTankResetMode=Shift and right-click to go back to normal
-modules.tanks.SC2:tankLocked=Locked to this fluid
-modules.tanks.SC2:tankLock=Click to lock to this fluid
-modules.tanks.SC2:tankUnlock=Click to unlock
-modules.tanks.SC2:tankEmpty=Empty
-modules.tanks.SC2:tankInvalidFluid=Unknown
+modules.tanks.SC2:creativeTankMode=Modalità creativa corrente: [%1][%2->Normale|Sempre pieno|Sempre vuoto|Sempre a meta']
+modules.tanks.SC2:creativeTankChangeMode=Clic destro per cambiare
+modules.tanks.SC2:creativeTankResetMode=Maiusc e clic destro per tornare al normale
+modules.tanks.SC2:tankLocked=Bloccato su questo fluido
+modules.tanks.SC2:tankLock=Clicca per bloccare questo fluido
+modules.tanks.SC2:tankUnlock=Clicca per sbloccare
+modules.tanks.SC2:tankEmpty=Vuoto
+modules.tanks.SC2:tankInvalidFluid=Sconosciuto
 
 # Tools
 modules.tools.SC2:toolDurability=Durability
