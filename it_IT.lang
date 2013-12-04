@@ -438,23 +438,23 @@ item.SC2:BlockDetector4.name=Rilevatore pietrarossa
 # ======================================
 
 # Categories
-info.SC2:moduleCategoryHull=Hull
-info.SC2:moduleCategoryEngine=Engine
-info.SC2:moduleCategoryTool=Tool
-info.SC2:moduleCategoryStorage=Storage
-info.SC2:moduleCategoryAddon=Addon
-info.SC2:moduleCategoryAttachment=Attachment
+info.SC2:moduleCategoryHull=Carena
+info.SC2:moduleCategoryEngine=Motore
+info.SC2:moduleCategoryTool=Strumento
+info.SC2:moduleCategoryStorage=Spazio
+info.SC2:moduleCategoryAddon=Componente aggiuntivo
+info.SC2:moduleCategoryAttachment=Accessorio
 
 # Groups
-info.SC2:moduleGroupEngine=[%1:Engine|Engines]
-info.SC2:moduleGroupDrill=[%1:Drill|Drills]
-info.SC2:moduleGroupFarmer=[%1:Farmer|Farmers]
-info.SC2:moduleGroupCutter=[%1:Wood Cutter|Wood Cutters]
-info.SC2:moduleGroupTank=[%1:Tank|Tanks]
-info.SC2:moduleGroupEntity=[%1:Entity Detector|Entity Detectors]
-info.SC2:moduleGroupShooter=[%1:Shooter|Shooters]
-info.SC2:moduleGroupTool=[%1:Tool|Tools]
-info.SC2:moduleGroupToolShooter=[%1:Tool|Tools] or [%1:Shooter|Shooters]
+info.SC2:moduleGroupEngine=[%1:Motore|Motori]
+info.SC2:moduleGroupDrill=[%1:Trivella|Trivelle]
+info.SC2:moduleGroupFarmer=[%1:Mietitrebbia|Mietitrebbie]
+info.SC2:moduleGroupCutter=[%1:Taglialegna|Taglialegna]
+info.SC2:moduleGroupTank=[%1:Serbatoio|Serbatoi]
+info.SC2:moduleGroupEntity=[%1:Rilevatore di entità|Rielvatori di entità]
+info.SC2:moduleGroupShooter=[%1:Titatore|Tiratori]
+info.SC2:moduleGroupTool=[%1:Strumento|Strumenti]
+info.SC2:moduleGroupToolShooter=[%1:Strumento|Strumenti] o [%1:Lanciatore|Lanciatori]
 
 # Messages
 info.SC2:pigExtraMessage=In memory of Vswe's Thunderpig arena victory. Thanks everyone who donated during the 2013 Minecraft Marathon
