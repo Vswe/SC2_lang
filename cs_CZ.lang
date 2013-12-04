@@ -17,7 +17,10 @@ gui.SC2:idleAssemblerMessage=Stoj na montaz voziku nyni nepracuje
 gui.SC2:modifyCart=Upravit vozik
 gui.SC2:assembleCart=Sestavit vozik
 gui.SC2:fuelLevel=Hladina paliva
-
+gui.SC2:noHullError=Nemas zadne telo voziku
+gui.SC2:invalidHullErrorShort=Telo voziku, ktere si sem dal neni telo voziku!
+gui.SC2:busyAssemblerError=Montazni stroj na voziky je zaneprazdnen!
+gui.SC2:departureBayError=Vozik je v odjezdove zatoce.
 
 # Cargo manager and Liquid manager shared gui localization
 gui.SC2:manager=manazer
@@ -56,7 +59,7 @@ gui.SC2:cartAreaAll=Vsechny sloty
 gui.SC2:cartAreaEngine=Motory
 gui.SC2:cartAreaRailer=Pokladace koleji
 gui.SC2:cartAreaStorage=Sloty na skladovani
-gui.SC2:cartAreaTorches=Pochodne
+gui.SC2:cartAreaTorches=Louce
 gui.SC2:cartAreaExplosives=Vybusniny
 gui.SC2:cartAreaArrows=Sipy
 gui.SC2:cartAreaBridge=Material na mosty
@@ -66,8 +69,6 @@ gui.SC2:cartAreaSaplings=Sazenicky
 gui.SC2:cartAreaFirework=Ohnostroje
 gui.SC2:cartAreaBuckets=Kybliky (pro mlikovace)
 gui.SC2:cartAreaCakes=Dorty
-
-
 
 # Liquid manager gui localization
 gui.SC2:liquidManager=Tekutinovy
@@ -120,10 +121,10 @@ gui.SC2:distributorSideYellow=Zluta
 gui.SC2:distributorSideGreen=Zelena
 gui.SC2:distributorSideBlue=Modra
 gui.SC2:distributorSideRed=Cervena
-gui.SC2:sideToolTip=Side: [%1]
+gui.SC2:sideToolTip=Strana: [%1]
 
 # Detector Units gui localization
-gui.SC2:operatorOutput=Výstup (OUTPUT)
+gui.SC2:operatorOutput=Vystup (OUTPUT)
 gui.SC2:operatorAnd=A (AND)
 gui.SC2:operatorOr=Nebo (OR)
 gui.SC2:operatorNot=Negace (NOT)
@@ -142,7 +143,7 @@ gui.SC2:operatorRedstoneWest=Zapadni ruditovy vstup
 gui.SC2:operatorRedstoneSouth=Jizni ruditovy vstup
 gui.SC2:operatorRedstoneEast=Vychodni ruditovy vstup
 gui.SC2:stateRails=Zasoba koleji
-gui.SC2:stateTorches=Zasoba pochodni
+gui.SC2:stateTorches=Zasoba louci
 gui.SC2:stateSaplings=Zasoba sazenicek
 gui.SC2:sateSeeds=Zasoba seminek
 gui.SC2:stateBridge=Zasoba materialu na mosty
@@ -167,7 +168,7 @@ gui.SC2:stateZombie=Ma jako cestujiciho Zombii
 gui.SC2:stateZombiePigMan=Ma jako cestujiciho Praseci zombii
 gui.SC2:stateSilverFish=Ma jako cestujiciho rybenku
 gui.SC2:stateBlaze=Ma jako cestujiciho blaze
-gui.SC2:stateBat=Ma jako cestujiciho netopýra
+gui.SC2:stateBat=Ma jako cestujiciho netopyra
 gui.SC2:stateWitch=Ma jako cestujici carodejnici
 gui.SC2:statePig=Ma jako cestujiciho prase
 gui.SC2:stateSheep=Ma jako cestujiciho ovci
@@ -207,7 +208,7 @@ item.SC2:top_chest.name=Vrchni truhly
 item.SC2:front_chest.name=Predni truhly
 item.SC2:internal_storage.name=Interni uloziste
 item.SC2:extracting_chests.name=Extrahovac truhel
-item.SC2:torch_placer.name=Pokladac pochodni
+item.SC2:torch_placer.name=Pokladac louci
 item.SC2:basic_drill.name=Zakladni vrtak
 item.SC2:galgadorian_drill.name=Vrtak z Galgadorianu
 item.SC2:railer.name=Pokladac koleji
@@ -246,15 +247,15 @@ item.SC2:pumpkin_chariot.name=Dynovy vuz
 item.SC2:tiny_coal_engine.name=Maly motor na uhli
 item.SC2:basic_solar_engine.name=Zakladni solarni motor
 item.SC2:projectile_potion.name=Projektil: Lektvar
-item.SC2:gift_storage.name=Truhla pro darky
+item.SC2:gift_storage.name=Truhla na darky
 item.SC2:chunk_loader.name=Nacitac chunku
 item.SC2:entity_detector_bat.name=Detektor entity: Netopyr
 item.SC2:freezer.name=Mrazic
 item.SC2:projectile_snowball.name=Projektil: Snehova koule
 item.SC2:projectile_egg.name=Projektil: Vajicko
 item.SC2:projectile_fire_charge.name=Projektil: Ohniva napln
-item.SC2:firework_display.name=Display na ohnostroj
-item.SC2:crop_nether_wart.name=Crop: Bradavice
+item.SC2:firework_display.name=Odpalovac raket
+item.SC2:crop_nether_wart.name=Rostlina: Bradavicnik
 item.SC2:cage.name=Klec
 item.SC2:compact_solar_engine.name=Compaktni solarni motor
 item.SC2:internal_tank.name=Interni nadrz
@@ -262,7 +263,7 @@ item.SC2:mechanical_pig.name=Mechanicke prase
 item.SC2:creative_engine.name=Podvadeci motor
 item.SC2:incinerator.name=Spalovna
 item.SC2:thermal_engine.name=Termalni motor
-item.SC2:advanced_thermal_engine.name=Pokrocily Termalni motor
+item.SC2:advanced_thermal_engine.name=Pokrocily termalni motor
 item.SC2:liquid_cleaner.name=Cistic tekutin
 item.SC2:side_tanks.name=Bocni nadrze
 item.SC2:top_tank.name=Vrchni nadrz
@@ -283,13 +284,13 @@ item.SC2:milker.name=Mlikar
 item.SC2:galgadorian_hull.name=Telo voziku z Galgadorianu
 item.SC2:galgadorian_wood_cutter.name=Tezic dreva z Galgadorianu
 item.SC2:ore_extractor.name=Extractor rud
-item.SC2:enchanter.name=Carovac
+item.SC2:enchanter.name=Ocarovac
 item.SC2:advanced_smelter.name=Pokrocily vypikac
 item.SC2:advanced_crafter.name=Pokrocily vyrabec
 item.SC2:experience_bank.name=Banka na zkusenosti
 item.SC2:information_provider.name=Poskytovatel informaci
 item.SC2:planter_range_extender.name=Rozsirovac vzdalenosti sazeni
-item.SC2:tree_exotic.name=Exoticky stromy
+item.SC2:tree_exotic.name=Exoticke stromy
 item.SC2:smelter.name=Vypikac
 item.SC2:projectile_cake.name=Projektil: Dort
 item.SC2:trick_or_treat_cake_server.name=Hostovat dortovy server
@@ -326,7 +327,7 @@ item.SC2:shooting_station.name=Strileci stanice
 item.SC2:entity_scanner.name=Skener entit
 item.SC2:entity_analyzer.name=Analyzator entit
 item.SC2:empty_disk.name=Prazdny disk
-item.SC2:tri-torch.name=Troj-pochoden
+item.SC2:tri-torch.name=Troj-louc
 item.SC2:chest_pane.name=Truhlovy panel
 item.SC2:large_chest_pane.name=Velky truhlovy panel
 item.SC2:huge_chest_pane.name=Obrovsky truhlovy panel
@@ -384,7 +385,6 @@ item.SC2:iron_blade.name=Zelezna cepel
 item.SC2:blade_arm.name=Cepelova ruka
 
 
-
 # ======================================
 				BLOCKS
 # ======================================
@@ -409,8 +409,8 @@ item.SC2:module_knowledge.name=Vylepseni: Rozpoznavac modulu
 item.SC2:industrial_espionage.name=Vylepseni: Prumyslovy spion
 item.SC2:experienced_assembler.name=Vylepseni: Zkuseny vyrabec voziku 
 item.SC2:new_era.name=Vylepseni: Nova era
-item.SC2:co2_friendly.name=Vylepseni: CO2 setrny
-item.SC2:generic_engine.name=Vylepseni: Geneticky motor
+item.SC2:co2_friendly.name=Vylepseni: Chranic zivotniho prostredi
+item.SC2:generic_engine.name=Vylepseni: Spalovaci motor
 item.SC2:module_input.name=Vylepseni: Vztup pro moduly
 item.SC2:production_line.name=Vylepseni: Vyrobni linka
 item.SC2:cart_deployer.name=Vylepseni: Pokladac voziku
@@ -420,7 +420,7 @@ item.SC2:redstone_control.name=Vylepseni: Kontrolovany dle ruditu
 item.SC2:creative_mode.name=Vylepseni: Podvadeni!
 item.SC2:quick_demolisher.name=Vylepseni: Rychly nicitel
 item.SC2:manager_bridge.name=Vylepseni: Manazer mostu
-item.SC2:entropy.name=Vylepseni: Lepsi odstranovac modulu
+item.SC2:entropy.name=Vylepseni: Entropie
 item.SC2:solar_panel.name=Vylepseni: Solarni panel
 item.SC2:thermal_engine.name=Vylepseni: Termalni motor
 
@@ -430,7 +430,6 @@ item.SC2:BlockDetector1.name=Detekovaci jednotka
 item.SC2:BlockDetector2.name=Detekovaci stanice
 item.SC2:BlockDetector3.name=Detekovaci krizovatka
 item.SC2:BlockDetector4.name=Detekovaci ruditova jednotka
-
 
 
 # ======================================
@@ -446,15 +445,15 @@ info.SC2:moduleCategoryAddon=Pridavek
 info.SC2:moduleCategoryAttachment=Pripevneni
 
 # Groups
-info.SC2:moduleGroupEngine=[%1:Motor|Motory]
-info.SC2:moduleGroupDrill=[%1:Vrtak|Vrtaky]
-info.SC2:moduleGroupFarmer=[%1:Farmar|Farmare]
-info.SC2:moduleGroupCutter=[%1:Tezic dreva|Tezice dreva]
-info.SC2:moduleGroupTank=[%1:Nadrz|Nadrze]
-info.SC2:moduleGroupEntity=[%1:Detektor entit|Detektory entit]
-info.SC2:moduleGroupShooter=[%1:Strelec|Strelci]
-info.SC2:moduleGroupTool=[%1:Nastroj|Nastroje]
-info.SC2:moduleGroupToolShooter=[%1:Nastroj|Nastroje] nebo [%1:Strelec|Strelci]
+info.SC2:moduleGroupEngine=[%1:motor|motory]
+info.SC2:moduleGroupDrill=[%1:vrtak|vrtaky]
+info.SC2:moduleGroupFarmer=[%1:farmar|farmare]
+info.SC2:moduleGroupCutter=[%1:tezic dreva|tezice dreva]
+info.SC2:moduleGroupTank=[%1:nadrz|nadrze]
+info.SC2:moduleGroupEntity=[%1:detektor entit|detektory entit]
+info.SC2:moduleGroupShooter=[%1:strelec|strelci]
+info.SC2:moduleGroupTool=[%1:nastroj|nastroje]
+info.SC2:moduleGroupToolShooter=[%1:nastroj|nastroje] nebo [%1:strelec|strelci]
 
 # Messages
 info.SC2:pigExtraMessage=V pameti za vytezstvi Vswe v Thunderpig arene. Dekuji vsem co prispely v prubehu Minecraft maratonu v roce 2013
@@ -467,23 +466,23 @@ info.SC2:eggStorageFull=Plny vajicek
 
 # Labels
 info.SC2:modularCost=Cena modulu
-info.SC2:cartSideTop=Vrsek
-info.SC2:cartSideCenter=Stred
-info.SC2:cartSideBottom=Naspodku
-info.SC2:cartSideBack=Vzadu
-info.SC2:cartSideLeft=Vlevo
-info.SC2:cartSideRight=Vpravo
-info.SC2:cartSideFront=Vepredu
-info.SC2:occupiedSides=Bude zabirat [%1] [%2:stranu|strany]
+info.SC2:cartSideTop=vrchni
+info.SC2:cartSideCenter=stredni
+info.SC2:cartSideBottom=spodni
+info.SC2:cartSideBack=zadni
+info.SC2:cartSideLeft=levou
+info.SC2:cartSideRight=pravou
+info.SC2:cartSideFront=predni
+info.SC2:occupiedSides=Bude zabirat [%1] stranu
 info.SC2:sidesAnd=a
 info.SC2:noSides=Nebude zabirat zadnou stranu
 info.SC2:moduleConflictHowever=Bude v konfliktu s
 info.SC2:moduleConflictAlso=Bude take v konfliktu s
 info.SC2:moduleRequirement=Potrebuje
-info.SC2:moduleCount1=jedna
+info.SC2:moduleCount1=jeden
 info.SC2:moduleCount2=dva
 info.SC2:moduleCount3=tri
-info.SC2:allowDuplicates=Duplikaty jsou povolene
+info.SC2:allowDuplicates=Mohou byt pouzity vicekrat
 info.SC2:moduleType=Typ
 info.SC2:capacityOverloadError=Tvoje cena je vetsi nez tvoje telo voziku muze unest
 info.SC2:impossibleCombinationError=Kombinace techto modulu je neplatna. Toto by nemelo byt mozne.
@@ -492,6 +491,12 @@ info.SC2:missingParentError=[%1] potrebuje [%2] k tomu aby mohl pracovat!
 info.SC2:presentNemesisError=[%1] nebude pracovat s [%2]
 info.SC2:presentDuplicateError[%1] Neni povolen aby tu byl dvakrat.
 info.SC2:sideClashError=[%1] a [%2] se stretnou na [%3]
+info.SC2:toolUnbreakable=Neznicitelny
+info.SC2:toolDurability=Trvanlivost: [%1]%
+info.SC2:modularCapacity=Kapacita modulu: [%1]
+info.SC2:complexityCap=Hranice slozitosti modulu: [%1]
+info.SC2:maxEngineCount=Nejvetsi pocet enginu: [%1]
+info.SC2:maxAddonCount=Nejveci pocet pridavku: [%1]
 
 
 # ======================================
@@ -504,9 +509,9 @@ info.SC2:effectDeployer=Povoli ti pokladani hotovych voziku.
 info.SC2:effectDisassemble=Povoli ti modifikovani voziku a zruseni montovani voziku.
 info.SC2:effectFuelCapacity=Kapacita paliva [%1].
 info.SC2:effectFuelCost=Cena paliva [%1]%.
-info.SC2:effectInputChest=Vztupni truhla s [%1] slatama.
+info.SC2:effectInputChest=Vztupni truhla s [%1] slotama.
 info.SC2:effectManagerBridge=Propoji montazni stroj na voziky s manazerem.
-info.SC2:effectGenerator=Generovat [%1] [%2:jednotka|jednotky] sily za minutu.
+info.SC2:effectGenerator=Generuje [%1] [%2:jednotka|jednotky] sily za minutu.
 info.SC2:effectRedstone=Povoli kontrolovat montovani ruditem.
 info.SC2:effectSolar=Generovat silu na slunci.
 info.SC2:effectThermal=Nabijet montazni stroj na voziky lavou v internich nadrzich.
@@ -569,10 +574,10 @@ modules.addons.SC2:recipeChangeMode=Zmenit nynejsi mod
 modules.addons.SC2:recipeNoLimit=Zadny limit
 modules.addons.SC2:recipeLimit=Limitovat skladovaci polozky
 modules.addons.SC2:recipeDisabled=Nic neprodukovat
-modules.addons.SC2:recipeChangeLimit=[%1->Increase|Decrease] veci aby byly kam skladovat.
+modules.addons.SC2:recipeChangeLimit=[%1->Zvetsi|Zmensi] limit skladovatelnych veci.
 modules.addons.SC2:recipeChangeLimit10=Shift kliknout pro zmenu o 10.
 modules.addons.SC2:recipeChangeLimit64=Ctrl kliknout pro zmenu o 64.
-modules.addons.SC2:shieldToggle=[%1->Activate|Deactivate] stit
+modules.addons.SC2:shieldToggle=[%1->Aktivovat|Deaktivovat] stit
 
 # Engines
 modules.engines.SC2:creativePowerLevel=Mnozstvi paliva: [%1]
@@ -586,6 +591,8 @@ modules.engines.SC2:thermalEngineTitle=Termalni motor
 modules.engines.SC2:thermalPowered=Napajen
 modules.engines.SC2:outOfWater=Bez vody
 modules.engines.SC2:outOfLava=Bez lavy
+modules.engines.SC2:engineDisabledMessage=Zrusen
+modules.engines.SC2:enginePriorityMessage=[%1->Vysoka|Stredni|Mala] priorita
 
 # Tanks
 modules.tanks.SC2:creativeTankMode=Nynejsi podvadeci mod: [%1][%2->Normalni|Vzdy plne|Vzdy prazdne|Vzdy napul]
@@ -618,13 +625,13 @@ modules.attachments.SC2:railerTitle=Pokladac koleji
 modules.attachments.SC2:controlSystemTitle=Pokrocily kontrolni system
 modules.attachments.SC2:controlSystemDistanceUnits=[%1->|k|M|G|T|P]m
 modules.attachments.SC2:controlSystemOdoMeter=ODO
-modules.attachments.SC2:controlSystemTripMeter=TRIP
-modules.attachments.SC2:cageAutoPickUp=[%1->Activate|Deactivate] automaticke zvedani
-modules.attachments.SC2:cagePickUp=[%1->Grab nearby|Release caged] kreaturu
+modules.attachments.SC2:controlSystemTripMeter=CESTA
+modules.attachments.SC2:cageAutoPickUp=[%1->Aktivovat|Deaktivovat] automaticke zvedani
+modules.attachments.SC2:cagePickUp=[%1->Vzit nejblizsi|Pustit uveznenou] kreaturu
 modules.attachments.SC2:cakeServerTitle=Dortovy server
-modules.attachments.SC2:cakesLabel=Cakes: [%1] / [%2]
-modules.attachments.SC2:slicesLabel=Slices: [%1] / [%2]
-modules.attachments.SC2:explosivesTitle=Vybudniny
+modules.attachments.SC2:cakesLabel=Dorty: [%1] / [%2]
+modules.attachments.SC2:slicesLabel=Casti: [%1] / [%2]
+modules.attachments.SC2:explosivesTitle=Vybusniny
 modules.attachments.SC2:experienceTitle=Zkusenost
 modules.attachments.SC2:experienceLevel=Level zkusenosti: [%1] / [%2]
 modules.attachments.SC2:experienceExtract=Kliknete pro extrahovani 50xp
@@ -643,6 +650,98 @@ modules.attachments.SC2:noteRemoveTrack=Odstranit skladbu
 modules.attachments.SC2:noteActivateInstrument=Aktivovat [%1]
 modules.attachments.SC2:noteDeactivateInstrument=Odstranit NoteBlock nastaveni
 modules.attachments.SC2:noteDelay=Zmenit zpozdeni. Nynejsi zpozdeni: [%1]
-modules.attachments.SC2:noteAdd=Pridat notu do skladby #[%1]
+modules.attachments.SC2:noteAdd=Pridat ton do skladby #[%1]
 modules.attachments.SC2:noteRemove=Odstranit notu nejvice v pravo ze skladby #[%1]
 modules.attachments.SC2:noteVolume=Hlasitost skladby: [%1->Umlcen|Nizko|Stredne|Vysoko]
+modules.attachments.SC2:seatStateMessage=[%1->Tento vozik je obsazen|Nasednout do voziku|Vystoupit z voziku]
+modules.attachments.SC2:controlSystemReset=Resetovat meric cesty
+
+
+# ======================================
+				Steve's Arcade 
+# ======================================
+
+# Ghast Invaders
+arcade.SC2:ghastInvaders=Invaze dasu
+arcade.SC2:ghastLives=Extra zivoty
+arcade.SC2:highScore=Nejvyzsi skore: [%1]
+arcade.SC2:score=Skore: [%1]
+arcade.SC2:instructionShoot=Strelit
+arcade.SC2:instructionLeft=Premistit vlevo
+arcade.SC2:instructionRight=Premistit vpravo
+arcade.SC2:instructionRestart=Restartovat
+arcade.SC2:creeperSweeper=Sycakuv zametac
+arcade.SC2:creeperMapName1=Maly
+arcade.SC2:creeperMapName2=Stredni
+arcade.SC2:creeperMapName3=Velky
+arcade.SC2:creepersLeft=Sycaku zbyva:  [%1]
+arcade.SC2:creeperTime=Straveno casu: [%1]s
+arcade.SC2:instructionChangeMap=Zmenit velikost mapy
+arcade.SC2:creeperCurrentMap=Nyni [%1]
+arcade.SC2:creeperHighScores=Nejvyzsi skore:
+arcade.SC2:creeperHighScore=[%1]: [%2]s
+arcade.SC2:mobStacker=Hromada mobu
+arcade.SC2:stackerRemovedLines=Odstraneno linek: [%1]
+arcade.SC2:stackerRemovedLinesCombo=Odstranena/o [%1->jednu|dve|tri|ctyri] linku/y: [%2]
+arcade.SC2:instructionRotate=Otocit
+arcade.SC2:instructionDrop=Vypustit
+arcade.SC2:trackOperator=Pozorovat trat
+arcade.SC2:operatorSaveError=Chyba pri ukladani
+arcade.SC2:operatorSave=Ulozeno
+arcade.SC2:operatorUserCreatedMaps=Mapy vytvorene uzivatelem
+arcade.SC2:operatorStories=Pribehy
+arcade.SC2:operatorHelp=Pro informace jak hrat, staci jen jit do Pribehoveho modu a zacit pribeh 'Zacatek'. Pro vytvoreni vlastnich map jdete do edituru map a vytvorte novou mapu. Instrukce k vytvareni map uz jsou tam. Kliknene na kolej se senzorem a potom na krizovatku, pokud chcete, aby se pripojily. Pokud potrebujete vice informaci, kouknete se na wiki (jen v anglictine).
+arcade.SC2:instructionTrackShape=Zvolte tvar koleje
+arcade.SC2:instructionRotateTrack=Otocte kolej
+arcade.SC2:instructionFlipTrack=Prevratte kolej
+arcade.SC2:instructionDefaultDirection=Zmenit pocatecni smer
+arcade.SC2:instructionTrackType=Zmenit typ koleje
+arcade.SC2:instructionDeleteTrack=Vymazat kolej
+arcade.SC2:instructionCopyTrack=Kopirovat kolej
+arcade.SC2:instructionMoveSteve=Prestehovat nebo otocit Steava
+arcade.SC2:instructionMoveMap=Presunout mapu
+arcade.SC2:instructionPlaceTrack=Polozit kolej
+arcade.SC2:instructionDeselectTrack=Zrusit vyber koleje
+arcade.SC2:leftMouseButton=Levy tlacitko u mysi
+arcade.SC2:rightMouseButton=Pravy tlacitko u mysi
+arcade.SC2:buttonStart=Start
+arcade.SC2:buttonMenu=Menu
+arcade.SC2:buttonStop=Zastavit
+arcade.SC2:buttonNextLevel=Dalsi Level
+arcade.SC2:buttonStartLevel=Zacit Level
+arcade.SC2:buttonSelectStory=Vybrat pribeh
+arcade.SC2:buttonSelectStoryOther=Vybrat dalsi pribeh
+arcade.SC2:buttonCreateLevel=Vytvorit level
+arcade.SC2:buttonEditLevel=Editovat level
+arcade.SC2:buttonRefreshList=Aktualizovat List
+arcade.SC2:buttonSave=Ulozit
+arcade.SC2:buttonSaveAs=Ulozit jako...
+arcade.SC2:buttonCancel=Zrusit
+stories.beginning.SC2:mapEditor=Editor map
+
+# Story - The beginning
+stories.beginning.SC2:title=Zacatek
+stories.beginning.SC2:mission=Steve je na misi, potrebuje dostat mapu aby nasel dalsi level.
+stories.beginning.SC2:start=Kliknete na tlacitko Start na prave strane.
+stories.beginning.SC2:stop=Jestli chcete muzete nyni zmacknout tlacitko Zastavit aby jste ho zastavili.
+stories.beginning.SC2:map=Steve ma nyni mapu, kliknete na tlacitko Dalsi level aby jste pokracovali.
+stories.beginning.SC2:trackOperator=Nyni pozorujes koleje, tvoje prace je, aby si dohlizel jestli jsou koleje polozeny spravne. Kliknete na strany krizovatek pred kliknutim na tlacitko start.
+stories.beginning.SC2:goodJob=Dobra prace. Presne takhle se to ma delat!
+stories.beginning.SC2:changeJunctions=Vzdy muzes kliknout na tlacitko zastavit a zmenit jak krizovatky budou postavene.
+stories.beginning.SC2:blast=Steve si mysli, ze jezdeni ve voziku je uplne MEGA HUSTE, ale nekdy je toho az prilis. Treba kdyz uvazne ve smycce. Hodne stesti.
+stories.beginning.SC2:steel=Vzdy jsou nejake problemy v ceste... Pro tebe jsou to ocelove koleje, ktere nejdou nijak menit. Hodne stesti.
+stories.beginning.SC2:detector=Koleje se senzorem mohou byt pritelem i nepratelem zaroven. Kdyz Steve prejede pres kolej se senzorem, nektere krizovatky zmeni svuj smer, i ty z ocely. Chcete-li zjistit, ktere krizovatky se meni, jedte kurzorem na kolej se senzorem.
+stories.beginning.SC2:outOfReach=Akorat mimo dosah... :(
+stories.beginning.SC2:outOfReach2=...ale to te nezastavy!
+stories.beginning.SC2:longJourney=Po dlouhe ceste muze Steve videt konec jeho dlouhe cesty...
+stories.beginning.SC2:end=...ale nikdy nic nejde tak jak je to naplanovano. Zatim co cekate na dalsi levely, muzete vytvorit svoje vlastni v edituru map. :)
+stories.beginning.SC2:thanks=Diky moc za dohrani, doufam ze si se bavil! :)
+stories.beginning.SC2:level1=Novy den
+stories.beginning.SC2:level2=Operator
+stories.beginning.SC2:level3=Utek ze smycky
+stories.beginning.SC2:level4=Tvrdy jako ocel
+stories.beginning.SC2:level5=Stehovani sveta
+stories.beginning.SC2:level6=Zamykaci kod
+stories.beginning.SC2:level7=Tak blizko
+stories.beginning.SC2:level8=Silenstvi
+stories.beginning.SC2:level9=Dort
