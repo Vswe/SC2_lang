@@ -479,7 +479,7 @@ info.SC2:cartSideBack=Achterkant
 info.SC2:cartSideLeft=Links
 info.SC2:cartSideRight=Rechts
 info.SC2:cartSideFront=Voorkant
-info.SC2:occupiedSides=Zal [%1] [%2:side|sides] in beslag nemen
+info.SC2:occupiedSides=Zal [%1] [%2:zijde|zijdes] in beslag nemen
 info.SC2:sidesAnd=en
 info.SC2:noSides=Neemt geen zijde in beslag
 info.SC2:moduleConflictHowever=Gaat een probleem opleveren met
@@ -599,6 +599,10 @@ modules.engines.SC2:thermalPowered=Aangedreven
 modules.engines.SC2:outOfWater=Geen Water
 modules.engines.SC2:outOfLava=Geen Lava
 
+modules.engines.SC2:engineDisabledMessage=Uitgeschakeld
+modules.engines.SC2:enginePriorityMessage=[%1->Hoge|Middelmatige|Lage] prioriteit
+
+
 # Tanks
 modules.tanks.SC2:creativeTankMode=Huidige creative modus: [%1][%2->Normaal|Altijd vol|Altijd leeg|Altijd half]
 modules.tanks.SC2:creativeTankChangeMode=Klik rechts om te wijzigen
@@ -657,8 +661,11 @@ modules.attachments.SC2:noteDeactivateInstrument=Verwijder Nootblok instelling
 modules.attachments.SC2:noteDelay=Wijzig Vertraging. Huidige Vertraging: [%1]
 modules.attachments.SC2:noteAdd=Voeg noot toe aan track #[%1]
 modules.attachments.SC2:noteRemove=Verwijder meest rechtse noot van track #[%1]
-modules.attachments.SC2:noteVolume=Track volume: [%1->Muted|Low|Medium|High]
-
+modules.attachments.SC2:noteVolume=Track volume: [%1->Gedempt|Laag|Middel|Hoog]
+# need beta 3 for these ones to show up (remove this note)
+modules.attachments.SC2:seatStateMessage=[%1->Deze kar is bezet|Ga zitten|Sta op]
+modules.attachments.SC2:controlSystemReset=Herstel afstands meter
+# end of beta 3 requirement (remove this note)
 
 # ======================================
 				Steve's Arcade 
