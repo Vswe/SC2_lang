@@ -476,7 +476,7 @@ info.SC2:cartSideRight=Destra
 info.SC2:cartSideFront=Fronte
 info.SC2:occupiedSides=Occupera' [%2:il lato|i lati] [%1]
 info.SC2:sidesAnd=e
-info.SC2:noSides=Non occuperà nessun lato
+info.SC2:noSides=Non occupera' nessun lato
 info.SC2:moduleConflictHowever=Si scontrera' comunque con
 info.SC2:moduleConflictAlso=Si scontrera' anche con
 info.SC2:moduleRequirement=Richiede
@@ -485,12 +485,12 @@ info.SC2:moduleCount2=due
 info.SC2:moduleCount3=tre
 info.SC2:allowDuplicates=I duplicati sono ammessi
 info.SC2:moduleType=Tipo
-info.SC2:capacityOverloadError=Il costo è maggiore della capacità della carena.
-info.SC2:impossibleCombinationError=La combinazione dei tipi di moduli che hai inserito non è valida. Normalmente non sarebbe possibile.
-info.SC2:complexityOverloadError=[%1] è troppo complesso per questa carena.
+info.SC2:capacityOverloadError=Il costo e' maggiore della capacita' della carena.
+info.SC2:impossibleCombinationError=La combinazione dei tipi di moduli che hai inserito non e' valida. Normalmente non sarebbe possibile.
+info.SC2:complexityOverloadError=[%1] e' troppo complesso per questa carena.
 info.SC2:missingParentError=[%1] richiede [%2] per funzionare!
-info.SC2:presentNemesisError=[%1] non funzionerà insieme a [%2]
-info.SC2:presentDuplicateError[%1] non si può aggiungere due volte.
+info.SC2:presentNemesisError=[%1] non funzionera' insieme a [%2]
+info.SC2:presentDuplicateError[%1] non si puo' aggiungere due volte.
 info.SC2:sideClashError=[%1] e [%2] si scontreranno nel lato: [%3]
 
 
@@ -536,7 +536,7 @@ modules.addons.SC2:leverTurnAroundCart=Gira il carrello
 modules.addons.SC2:colorizerRgbRed=Rosso
 modules.addons.SC2:colorizerRgbGreen=Verde
 modules.addons.SC2:colorizerRgbBlue=Blu
-modules.addons.SC2:intelligenceLockedBlock=La trivella rimuoverà sempre questo blocco
+modules.addons.SC2:intelligenceLockedBlock=La trivella rimuovera' sempre questo blocco
 modules.addons.SC2:intelligenceChange=Cambia le impostazioni della trivella
 modules.addons.SC2:intelligenceCurrent=Stato: [%1->Abilitato|Disabilitato]
 modules.addons.SC2:enchanterInstruction=Aggiungi un libro incantato nello spazio a sinistra.
@@ -588,7 +588,7 @@ modules.engines.SC2:outOfWater=Acqua esaurita
 modules.engines.SC2:outOfLava=Lava esaurita
 
 # Tanks
-modules.tanks.SC2:creativeTankMode=Modalità creativa corrente: [%1][%2->Normale|Sempre pieno|Sempre vuoto|Sempre a meta']
+modules.tanks.SC2:creativeTankMode=Modalita' creativa corrente: [%1][%2->Normale|Sempre pieno|Sempre vuoto|Sempre a meta']
 modules.tanks.SC2:creativeTankChangeMode=Clic destro per cambiare
 modules.tanks.SC2:creativeTankResetMode=Maiusc e clic destro per tornare al normale
 modules.tanks.SC2:tankLocked=Bloccato su questo fluido
