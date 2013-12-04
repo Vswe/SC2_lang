@@ -598,6 +598,10 @@ modules.engines.SC2:thermalEngineTitle=Termisk motor
 modules.engines.SC2:thermalPowered=Energidrevet
 modules.engines.SC2:outOfWater=Ude af Vand
 modules.engines.SC2:outOfLava=Ude af Lava
+# need beta 3 for these ones to show up (remove this note)
+modules.engines.SC2:engineDisabledMessage=Slukket
+modules.engines.SC2:enginePriorityMessage=[%1->Høj|Medium|Lav] prioitet
+# end of beta 3 requirement (remove this note)
 
 # Tanks
 modules.tanks.SC2:creativeTankMode=Nuværende kreativ spiltilstand: [%1][%2->Normal|Altid fuld|Altis|Altid halv]
@@ -658,6 +662,10 @@ modules.attachments.SC2:noteDelay=Ændr forsinkelse. Nuværende forsinkelse: [%1
 modules.attachments.SC2:noteAdd=Tilføj tone til til spor #[%1]
 modules.attachments.SC2:noteRemove=Fjern tone til højre fra spor #[%1]
 modules.attachments.SC2:noteVolume=Lydstyrke på spor: [%1->Lydløs|Lav|Medium|Høj]
+# need beta 3 for these ones to show up (remove this note)
+modules.attachments.SC2:seatStateMessage=[%1->Denne vogn er optaget|Stig ind i vogn|Stig ud af vogn]
+modules.attachments.SC2:controlSystemReset=Nulstil Distancetæller
+# end of beta 3 requirement (remove this note)
 
 
 # ======================================
@@ -685,7 +693,7 @@ arcade.SC2:creeperHighScores=Highscorer
 arcade.SC2:creeperHighScore=[%1]: [%2]s
 arcade.SC2:mobStacker=Mob Stabler
 arcade.SC2:stackerRemovedLines=Fjernede linjer: [%1]
-arcade.SC2:stackerRemovedLinesCombo=Removed [%1->single|double|triple|quadruple] lines: [%2]
+arcade.SC2:stackerRemovedLinesCombo=Removed [%1->enkelte|dobbelte|tredobbelte|firdobbelte] linjer: [%2]
 arcade.SC2:instructionRotate=Roter
 arcade.SC2:instructionDrop=Smid
 arcade.SC2:trackOperator=Spor Operatør
