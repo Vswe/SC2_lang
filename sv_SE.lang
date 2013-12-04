@@ -591,6 +591,9 @@ modules.engines.SC2:thermalEngineTitle=Termisk motor
 modules.engines.SC2:thermalPowered=Har kraft
 modules.engines.SC2:outOfWater=Slut på vatten
 modules.engines.SC2:outOfLava=Slut på lava
+modules.engines.SC2:engineDisabledMessage=Av
+modules.engines.SC2:enginePriorityMessage=[%1->Hög|Medium|Låg] prioritet
+
 
 # Tanks
 modules.tanks.SC2:creativeTankMode=Nuvarande kreativt läge: [%1][%2->normal|alltid full|alltid tom|alltid halv]
@@ -651,6 +654,8 @@ modules.attachments.SC2:noteDelay=Ändra fördröjning. Nuvarande fördröjning:
 modules.attachments.SC2:noteAdd=Lägg till not på spår [%1]
 modules.attachments.SC2:noteRemove=Ta bort högra noten på spår [%1]
 modules.attachments.SC2:noteVolume=Spårvolym: [%1->tyst|låg|medium|Hög]
+modules.attachments.SC2:seatStateMessage=[%1->Den här vagnen är upptagen|Kliv i|Kliv ur]
+modules.attachments.SC2:controlSystemReset=Återställ trip-mätare
 
 
 # ======================================
