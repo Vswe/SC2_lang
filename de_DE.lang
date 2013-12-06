@@ -588,6 +588,8 @@ modules.engines.SC2:thermalEngineTitle=Verbrennungsmotor
 modules.engines.SC2:thermalPowered=Angetrieben
 modules.engines.SC2:outOfWater=Kein Wasser
 modules.engines.SC2:outOfLava=Keine Lava
+modules.engines.SC2:engineDisabledMessage=Deaktiviert
+modules.engines.SC2:enginePriorityMessage=[%1->Hohe|Mittlere|Niedrige] Priorität
 
 # Tanks
 modules.tanks.SC2:creativeTankMode=Aktueller Kreativmodus: [%1][%2->Normal|Immer voll|Immer leer|Immer zur Hälfte]
@@ -648,6 +650,8 @@ modules.attachments.SC2:noteDelay=Verzögerung anpassen. Aktuelle Verzögerung: 
 modules.attachments.SC2:noteAdd=Note in Spur #[%1] hinzufügen
 modules.attachments.SC2:noteRemove=Aus Spur #[%1] die Note rechstaußen löschen
 modules.attachments.SC2:noteVolume=Spurlautstärke: [%1->Stumm|Leise|Mittel|Laut]
+modules.attachments.SC2:seatStateMessage=[%1->Diese Lore ist besetzt|In die Lore einsteigen|Aus der Lore aussteigen]
+modules.attachments.SC2:controlSystemReset=Reset trip-meter
 
 # ======================================
                                 Steve's Arcade 
@@ -721,20 +725,19 @@ stories.beginning.SC2:goodJob=Gute Arbeit. So funktioniert das Spiel.
 stories.beginning.SC2:changeJunctions=Du kannst jederzeit den Stopp-Knopf drücken, um die Einstellungen der Weichen zu ändern.
 stories.beginning.SC2:blast=Steve glaubt, dass es großartig ist, eine Lore zu fahren, aber manchmal ist es einfach zu viel. Zum Beispiel, wenn er in einer unendlichen Schleife steckt. Viel Glück.
 stories.beginning.SC2:steel=Es gibt immer Hindernisse, für Track Operator gibt es Stahlschienen. Stahlschienenweichen können nicht geändert werden. Viel Glück.
-stories.beginning.SC2:detector=Detektorschienen können entweder dein Freund oder dein Feind sein. Wenn Steve sich über eine Detektorschiene bewegt, eine bestimmt Anzahl an Weichen könnten sich ändern, sogar Stahlweichen. Um zu sehen, welche Weichen 
-Detector rails can both be your friends and your enemies. When Steve moves over a detector rail a number of junctions may change, even steel junctions. To see which junctions will be affected, hover your mouse over a detector rail.
-stories.beginning.SC2:outOfReach=Just out of reach...
-stories.beginning.SC2:outOfReach2=...but that doesn't stop you.
-stories.beginning.SC2:longJourney=After a long journey Steve can see the end of his long path...
-stories.beginning.SC2:end=...but everything doesn't always go as planned. While you're waiting for more stories to play you can create and share your own maps. Go to the map editor tab in the menu to start making a map.
-stories.beginning.SC2:thanks=Thank you for playing! :)
-stories.beginning.SC2:level1=A new day
-stories.beginning.SC2:level2=The Operator
-stories.beginning.SC2:level3=Escape the loop
-stories.beginning.SC2:level4=Hard as steel
-stories.beginning.SC2:level5=Moving world
-stories.beginning.SC2:level6=The code lock
-stories.beginning.SC2:level7=So close
-stories.beginning.SC2:level8=Madness
-stories.beginning.SC2:level9=The cake
+stories.beginning.SC2:detector=Detektorschienen können entweder dein Freund oder dein Feind sein. Wenn Steve sich über eine Detektorschiene bewegt, eine bestimmt Anzahl an Weichen könnten sich ändern, sogar Stahlweichen. Um zu sehen, welche Weichen betroffen sind, fahre mit dem Mauszeiger über eine Detektorschiene. 
+stories.beginning.SC2:outOfReach=Knapp außerhalb der Reichweite...
+stories.beginning.SC2:outOfReach2=...aber das hält sich nicht auf.
+stories.beginning.SC2:longJourney=Nach einer langen Reise kann Steve das Ende seines langen Pfades sehen...
+stories.beginning.SC2:end=...aber nicht alles läuft wie geplant. Während du auf mehr Geschichten wartest, die du spielen kannst, kanns du selber Karten erstellen und teilen. Gehe dazu in den Karteneditor im Menü, um das Bauen einer Karte zu beginnen.
+stories.beginning.SC2:thanks=Danke fürs Spielen :)
+stories.beginning.SC2:level1=Ein neuer Tag
+stories.beginning.SC2:level2=Der Betreiber
+stories.beginning.SC2:level3=Entkomme der Schleife
+stories.beginning.SC2:level4=Hart wie Stahl
+stories.beginning.SC2:level5=Die Welt bewegen
+stories.beginning.SC2:level6=Das Codeschloss
+stories.beginning.SC2:level7=So nah
+stories.beginning.SC2:level8=Wahnsinn
+stories.beginning.SC2:level9=Der Kuchen
 
