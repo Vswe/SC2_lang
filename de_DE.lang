@@ -18,7 +18,10 @@ gui.SC2:idleAssemblerMessage=Der Lorenmonteur ist derzeit im Leerlauf.
 gui.SC2:modifyCart=Lore modifizieren
 gui.SC2:assembleCart=Lore herstellen
 gui.SC2:fuelLevel=Kraftstoffstand
-
+gui.SC2:noHullError=Du hast keine Hülle!
+gui.SC2:invalidHullErrorShort=Die hinzugefügte Hülle ist keine Hülle!
+gui.SC2:busyAssemblerError=!Der Monteur ist beschäftigt!
+gui.SC2:departureBayError=Es befindet sich eine Lore im Abfahrtshafen.
 
 # Cargo manager and Liquid manager shared gui localization
 gui.SC2:manager=Manager
@@ -585,6 +588,8 @@ modules.engines.SC2:thermalEngineTitle=Verbrennungsmotor
 modules.engines.SC2:thermalPowered=Angetrieben
 modules.engines.SC2:outOfWater=Kein Wasser
 modules.engines.SC2:outOfLava=Keine Lava
+modules.engines.SC2:engineDisabledMessage=Deaktiviert
+modules.engines.SC2:enginePriorityMessage=[%1->Hohe|Mittlere|Niedrige] Priorität
 
 # Tanks
 modules.tanks.SC2:creativeTankMode=Aktueller Kreativmodus: [%1][%2->Normal|Immer voll|Immer leer|Immer zur Hälfte]
@@ -645,3 +650,94 @@ modules.attachments.SC2:noteDelay=Verzögerung anpassen. Aktuelle Verzögerung: 
 modules.attachments.SC2:noteAdd=Note in Spur #[%1] hinzufügen
 modules.attachments.SC2:noteRemove=Aus Spur #[%1] die Note rechstaußen löschen
 modules.attachments.SC2:noteVolume=Spurlautstärke: [%1->Stumm|Leise|Mittel|Laut]
+modules.attachments.SC2:seatStateMessage=[%1->Diese Lore ist besetzt|In die Lore einsteigen|Aus der Lore aussteigen]
+modules.attachments.SC2:controlSystemReset=Reset trip-meter
+
+# ======================================
+                                Steve's Arcade 
+# ======================================
+# Ghast Invaders
+# Namen der Spiele werden als Eigennamen behandelt
+arcade.SC2:ghastInvaders=Ghast Invaders
+arcade.SC2:ghastLives=Extraleben
+arcade.SC2:highScore=High Score: [%1]
+arcade.SC2:score=Score: [%1]
+arcade.SC2:instructionShoot=Schießen
+arcade.SC2:instructionLeft=Nach Links bewegen
+arcade.SC2:instructionRight=Nach Rechts bewegen
+arcade.SC2:instructionRestart=Neustart
+arcade.SC2:creeperSweeper=Creeper Sweeper
+arcade.SC2:creeperMapName1=Klein
+arcade.SC2:creeperMapName2=Mittel
+arcade.SC2:creeperMapName3=Groß
+arcade.SC2:creepersLeft=Creeper übrig: [%1]
+arcade.SC2:creeperTime=Zeit: [%1]s
+arcade.SC2:instructionChangeMap=Ändert Feldgröße
+arcade.SC2:creeperCurrentMap=Zur Zeit [%1]
+arcade.SC2:creeperHighScores=High Scores
+arcade.SC2:creeperHighScore=[%1]: [%2]s
+arcade.SC2:mobStacker=Mob Stacker
+arcade.SC2:stackerRemovedLines=Entfernte Zeilen: [%1]
+arcade.SC2:stackerRemovedLinesCombo=Entfernte [%1->einzelne|doppelte|dreifache|vierfache] Zeilen: [%2]
+arcade.SC2:instructionRotate=Drehen
+arcade.SC2:instructionDrop=Fallen lassen
+arcade.SC2:trackOperator=Track Operator
+arcade.SC2:operatorSaveError=Speichern fehlgeschlagen
+arcade.SC2:operatorSave=Speichern
+arcade.SC2:operatorUserCreatedMaps=Benutzererstellte Karten
+arcade.SC2:operatorStories=Geschichten
+arcade.SC2:operatorHelp=Um zu erfahren, wie das Spiel funktioniert, spiele die erste Episode "Der Anfang" der Geschichte. Um deine eigene Karte zu machen, benutze den Kartenersteller und erstelle eine neue Karte. Mehr Informationen erhältst du dort. Klicke auf eine Detektorschiene und dann auf eine Weiche wenn du diese verbinden willst. Wenn du mehr Informationen braucht, besuche das Wiki (nur Englisch).
+arcade.SC2:instructionTrackShape=Wählt Schienenform
+arcade.SC2:instructionRotateTrack=Dreht Schiene
+arcade.SC2:instructionFlipTrack=Dreht Schiene um
+arcade.SC2:instructionDefaultDirection=Ändert Standardrichtung
+arcade.SC2:instructionTrackType=Ändert Schienentyp
+arcade.SC2:instructionDeleteTrack=Löscht Schiene
+arcade.SC2:instructionCopyTrack=Kopiert Schiene
+arcade.SC2:instructionMoveSteve=Bewegt oder rotiert Schiene
+arcade.SC2:instructionMoveMap=Bewegt Karte
+arcade.SC2:instructionPlaceTrack=Platziert Schiene
+arcade.SC2:instructionDeselectTrack=Hebt Schienenauswahl auf
+arcade.SC2:leftMouseButton=LMaus
+arcade.SC2:rightMouseButton=RMaus
+arcade.SC2:buttonStart=Start
+arcade.SC2:buttonMenu=Menü
+arcade.SC2:buttonStop=Stopp
+arcade.SC2:buttonNextLevel=Nächstes Level
+arcade.SC2:buttonStartLevel=Startet Level
+arcade.SC2:buttonSelectStory=Wähle Geschichte
+arcade.SC2:buttonSelectStoryOther=Wähle eine andere Geschichte
+arcade.SC2:buttonCreateLevel=Erstellt Level
+arcade.SC2:buttonEditLevel=Bearbeitet Level
+arcade.SC2:buttonRefreshList=Liste neu laden
+arcade.SC2:buttonSave=Speichern
+arcade.SC2:buttonSaveAs=Speichern unter...
+arcade.SC2:buttonCancel=Abbrechen
+
+# Story - The beginning
+stories.beginning.SC2:title=Der Anfang
+stories.beginning.SC2:mission=Steve ist auf einer Mission, er braucht die Karte, um das nächste Level zu finden.
+stories.beginning.SC2:start=Drücke den Start-Knopf auf der rechten Seite.
+stories.beginning.SC2:stop=Wenn du willst, dannst du nun den Stopp-Knopf drücken, um ihn zu stoppen.
+stories.beginning.SC2:map=Steve hat jetzt die Karte, drücke nun die Nächstes Level-Knopf, um fortzufahren.
+stories.beginning.SC2:trackOperator=Du bist der Streckenbetreiber, dein Job ist es, sicherzugehen, dass alle Schienen korrekt eingestellt sind. Klicke auf die Weichen, um deren Richtung zu ändern, bevor du den Start-Knopf drückst.
+stories.beginning.SC2:goodJob=Gute Arbeit. So funktioniert das Spiel.
+stories.beginning.SC2:changeJunctions=Du kannst jederzeit den Stopp-Knopf drücken, um die Einstellungen der Weichen zu ändern.
+stories.beginning.SC2:blast=Steve glaubt, dass es großartig ist, eine Lore zu fahren, aber manchmal ist es einfach zu viel. Zum Beispiel, wenn er in einer unendlichen Schleife steckt. Viel Glück.
+stories.beginning.SC2:steel=Es gibt immer Hindernisse, für Track Operator gibt es Stahlschienen. Stahlschienenweichen können nicht geändert werden. Viel Glück.
+stories.beginning.SC2:detector=Detektorschienen können entweder dein Freund oder dein Feind sein. Wenn Steve sich über eine Detektorschiene bewegt, eine bestimmt Anzahl an Weichen könnten sich ändern, sogar Stahlweichen. Um zu sehen, welche Weichen betroffen sind, fahre mit dem Mauszeiger über eine Detektorschiene. 
+stories.beginning.SC2:outOfReach=Knapp außerhalb der Reichweite...
+stories.beginning.SC2:outOfReach2=...aber das hält sich nicht auf.
+stories.beginning.SC2:longJourney=Nach einer langen Reise kann Steve das Ende seines langen Pfades sehen...
+stories.beginning.SC2:end=...aber nicht alles läuft wie geplant. Während du auf mehr Geschichten wartest, die du spielen kannst, kanns du selber Karten erstellen und teilen. Gehe dazu in den Karteneditor im Menü, um das Bauen einer Karte zu beginnen.
+stories.beginning.SC2:thanks=Danke fürs Spielen :)
+stories.beginning.SC2:level1=Ein neuer Tag
+stories.beginning.SC2:level2=Der Betreiber
+stories.beginning.SC2:level3=Entkomme der Schleife
+stories.beginning.SC2:level4=Hart wie Stahl
+stories.beginning.SC2:level5=Die Welt bewegen
+stories.beginning.SC2:level6=Das Codeschloss
+stories.beginning.SC2:level7=So nah
+stories.beginning.SC2:level8=Wahnsinn
+stories.beginning.SC2:level9=Der Kuchen
+
