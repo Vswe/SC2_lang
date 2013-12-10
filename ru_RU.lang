@@ -17,12 +17,11 @@ gui.SC2:idleAssemblerMessage=В данный момент конструктор
 gui.SC2:modifyCart=Изменить вагонетку
 gui.SC2:assembleCart=Собрать вагонетку
 gui.SC2:fuelLevel=Уровень топлива
-# need beta 3 for these ones to show up (remove this note)
 gui.SC2:noHullError=У Вас нет корпуса!
 gui.SC2:invalidHullErrorShort=Добавленный корпус вовсе не корпус!
 gui.SC2:busyAssemblerError=Конструктор занят
 gui.SC2:departureBayError=В депо уже есть вагонетка!
-# end of beta 3 requirement (remove this note)
+
 
 # Cargo manager and Liquid manager shared gui localization
 gui.SC2:manager=Менеджер
@@ -42,6 +41,7 @@ gui.SC2:sideBlue=Синяя
 gui.SC2:sideYellow=Жёлтая
 gui.SC2:sideGreen=Зелёная
 gui.SC2:sideDisabled=Выключено
+
 
 # Cargo manager gui localization
 gui.SC2:cargoManager=Груз
@@ -497,14 +497,12 @@ info.SC2:missingParentError=Для работы [%1] необходим [%2]!
 info.SC2:presentNemesisError=[%1] не работает вместе с [%2]
 info.SC2:presentDuplicateError[%1] не может быть добавлен дважды.
 info.SC2:sideClashError=[%1] и [%2] приведут к конфликту на [%3]
-# need beta 3 for these ones to show up (remove this note)
 info.SC2:toolUnbreakable=Неломаемый
 info.SC2:toolDurability=Прочность: [%1]%
 info.SC2:modularCapacity=Модульная вместимость: [%1]
 info.SC2:complexityCap=Предел модульной сложности: [%1]
 info.SC2:maxEngineCount=Макс. кол-во двигателей: [%1]
 info.SC2:maxAddonCount=Макс. кол-во расширений: [%1]
-# end of beta 3 requirement (remove this note)
 
 # ======================================
 				UPGRADES
@@ -598,10 +596,9 @@ modules.engines.SC2:thermalEngineTitle=Термальный двигатель
 modules.engines.SC2:thermalPowered=Работает
 modules.engines.SC2:outOfWater=Воды нет
 modules.engines.SC2:outOfLava=Лавы нет
-# need beta 3 for these ones to show up (remove this note)
 modules.engines.SC2:engineDisabledMessage=Выключен
 modules.engines.SC2:enginePriorityMessage=[%1->Высокий|Средний|Низкий] приоритет
-# end of beta 3 requirement (remove this note)
+
 
 # Tanks
 modules.tanks.SC2:creativeTankMode=(Твор. режим) Настройка: [%1][%2->Обычно|Всегда полон|Всегда пуст|Всегда наполовину]
@@ -662,15 +659,12 @@ modules.attachments.SC2:noteDelay=Изменить задерждку. Теку�
 modules.attachments.SC2:noteAdd=Добавить ноту к мелодии #[%1]
 modules.attachments.SC2:noteRemove=Удалить самую правую ноту #[%1]
 modules.attachments.SC2:noteVolume=Громкость: [%1->Выкл.|Низкая|Средняя|Высокая]
-# need beta 3 for these ones to show up (remove this note)
 modules.attachments.SC2:seatStateMessage=[%1->Эта вагонетка занята|Сесть в вагонетку|Покинуть вагонетку]
 modules.attachments.SC2:controlSystemReset=Сбросить счетчик
-# end of beta 3 requirement (remove this note)
 
 # ======================================
 				Steve's Arcade 
 # ======================================
-# need beta 3 for these ones to show up (remove this note)
 # Ghast Invaders
 arcade.SC2:ghastInvaders=Ghast Invaders
 arcade.SC2:ghastLives=Жизней
