@@ -153,6 +153,9 @@ gui.SC2:sateSeeds=Have seed supplies
 gui.SC2:stateBridge=Have bridge supplies
 gui.SC2:stateProjectiles=Have projectile supplies
 gui.SC2:stateFertilizing=Have fertilizing supplies
+# The cake one is a new one (you can remove this comment)
+gui.SC2:stateCake=Have cake supplies
+#
 gui.SC2:stateShield=Is shield active
 gui.SC2:stateChunk=Is chunk loader active
 gui.SC2:stateInvisibility=Is invisibility core active
