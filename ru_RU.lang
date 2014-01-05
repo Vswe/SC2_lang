@@ -153,6 +153,7 @@ gui.SC2:sateSeeds=Есть семена
 gui.SC2:stateBridge=Есть материал для моста
 gui.SC2:stateProjectiles=Есть снаряды
 gui.SC2:stateFertilizing=Есть удобрения
+gui.SC2:stateCake=Есть торты
 gui.SC2:stateShield=Щит включен
 gui.SC2:stateChunk=Подгрузчик чанков включен
 gui.SC2:stateInvisibility=Ядро невидимости включено
