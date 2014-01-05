@@ -150,6 +150,7 @@ gui.SC2:sateSeeds=Hat Samenvorräte
 gui.SC2:stateBridge=HatBrückenmaterial
 gui.SC2:stateProjectiles=Hat Projektilvorräte
 gui.SC2:stateFertilizing=Hat Düngervorräte
+gui.SC2:stateCake=Hat Kuchenvorräte
 gui.SC2:stateShield=Ist das Schild aktiv
 gui.SC2:stateChunk=Ist Chunklader aktiv
 gui.SC2:stateInvisibility=Ist Unsichtsbarkeitkern aktiv
