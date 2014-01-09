@@ -149,6 +149,7 @@ gui.SC2:sateSeeds=Zasoba seminek
 gui.SC2:stateBridge=Zasoba materialu na mosty
 gui.SC2:stateProjectiles=Zasoba projektilu
 gui.SC2:stateFertilizing=Zasoba hnojiva
+gui.SC2:stateCake=Ma zasobu dortu
 gui.SC2:stateShield=Stit je aktivovan
 gui.SC2:stateChunk=Nacitac chunku je aktivovan
 gui.SC2:stateInvisibility=Neviditelnost je aktivovana
