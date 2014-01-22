@@ -153,6 +153,7 @@ gui.SC2:sateSeeds=Har frøforsyninger
 gui.SC2:stateBridge=Har broforsyninger
 gui.SC2:stateProjectiles=Har projektilforsyninger
 gui.SC2:stateFertilizing=Har gødningsforsyninger
+gui.SC2:stateCake=Har kageforsyninger
 gui.SC2:stateShield=Skjold er aktiv
 gui.SC2:stateChunk=Chunkindlæser
 gui.SC2:stateInvisibility=Usynlighedskerne er aktiv
