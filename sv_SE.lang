@@ -145,6 +145,7 @@ gui.SC2:sateSeeds=Har frön
 gui.SC2:stateBridge=Har broblock
 gui.SC2:stateProjectiles=Har projektiler
 gui.SC2:stateFertilizing=Har gödsel
+gui.SC2:stateCake=Har tårtor
 gui.SC2:stateShield=Sköld aktiv
 gui.SC2:stateChunk=Chunkladdare aktiv
 gui.SC2:stateInvisibility=Osynlighetskärna aktiv
